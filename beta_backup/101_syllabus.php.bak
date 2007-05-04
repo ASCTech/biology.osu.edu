@@ -1,0 +1,11 @@
+<?
+include 'ibp.inc';
+top('Biology 101;Syllabus');
+menu('101_menu.inc');
+?>
+<h1>Sample Syllabus / Lecture Schedule</h1>
+<a href="101_syllabus_exams.php">Syllabus &ndash; Midterms/Finals Style</a>
+<p></p>
+<a href="101_syllabus_quizzes.php">Syllabus &ndash; Quizzes Style</a>
+<p></p>
+<? bottom(); ?>

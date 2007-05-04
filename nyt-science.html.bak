@@ -1,0 +1,18 @@
+<html>
+<body>
+<div id="column" style="border: 1px solid gray; width: 175px;">
+<style type="text/css">
+  .rss_feed            { margin: 0; padding: 0; }
+  .rss_feed_title      { display: none; }
+  .rss_item_list       { list-style-type: none; padding: 0; margin: 0; }
+  .rss_item            { font: 8pt sans-serif; margin-bottom: 0.5em; }
+  .rss_item_title      { font: 9pt sans-serif; }
+  .rss_item_link       { text-decoration: none; padding: 0 0.3em; display: block;
+                         color: blue;  background: white;  }
+  .rss_item_link:hover { color: white; background: blue; }
+  .rss_item_desc       { margin-left: 1em; display: block; }
+</style>
+<script language="JavaScript" src="http://biology.osu.edu/nyt-science.plx"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+ 
+
+<channel>
+
+<title>Biology 101 - Autumn 2006</title>
+<description>Dr. Susan Fisher</description>
+<link>http://biology.osu.edu/101.php</link>
+<copyright>(c)2006</copyright>
+<webMaster>biology@osu.edu</webMaster> 
+
+
+<item>
+  <title>God After Darwin: Can Faith and Evolution Be Reconciled?</title>
+  <itunes:subtitle>November 1, 7pm</itunes:subtitle>
+  <itunes:author>John F. Haught</itunes:author>
+  <enclosure url="http://streaming1.osu.edu/ramgen/media2/bio101au06/110106.rm" type="audio/mpeg" />
+</item>
+
+ 
+
+<item>
+  <title>A Brief History of the Evolution Teaching Controversy: From Dayton, TN to Dover, PA</title>
+  <itunes:author>Edward J. Larson</itunes:author>
+  <itunes:subtitle>November 2, 1:30pm</itunes:subtitle>
+  <itunes:summary>summary</itunes:summary>
+  <enclosure url="http://streaming1.osu.edu/ramgen/media2/bio101au06/110206a.rm" type="audio/mpeg" />
+</item>
+
+ 
+
+<item>
+  <title>Generating Life on Earth: Six Looming Questions</title>
+  <itunes:author>Holmes Rolston, III</itunes:author>
+  <itunes:subtitle>November 2, 3pm</itunes:subtitle>
+  <enclosure url="http://streaming1.osu.edu/ramgen/media2/bio101au06/110206b.rm" type="audio/mpeg" />
+</item>
+
+ 
+
+<item>
+  <title>The Two Cultures: Science and Religion in the Age of Darwin</title>
+  <itunes:author>A Panel Discussion</itunes:author>
+  <itunes:subtitle>November 2, 7:30pm</itunes:subtitle>
+  <enclosure url="http://streaming1.osu.edu/ramgen/media2/bio101au06/110206c.rm" type="audio/mpeg" />
+</item>
+
+ 
+
+<item>
+  <title>How Galileo Changed the Rules of Science</title>
+  <itunes:author>Owen Gingerich</itunes:author>
+  <itunes:subtitle>November 3, 10am</itunes:subtitle>
+  <enclosure url="http://streaming1.osu.edu/ramgen/media2/bio101au06/110306.rm" type="audio/mpeg" />
+</item>
+
+ 
+
+</channel>
+
+</rss>

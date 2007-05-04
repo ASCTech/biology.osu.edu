@@ -1,0 +1,163 @@
+/* * * * * * * * * * 	Ohio State masthead style. September 2004.	For more information see: http://www.osu.edu/resources/* * * * * * * * * */
+
+#masthead {
+	width: 100%;
+	min-width: 695px;
+	position: relative;
+	line-height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background: #d1d1d1 url(/v2/images/gradient.png) no-repeat 0px 0px;
+}
+
+h1.masttitle, h2.masturl {
+	margin: 0px;
+	float: left;
+	position: relative;
+	padding: 8px;
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 100%;
+	line-height: 100%;
+	font-weight: normal;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+h1.masttitle{
+	padding-left: 11px;
+	padding-right: 11px;
+	background-color: #990000;
+	border-right: 1px solid #ccc;
+}
+
+h1.masttitle a, h2.masturl a {
+	text-decoration: none;
+	color: white;
+}
+
+h1.masttitle a:hover {
+	color: #F9F7DC;
+	text-decoration: underline;
+}
+
+h2.masturl a:hover {
+	color: #F9F7DC;
+	text-decoration: underline;
+}
+
+/*for version with input box*/
+#mastnavigation {
+	position: relative;
+	float: right;
+	padding: 0px;
+	padding-top: 4px;
+	margin: 0px;
+	font-family: "trebuchet ms", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 100%;
+	font-weight: normal;
+}
+
+#mastnavigation ol {
+	display: inline;
+	margin-bottom: 0;
+	list-style-type: none;
+	color: #fff;
+	margin-right: 6px;
+}
+
+#mastnavigation ol li {
+	display: inline;
+}
+
+#mastnavigation ol li img {
+	vertical-align: middle;
+}
+
+#mastnavigation ol li a {
+	color: #222;
+	padding: 0em 5px;
+	text-decoration: none;
+	border-right: 0px solid #ccc;
+}
+
+#mastnavigation ol li a:hover {
+	background: #eee;
+	color: black;
+}
+
+#mastnavigation input {
+	vertical-align: middle;
+}
+
+#mastnavigation input.textfield {
+	padding: 0px;
+	font-family: "trebuchet ms", sans-serif;
+	background: #DDE0C6;
+	font-size: 100%;
+	width: 65px;
+	border: 1px solid gray;
+	height: 1.4em;
+}
+
+/*for version with link to search page*/
+#mastnavnoinput {
+	position: relative;
+	float: right;
+	padding-top: 8px;
+	margin: 0px;
+	font-family: "trebuchet ms", Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 100%;
+	font-weight: normal;
+}
+
+#mastnavnoinput ol {
+	display: inline;
+	margin-bottom: 0;
+	list-style-type: none;
+	color: #fff;
+	margin-right: 6px;
+}
+
+#mastnavnoinput ol li {
+	display: inline;
+}
+
+#mastnavnoinput ol li img {
+	vertical-align: middle;
+}
+
+#mastnavnoinput ol li a {
+	color: #222;
+	padding: 0em 5px;
+	text-decoration: none;
+	border-right: 0px solid #ccc;
+}
+
+#mastnavnoinput ol li a:hover {
+	background: #eee;
+	color: black;
+}
+
+br.clearall {
+	clear: both;
+}
+
+/* * * * * * * * * * * * * * * * * * * * 	<hr> tag hack for more ie 5,6.x compatibility. found here:	http://www.sovavsiti.cz/css/hr.html* * * * * * * * * * * * * * * * * * * */
+div.hr {
+	margin-top: 1px;
+	width: 100%;
+	height: 1px;
+	background: #D5D5E6 url(/v2/images/spacer.gif) no-repeat scroll center;
+	margin-bottom: 0px;
+}
+
+div.hr hr {
+	display: none;
+}
+
+/* to hide label from Camino browser */
+.label {
+	display: none;
+}

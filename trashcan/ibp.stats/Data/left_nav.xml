@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+	<item text="Home" url="index.aspx" alt="Home" target="_parent" />
+	<item text="Course Stats" url="FileUpload.aspx" target="_parent" alt="Calculate course statistics" />
+	<item text="Generate new Column" url="Boo.aspx" target="_parent" alt="Calculate 'best out of' scores based on columns in your WebCT course" />
+	<item text="ScanTron Analysis" url="TestCompiler.aspx" target="_parent" alt="Analyze your ScanTron results" />
+	<item text="ScanTron Archives" url="TestArchives.aspx" target="_parent" alt="Look up a previously analyzed ScanTron test" />
+	<item text="Web Support" url="webchanges.aspx" target="_parent" alt="Request changes to course, web, or WebCT material" />
+	<item text="Searching the Web" url="searchtips.htm" target="_blank" alt="Read the presentation by Emily Palmer-Jones about searching the web" />
+	<item text="Searching Journals" url="searchingjournals.htm" target="_blank" alt="Read the presentation by Rosemarie about searching online journals" />
+	<item text="GBA WiFi" url="aegis.htm" target="_blank" alt="Aegis client Configuration information for the GBA wireless newtork." />
+	<item text="WebCT" url="http://class.osu.edu" target="_blank" alt="Go to WebCT" />
+</menu>
+

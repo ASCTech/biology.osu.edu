@@ -1,0 +1,8 @@
+<?
+include 'ibp.inc';
+top('Biology 101;Course Policies');
+menu('101_menu.inc');
+include 'policies.inc';
+policies(101);
+bottom();
+?>

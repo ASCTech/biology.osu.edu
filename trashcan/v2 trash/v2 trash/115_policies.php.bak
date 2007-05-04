@@ -1,0 +1,8 @@
+<?
+include 'ibp.inc';
+top('Honors Biology 115;Course Policies');
+menu('115_menu.inc');
+include 'policies.inc';
+policies(115);
+bottom();
+?>

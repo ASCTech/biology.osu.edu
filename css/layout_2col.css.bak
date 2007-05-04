@@ -1,0 +1,63 @@
+/**********************************************		Content Layouts: 2 column left		***********************************************/
+#twocolumnleft #smallcolumn {
+	float: left;
+	width: 145px;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 2%;
+}
+
+#twocolumnleft #smallcolumn ul
+{
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	border-top: 1px solid #BEBFBF;
+	border-left: 1px solid #BEBFBF;
+	border-right: 1px solid #BEBFBF;
+	list-style-type: none;
+	background-color: #E5E5E5;
+}
+
+#twocolumnleft #smallcolumn li
+{
+/*	float: left; */
+	border-bottom: 1px solid #BEBFBF;
+	padding: 4px 0 4px 9px;
+	/* for right mouseover effect in ie */
+/*	border-left: 0px solid gray; */
+}
+
+#twocolumnleft #smallcolumn li a
+{
+	display: block;
+	padding-right: 9px;
+	text-decoration: none;
+/*	border-right: 1px solid #BEBFBF; */
+	color: #222;
+}
+
+#twocolumnleft #smallcolumn li a:hover { color: black; }
+#twocolumnleft #smallcolumn li a:visited { color: #444; }
+
+
+#twocolumnleft #maincolumn {
+	float: left;
+	width: 79%;
+}
+
+/**********************************************		Content Layouts: 2 column right	***********************************************/
+#twocolumnright #smallcolumn {
+	float: right;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 2%;
+}
+
+#twocolumnright #maincolumn {
+	float: left;
+	min-width: 560px;
+	width: 76%;
+	margin-top: 0%;
+}

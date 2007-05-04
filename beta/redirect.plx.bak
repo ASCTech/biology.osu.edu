@@ -1,0 +1,13 @@
+use lib 'D:/bin';
+
+use IBP::Redirect;
+use CGI qw/:standard -nph/;
+
+my $referer = referer || '';
+my $ip = remote_host || '';
+my $to = url_param('to') || '';
+my $self = url || '';
+
+IBP::Redirect->insert({referer=>$referer, redirecter=>$self, destination=>$to, ip=>$ip});
+
+print redirect($to);

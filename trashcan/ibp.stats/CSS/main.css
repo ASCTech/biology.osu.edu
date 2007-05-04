@@ -1,0 +1,85 @@
+a:visited
+{
+	text-decoration:none;
+}
+a:link
+{
+	text-decoration:none;
+}
+a:hover
+{
+	cursor:hand;
+	text-decoration:underline;
+	color:Red;
+}
+body
+{
+	font-family:Arial;	
+}
+.darkBuild
+{
+	font-size:9px;
+	text-align:right;	
+	color:#696969;
+}
+.lightBuild
+{
+	font-size:9px;
+	text-align:right;	
+	color:#DCDCDC;
+}
+.lightTitle
+{
+	color:#F5F5DC;
+	font-size:10pt;
+	text-align:left;
+}
+.darkTitle
+{
+	color:#191970;
+	font-size:10pt;
+	text-align:left;
+}
+.grayHeader
+{
+	background-color:#D3D3D3;
+	border:1px solid black;	
+}
+.blueHeader
+{
+	background-color:#00008B;
+	border:1px solid black;	
+}
+.greenHeader
+{
+	background-color:#006400;
+	border:1px solid black;	
+}
+.redHeader
+{
+	background-color:#B22222;
+	border:1px solid black;	
+}
+.articleLink
+{	
+	color:Blue;
+}
+.articleTitle
+{
+	font-size:small;
+	font-weight:500;
+}
+.articleDescription
+{
+	font-size:xx-small;
+	font-weight:500;
+	color:Black;
+}
+.menuReg
+{
+	text-decoration:none;	
+}
+.anTitleLink
+{
+	color:Black;	
+}

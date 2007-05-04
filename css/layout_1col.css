@@ -1,0 +1,13 @@
+
+		/**********************************************
+		Content Layouts: single column
+		***********************************************/
+	
+	#singlecolumn
+	{
+		position: relative;
+		width: 75%;
+		margin-top: 12px;
+		background: white;
+	}
+	

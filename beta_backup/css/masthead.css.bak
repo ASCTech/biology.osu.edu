@@ -1,0 +1,63 @@
+	/* * * * * * * * * * * * * * * * * *
+		Page title
+		* * * * * * * * * * * * * * * * * */
+
+	#title
+	{
+		background: white;
+		margin: 0px;
+		margin-top: 13px;
+		margin-bottom: 3px;
+/*		margin-left: 74px;
+		text-indent: -74px;
+*/		width: 100%;
+	}
+
+	#title img
+	{
+		vertical-align: middle;
+	}
+
+	#title #arrow
+	{
+		margin: 9px;
+	}
+
+	#title #logo
+	{
+		margin-right: 9px;
+	}
+
+
+	/* ****************
+	unused for now...
+	******************/
+
+	.replace
+	{
+		position: relative;
+		margin: 0px;
+		padding: 0px;
+		/* hide overflow:hidden from IE5/Mac */
+		/* \*/
+		overflow: hidden;
+		/* */
+	}
+
+	.replace span
+	{
+		display: block;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 1;
+		/*for Opera 5 and 6*/
+	}
+
+	#myh1, #myh1 span
+	{
+		height: 100px;
+		width: 300px;
+		background-image: url(head.png);
+	}
+

@@ -1,0 +1,110 @@
+#twocolumnleft #smallcolumn ul
+{
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	border-top: 1px solid #BEBFBF;
+	border-left: 1px solid #BEBFBF;
+	border-right: 1px solid #BEBFBF;
+	list-style-type: none;
+	background: #E5E5E5;
+	background-color: #E5E5E5;
+}
+
+#twocolumnleft #smallcolumn li
+{
+/*	float: left; */
+	border-bottom: 1px solid #BEBFBF;
+	padding: 4px 0 4px 9px;
+	/* for right mouseover effect in ie */
+/*	border-left: 0px solid gray; */
+}
+
+#twocolumnleft #smallcolumn li a
+{
+	display: block;
+	padding-right: 0.5em;
+	text-decoration: none;
+/*	border-right: 1px solid #BEBFBF; */
+	color: #222;
+}
+
+#twocolumnleft #smallcolumn li a:hover { color: black; }
+#twocolumnleft #smallcolumn li a:visited { color: #444; }
+
+
+/**********************************************
+		Content Layouts: 2 column left
+		***********************************************/
+
+#twocolumnleft #smallcolumn
+{
+	float: left;
+	width: 16%;
+	background: white;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 2%;
+}
+
+#twocolumnleft #maincolumn
+{
+	float: left;
+	width: 69%;
+	background: white;
+}
+
+#twocolumnleft #maincolumn p, #twocolumnright #maincolumn p
+{
+	font-family: georgia, Helvetica, Arial, sans-serif;
+	line-height: 135%;
+	font-size: small;
+	color: black;
+}
+
+#twocolumnleft #smallcolumn p, #twocolumnright #smallcolumn p
+{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	line-height: 135%;
+	color: black;
+	font-size: x-small;
+}
+
+#smallcolumn ol
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 1em;
+}
+
+/* #content #smallcolumn #maincolumn h2 { margin-top: 0px; } */
+#maincolumn OL LI
+{
+	font-family: georgia, Helvetica, Arial, sans-serif;
+	list-style-type: square;
+	line-height: 135%;
+}
+
+/**********************************************
+		Content Layouts: 2 column right
+	***********************************************/
+
+#twocolumnright #smallcolumn
+{
+	float: right;
+	width: 20%;
+	background: white;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 2%;
+}
+
+#twocolumnright #maincolumn
+{
+	float: left;
+	min-width: 560px;
+	width: 76%;
+	margin-top: 0%;
+	background: white;
+}

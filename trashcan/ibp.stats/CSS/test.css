@@ -1,0 +1,41 @@
+.tblContainer
+{
+	font-family:Arial;
+}
+.tdHeader
+{
+	font-weight:500;
+	font-size:14pt;
+	text-decoration:underline;
+}
+.tdTitle
+{
+	background-color:Ivory;
+	border:1px solid #808080;
+	color:Black;
+	width:150px;
+	font-weight:bold;
+	font-size:8pt;
+	padding-left:2px;
+	font-family:Arial;
+}
+.tdInstructions
+{
+	background-color:Ivory;
+	border:1px solid #808080;
+	color:Black;
+	font-weight:bold;
+	font-size:8pt;
+	padding-left:20px;
+	font-family:Arial;
+}
+.tdDataItem
+{
+	color:White;
+}
+.lblVersion
+{
+	color:Black;
+	font-size:medium;
+	text-align:left;
+}

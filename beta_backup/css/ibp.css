@@ -1,0 +1,242 @@
+body {
+	font-family: sans-serif !important;
+	color: black;
+	background: white;
+	background-color: white;
+}
+
+a:visited { font-size: 100% !important; }
+
+a.heading {
+	font-size: 20pt !important;
+	text-decoration: none;
+	color: black;
+	vertical-align: middle;
+}
+
+span.nobreak { white-space: nowrap; }
+
+img.banner {
+	float: right;
+	margin-left: 10px;
+}
+
+table, tr, th, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+th, td {
+	vertical-align: top;
+}
+
+div#content { padding-top: 16px; }
+
+div#content p { text-indent: 1.5em; }
+
+div#content p.undent { text-indent: 0; }
+
+div#syllabus p { text-indent: 0; }
+
+div#syllabus ol    { list-style-type: decimal; }
+div#syllabus ol ol { list-style-type: lower-alpha; }
+
+table#gradescale {
+	margin: 1em 10em;
+	padding: 0.5em;
+	border: 1px solid black;
+}
+
+table#gradescale tr td:first-child, table#gradescale tr th:first-child {
+	text-align: center;
+	padding-right: 1em;
+}
+
+table.staff td, table.staff th {
+	padding: 3px;
+	padding-left: 1em;
+	vertical-align: top;
+	text-align: left;
+}
+
+table.staff tr td:first-child {
+	padding-left: 3px;
+}
+
+table.staff tr.r1 {
+	background: #E5E5E5;
+	background-color: #E5E5E5;
+}
+
+table.staff tr.r0 {
+	background: white;
+	background-color: white;
+}
+
+table.textbooks {
+    margin: 1em;
+}
+
+table.textbooks th {
+    text-align: left;
+}
+
+table.textbooks td, table.textbooks th {
+	padding: 0.2em 0.5em;
+}
+
+table.textbooks tr.gray td {
+	background: #E5E5E5;
+	background-color: #E5E5E5;
+}
+
+table.textbooks td.isbn {
+    white-space: nowrap;
+}
+
+table#syllabus tr td {
+	text-align: right;
+}
+
+table#syllabus tr td:first-child {
+	text-align: left;
+}
+
+#indent { margin-left: 1.5em; }
+
+ul.nobullet { list-style-type: none; }
+
+tr.underline th, tr.underline td { border-bottom: 1px solid black; }
+
+table.grades { margin: 1em 10em; }
+table.grades tr td,             table.grades tr th             { text-align: center; }
+table.grades tr td:first-child, table.grades tr th:first-child { text-align: left; }
+
+table.breakdownfour { margin: 1em 10em; }
+table.breakdownfour tr td             { text-align: right; }
+table.breakdownfour tr td:first-child { text-align: left; }
+
+table.schedulefour { margin: 1em; }
+table.schedulefour th { vertical-align: bottom; }
+table.schedulefour, table.schedulefour td, table.schedulefour th {
+	text-align: center;
+	padding: 2px;
+	border: 1px solid #BEBFBF;
+}
+
+table.gradesfive { margin: 1em; }
+table.gradesfive, table.gradesfive td, table.gradesfive th {
+	text-align: right;
+	padding: 2px;
+	border: 1px solid #BEBFBF;
+}
+table.gradesfive tr td:first-child, table.gradesfive tr th:first-child { text-align: left; }
+
+table.scalefive { margin: 1em; }
+table.scalefive, table.scalefive td, table.scalefive th {
+	text-align: center;
+	padding: 2px;
+	border: 1px solid #BEBFBF;
+}
+
+table.labsfive { margin: 1em; }
+table.labsfive th, table.labsfive td {
+	padding: 2px;
+	border: 1px solid #BEBFBF;
+}
+table.labsfive th { text-align: center; }
+table.labsfive td { text-align: left; }
+table.labsfive tr td:first-child { text-align: center; }
+
+table.breakdownfive { margin: 1em; }
+table.breakdownfive td { padding-right: 2em; }
+
+table.scheduletwo { margin: 1em; }
+table.scheduletwo, table.scheduletwo th, table.scheduletwo td {
+	border: 1px solid #BEBFBF;
+}
+table.scheduletwo th, table.scheduletwo td {
+	text-align: center;
+	padding: 2px;
+}
+
+table.schedulethree { margin: 1em; }
+table.schedulethree, table.schedulethree th, table.schedulethree td {
+	border: 1px solid #BEBFBF;
+}
+table.schedulethree th, table.schedulethree td {
+	text-align: left;
+	padding: 2px;
+}
+
+table.scheduleone { margin: 1em; }
+table.scheduleone, table.scheduleone th, table.scheduleone td {
+	border: 1px solid #BEBFBF;
+}
+table.scheduleone th, table.scheduleone td {
+	padding: 2px;
+}
+
+div.GEC {
+	border: 1px solid black;
+	padding: 1em;
+	margin: 2em 0;
+}
+div.GEC h1 { margin-top: 0; }
+
+table.instructors {
+	margin: 2em 0 0 0;
+	border: 0;
+	border-right: 1px solid #BEBFBF;
+	padding: 0;
+}
+table.instructors div { margin: 0; }
+table.instructors th {
+	width: 50%;
+	border: 1px solid #BEBFBF;
+	border-right: 0;
+	vertical-align: middle;
+	background: #E5E5E5;
+	background-color: #E5E5E5;
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0.3em;
+}
+table.instructors td {
+	width: 50%;
+	border: 1px solid #BEBFBF;
+	border-top: 0;
+	border-right: 0;
+	margin: 0;
+	padding: 1em;
+}
+table.instructors div.hr {
+	background: #BEBFBF;
+	background-color: #BEBFBF;
+	height: 1px;
+	width: 90%;
+	margin: 0.75em 0;
+}
+table.instructors h2 { margin-top: 0; }
+table.instructors img {
+	float: left;
+	margin: 0 1em 1em 0; /* right and bottom: 1em */
+	border: 0;
+	padding: 0;
+}
+
+.syllabus_disclaimer {
+    margin: 3em 1em;
+    border: 2px solid red;
+    padding: 1em;
+    color: black;
+    background-color: #fcc;
+    width: 80%;
+    text-align: center;
+}
+
+.syllabus_disclaimer .notice {
+    font-weight: bold;
+    padding-right: 0.5em;
+}
