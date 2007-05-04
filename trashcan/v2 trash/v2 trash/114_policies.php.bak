@@ -1,8 +1,0 @@
-<?
-include 'ibp.inc';
-top('Biology 114;Course Policies');
-menu('114_menu.inc');
-include 'policies.inc';
-policies(114);
-bottom();
-?>

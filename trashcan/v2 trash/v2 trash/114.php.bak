@@ -1,8 +1,0 @@
-<?
-include 'ibp.inc';
-top('Biology 114');
-menu('114_menu.inc');
-?>
-<h1>Biology 114</h1>
-<p>Content goes here.</p>
-<? bottom(); ?>

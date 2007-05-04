@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<menu>
-	<item text="1. Upload your WebCT Roster" url="FileUpload.aspx" alt="1. Upload your WebCT Roster" target="_parent" />
-	<item text="2. Pick which reports you want to run: DataSheets or Graphs" url="ChooseReportType.aspx" target="_parent" alt="2. Pick which reports you want ot run: DataSheets or Graphs" />
-	<item text="3. Choose a column to graph." url="GraphColumns.aspx" target="_parent" alt="3. Choose a column to graph." />
-	<item text="4. Select the type of graph to create." url="GraphTypeSelect.aspx" target="_parent" alt="4. Select the type of graph to create." />
-</menu>
-
-
