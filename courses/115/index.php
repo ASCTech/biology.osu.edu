@@ -1,6 +1,7 @@
 <?
 chdir('../..');
 include_once 'lib/basics.inc';
+include_once 'lib/instructors.inc';
 top('Honors Biology 115');
 menu('115');
 ?>

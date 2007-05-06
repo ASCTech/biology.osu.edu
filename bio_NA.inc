@@ -1,1 +1,0 @@
-<p>The course is not available this quarter.</p>
