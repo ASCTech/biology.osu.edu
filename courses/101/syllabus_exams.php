@@ -4,7 +4,7 @@ include_once 'lib/basics.inc';
 top('Biology 101','Syllabus');
 menu('101');
 
-include 'syllabus_disclaimer.inc';
+include 'courses/syllabus_disclaimer.inc';
 
 ?>
 <h1>Biology 101: An Introduction to Biology</h1>
@@ -25,7 +25,7 @@ include 'syllabus_disclaimer.inc';
 <p>Lectures: TR 1:30 - 2:48 in Independence Hall 100</p>
 <p>Recitation/Laboratory: 3 Hours/week; consult your schedule</p>
 
-<? include 'GEC.inc'; ?>
+<? include 'courses/GEC.inc'; ?>
 
 <h2>Philosophy:</h2>
 <p>This course is designed to teach the science of biology by doing biology. I believe the content of biology is best learned (as opposed to memorized)

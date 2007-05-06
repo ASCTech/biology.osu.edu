@@ -4,7 +4,7 @@ include_once 'lib/basics.inc';
 top('Biology 102','Syllabus');
 menu('102');
 
-include 'syllabus_disclaimer.inc';
+include 'courses/syllabus_disclaimer.inc';
 
 ?>
 <h1>Biology 102: Human Biology &ndash; A Case Study Approach</h1>
@@ -28,7 +28,7 @@ include 'syllabus_disclaimer.inc';
 <p>Required: Biology 101 or equivalent (including high school AP biology) or instructor’s
    permission.</p>
 
-<? include 'GEC.inc'; ?>
+<? include 'courses/GEC.inc'; ?>
 
 <h2>Course Philosophy:</h2>
 <p>This course will employ the &quot;case study&quot; approach. Rather than concentrating briefly

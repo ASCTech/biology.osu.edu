@@ -4,7 +4,7 @@ include_once 'lib/basics.inc';
 top('Biology 114','Syllabus');
 menu('114');
 
-include 'syllabus_disclaimer.inc';
+include 'courses/syllabus_disclaimer.inc';
 
 ?>
 <h1>Biology 114</h1>

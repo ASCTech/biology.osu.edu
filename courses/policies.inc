@@ -5,7 +5,7 @@ include_once 'lib/basics.inc';
 function policies_page($course) {
 	$honors = $course > 114 ? 'Honors ' : '';
 	top($honors . 'Biology ' . $course, 'Course Policies');
-	menu($course . '_menu.inc');
+	menu($course);
 	policies($course);
 	bottom();
 }
@@ -48,9 +48,9 @@ function policies($course) { ?>
      sign a change form.</li>
  <li>Late Assignment Policy:
 <?
-include file_exists($course . '_late_assignment_policy.inc')
-        ? $course . '_late_assignment_policy.inc'
-        : 'general_late_assignment_policy.inc';
+include file_exists('courses/' . $course . '/late_assignment_policy.inc')
+        ? 'courses/' . $course . '/late_assignment_policy.inc'
+        : 'courses/general_late_assignment_policy.inc';
 ?>
  </li>
  <li>Grade Inquiries: Students will have ten (10) class days to challenge any grade/score presented on Carmen they feel may be incorrect or to inquire
