@@ -54,12 +54,12 @@ function QTYR2Quarter_Year($QTYR) {
 $url_map = array(
 	'Center for Life Sciences Education' => '/',
 	'Introductory Biology Program' => '/',
-	'Biology 101' => '/101.php',
-	'Biology 102' => '/102.php',
-	'Biology 113' => '/113.php',
-	'Biology 114' => '/114.php',
-	'Honors Biology 115' => '/115.php',
-	'Honors Biology 116' => '/116.php',
+	'Biology 101' => 'courses/101/',
+	'Biology 102' => 'courses/102/',
+	'Biology 113' => 'courses/113/',
+	'Biology 114' => 'courses/114/',
+	'Honors Biology 115' => 'courses/115/',
+	'Honors Biology 116' => 'courses/116/',
 );
 
 $banner_map = array(
@@ -114,10 +114,8 @@ function top() {
 <meta name="keywords" content="Biology, Center for Life Sciences Education, Introductory Biology, Ohio State, Ohio State University">
 <meta name="description" content="Teaching courses in Biology at The Ohio State University">
 
-<!-- Styles for non-compliant (Netscape 4.x) styles sheets -->
-<!--<link href="css/noncompliant.css" rel="stylesheet" type="text/css">-->
+<base href="<?= $_SERVER['SERVER_NAME'] == 'mikes-laptop.local' ? 'http://localhost:8000/~michaelgee/biology.osu.edu/' : 'http:/biology.osu.edu/'; ?>">
 
-<!-- CSS2 Style sheets -->
 <style type="text/css">
 	<!--
 	@import url(css/body.css);
@@ -160,7 +158,7 @@ function top() {
 <div id="menulist">
 <ul id="mainMenu">
  <li><a href="/">Home</a></li>
- <li><a href="courses.php">Courses</a>
+ <li><a href="courses/">Courses</a>
   <? include 'menu/courses.inc'; ?>
  </li>
  <li><a href="textbooks.php">Textbooks</a>
