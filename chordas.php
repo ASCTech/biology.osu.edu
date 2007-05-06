@@ -1,6 +1,7 @@
 <?
 include 'ibp.inc';
-top('Steve Chordas', 1);
+top('Steve Chordas');
+no_menu();
 ?>
 <h1>Professor Steve Chordas</h1>
 <b>Biography:</b>

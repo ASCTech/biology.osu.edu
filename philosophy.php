@@ -1,6 +1,7 @@
 <?
 include 'ibp.inc';
-top('Our Philosophy', 1);
+top('Our Philosophy');
+no_menu();
 ?>
 <p>The curriculum of Biology 101 has been altered completely and now conforms with current calls
    for teaching scientific literacy to all students better than almost all other such programs in

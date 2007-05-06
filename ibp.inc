@@ -73,9 +73,9 @@ $banner_map = array(
 	'Steve Chordas' => 'chordas_banner.jpg',
 );
 
-function top($page, $columns = 2) {
-	$pages = explode(';', $page);
-	if ($pages[0]) {
+function top() {
+    $pages = func_get_args();
+	if (count($pages) > 0) {
 		array_unshift($pages, 'Center for Life Sciences Education');
 	} else {
 		$pages = array('Center for Life Sciences Education');
@@ -120,7 +120,6 @@ function top($page, $columns = 2) {
 <!-- CSS2 Style sheets -->
 <style type="text/css">
 	<!--
-	@import url(css/ibp.css);
 	@import url(css/body.css);
 	@import url(css/navbar.css);
 	@import url(css/masthead.css);
@@ -129,6 +128,7 @@ function top($page, $columns = 2) {
 	@import url(css/layout_2col.css);
 	@import url(css/footer.css);
 	@import url(css/htmlandgraphics.css);
+	@import url(css/local.css);
 	-->
 </style>
 
@@ -189,35 +189,20 @@ function top($page, $columns = 2) {
 <!-- Page content begins here -->
 <a name="pagecontent" id="pagecontent"></a>
 <div id="content">
-<?
-	if ($columns == 2) {
-		echo "<div id=\"twocolumnleft\">\n";
-	} else {
-		echo "<div id=\"singlecolumn\">\n";
-	}
-}
+<? }
 
-function start_menu() {
-	echo <<<EOT
-<div id="smallcolumn">
-EOT;
+function no_menu() { ?>
+  <div id="singlecolumn">
+<? }
 
-}
-
-function end_menu() {
-	echo <<<EOT
-<p>&nbsp;</p>
-</div>
-<div id="maincolumn">
-EOT;
-
-}
-
-function menu($file) {
-	echo start_menu();
-	include $file;
-	echo end_menu();
-}
+function menu($file) { ?>
+  <div id="twocolumnleft">
+  <div id="smallcolumn">
+  <? include $file; ?>
+  <p>&nbsp;</p>
+  </div>
+  <div id="maincolumn">
+<? }
 
 function bottom() {
 	?>

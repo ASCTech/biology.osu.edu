@@ -1,7 +1,7 @@
 <?
 
 include 'ibp.inc';
-top('Events;AACU');
+top('Events','AACU');
 menu('events.inc');
 
 ?>

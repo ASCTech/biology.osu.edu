@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Biology 114;NY Times');
+top('Biology 114','NY Times');
 menu('114_menu.inc');
 ?>
 <h1>Biology 114: New York Times Clippings Project</h1>

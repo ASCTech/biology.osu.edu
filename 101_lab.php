@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Biology 101;Lab');
+top('Biology 101','Lab');
 menu('101_menu.inc');
 ?>
 

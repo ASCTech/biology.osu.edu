@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Biology 102;Exploring References');
+top('Biology 102','Exploring References');
 menu('102_menu.inc');
 ?>
 <h1><center>Short Writing Assignment: Exploring References</center></h1>

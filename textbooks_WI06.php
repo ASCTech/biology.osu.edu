@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Textbooks;Winter 2006');
+top('Textbooks','Winter 2006');
 menu('textbooks.inc');
 ?>
 <table class="textbooks" cellspacing="0" cellpadding="0">

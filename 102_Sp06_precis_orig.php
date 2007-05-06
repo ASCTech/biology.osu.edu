@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Biology 102;Course Precis');
+top('Biology 102','Course Precis');
 menu('102_menu.inc');
 ?>
 <h1>Biology 102: Human Biology &ndash; A Case Studies Approach</h1>

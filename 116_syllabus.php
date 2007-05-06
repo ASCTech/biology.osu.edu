@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Honors Biology 116;Syllabus');
+top('Honors Biology 116','Syllabus');
 menu('116_menu.inc');
 
 include 'syllabus_disclaimer.inc';

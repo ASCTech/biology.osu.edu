@@ -22,7 +22,8 @@ function staff($people) {
 <?
 }
 
-top('Staff Directory', 1);
+top('Staff Directory');
+no_menu();
 
 staff(
 array(

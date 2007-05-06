@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Biology 114;Syllabus');
+top('Biology 114','Syllabus');
 menu('114_menu.inc');
 
 include 'syllabus_disclaimer.inc';

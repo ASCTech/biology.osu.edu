@@ -12,16 +12,9 @@ my $self = url || '';
 IBP::Redirect->insert({referer=>$referer, redirecter=>$self, destination=>$to, name=>$name, ip=>$ip});
 
 print header, <<EOH;
-<html>
-<head>
-<script language="javascript">
+<html><head><script language="JavaScript" type="text/javascript">
 <!--
 top.location.href="$to";
 // -->
-</script>
-</head>
-<body>
-<p>Please click this link:</p>
-<a href="$to" target="_top">$to</a>
-</html>
+</script></head><body><p>Please click this link:</p><a href="$to" target="_top">$to</a></html>
 EOH

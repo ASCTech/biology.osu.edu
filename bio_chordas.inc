@@ -6,4 +6,4 @@
    Fever, you know &ndash; the fun stuff! Anything you can get from an arthropod, we are interested
    in investigating and testing them to see if the disease is present in the vectors in Ohio. My
    research interests&hellip;
-   <a href="/chordas.php">more</a>.</p>
+   <a href="chordas.php">more</a>.</p>

@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Biology 102;NYT Assignment');
+top('Biology 102','NYT Assignment');
 menu('102_menu.inc');
 ?>
 <h1><center>New York Times Weekly Assignment</center></h1>

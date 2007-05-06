@@ -1,6 +1,7 @@
 <?
 include 'ibp.inc';
-top('Contact the Webmaster', 1);
+top('Contact the Webmaster');
+no_menu();
 
 $webmaster = "biology@osu.edu";
 

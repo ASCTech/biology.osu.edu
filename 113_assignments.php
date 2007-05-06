@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Biology 113;Sample Assignment');
+top('Biology 113','Sample Assignment');
 menu('113_menu.inc');
 ?>
 <h1>Biology 113 Sample Assignment</h1>

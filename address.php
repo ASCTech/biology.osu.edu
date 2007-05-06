@@ -1,6 +1,7 @@
 <?
 include 'ibp.inc';
-top('Mailing Address', 1);
+top('Mailing Address');
+no_menu();
 ?>
 <h2>Mailing Address</h2>
 <blockquote>Center for Life Sciences Education<br>

@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Honors Biology 115;Labs');
+top('Honors Biology 115','Labs');
 menu('115_menu.inc');
 ?>
 <h1>Honors Biology 115</h1>

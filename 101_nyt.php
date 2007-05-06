@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Biology 101;NY Times');
+top('Biology 101','NY Times');
 menu('101_menu.inc');
 ?>
 <h1>New York Times usage in Biology 101</h1>

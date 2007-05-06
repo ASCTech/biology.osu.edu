@@ -1,6 +1,6 @@
 <?
 include 'ibp.inc';
-top('Biology 101;Comments');
+top('Biology 101','Comments');
 menu('101_menu.inc');
 ?>
 <h1>Student Feedback and Comments on Biology 101</h1>

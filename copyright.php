@@ -1,6 +1,7 @@
 <?
 include 'ibp.inc';
-top('Copyright Information', 1);
+top('Copyright Information');
+no_menu();
 ?>
 <h1>Guidelines for using the CLSE material distributed on the web</h1>
 <p>The College of Biological Sciences and its Center for Life Sciences Education are developing and
