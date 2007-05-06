@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 102','NYT Assignment');
-menu('102_menu.inc');
+menu('102');
 ?>
 <h1><center>New York Times Weekly Assignment</center></h1>
 <p><u>Objective</u>:</p>

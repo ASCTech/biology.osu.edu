@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Honors Biology 115','Syllabus');
-menu('115_menu.inc');
+menu('115');
 
 include 'syllabus_disclaimer.inc';
 

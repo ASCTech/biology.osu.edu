@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Honors Biology 116');
-menu('116_menu.inc');
+menu('116');
 ?>
 <h1>Biology 116: Honors II</h1>
 <p>Biology H115-116 is a lecture, recitation and laboratory sequence in which interaction with

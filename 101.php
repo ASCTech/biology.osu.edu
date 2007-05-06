@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 101');
-menu('101_menu.inc');
+menu('101');
 ?>
 <h1>Biology 101: Introduction to Biology</h1>
 <p>Biology 101 is a course specifically designed with the non-biology major in mind. Over the course

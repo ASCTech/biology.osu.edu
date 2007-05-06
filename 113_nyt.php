@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 113','NY Times');
-menu('113_menu.inc');
+menu('113');
 ?>
 <h1>Biology 113: New York Times</h1>
 <p>Students commonly say statements such as, &quot;There's no point in me studying this &ndash; it

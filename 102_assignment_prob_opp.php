@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 102','Sample Assignment');
-menu('102_menu.inc');
+menu('102');
 ?>
 
 <h1>Problem/Opportunity Statement</h1>

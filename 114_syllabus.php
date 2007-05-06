@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 114','Syllabus');
-menu('114_menu.inc');
+menu('114');
 
 include 'syllabus_disclaimer.inc';
 

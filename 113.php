@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 113');
-menu('113_menu.inc');
+menu('113');
 ?>
 <h1>Biology 113: Gateway to the Biological Sciences</h1>
 <p>As with any introductory course, a primary goal of Biology 113 is to provide science major

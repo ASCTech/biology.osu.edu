@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 101','Lab');
-menu('101_menu.inc');
+menu('101');
 ?>
 
 <h1>Biology 101 Lab Description</h1>

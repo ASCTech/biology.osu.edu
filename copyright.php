@@ -1,5 +1,5 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Copyright Information');
 no_menu();
 ?>

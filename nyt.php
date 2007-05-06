@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('New York Times');
-menu('nyt.inc');
+menu('nyt');
 ?>
 <h1>How to order the New York Times</h1>
 <p>To order the New York Times, please click on the following PDF document link below to view the

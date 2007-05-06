@@ -1,8 +1,8 @@
 <?
 
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Events');
-menu('events.inc');
+menu('events');
 bottom();
 
 ?>

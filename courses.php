@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Courses');
-menu('courses.inc');
+menu('courses');
 ?>
 <h1>Mission Statement</h1>
 <p>The Mission of the Center for Life Sciences Education (CLSE) is to develop, teach, and provide

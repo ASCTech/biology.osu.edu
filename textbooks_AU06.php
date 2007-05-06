@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Textbooks','Autumn 2006');
-menu('textbooks.inc');
+menu('textbooks');
 ?>
 <table class="textbooks" cellspacing="0" cellpadding="0">
  <tr>

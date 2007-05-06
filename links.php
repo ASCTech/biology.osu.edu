@@ -1,6 +1,6 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Links');
-menu('links.inc');
+menu('links');
 bottom();
 ?>

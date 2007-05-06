@@ -1,5 +1,5 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Contact the Webmaster');
 no_menu();
 

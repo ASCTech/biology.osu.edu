@@ -1,5 +1,5 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 
 function staff($people) {
 	$n = 0;

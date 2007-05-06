@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 102','Sample Assignments');
-menu('102_menu.inc');
+menu('102');
 ?>
 <h2>Sample Assignments</h2>
 <p><a href="102_assignment_nyt.php">New York Times</a></p>

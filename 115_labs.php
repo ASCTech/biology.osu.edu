@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Honors Biology 115','Labs');
-menu('115_menu.inc');
+menu('115');
 ?>
 <h1>Honors Biology 115</h1>
 <h1>SAMPLE LAB SCHEDULE</h1>

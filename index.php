@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('');
-menu('courses.inc');
+menu('courses');
 ?>
 
 <p>The Center for Life Sciences Education (CLSE) is an interdepartmental program

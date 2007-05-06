@@ -1,5 +1,5 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Steve Chordas');
 no_menu();
 ?>

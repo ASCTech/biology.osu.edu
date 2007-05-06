@@ -161,21 +161,21 @@ function top() {
 <ul id="mainMenu">
  <li><a href="/">Home</a></li>
  <li><a href="courses.php">Courses</a>
-  <? include 'courses.inc'; ?>
+  <? include 'menu/courses.inc'; ?>
  </li>
  <li><a href="textbooks.php">Textbooks</a>
-  <? include 'textbooks.inc'; ?>
+  <? include 'menu/textbooks.inc'; ?>
  </li>
  <li><a href="nyt.php">New York Times</a></li>
  <li><a href="philosophy.php">Our Philosophy</a></li>
 <!-- <li><a href="events.php">Events</a>
-  <? include 'events.inc' ?>
+  <? include 'menu/events.inc' ?>
  </li> -->
  <li><a href="links.php">Links</a>
-  <? include 'links.inc'; ?>
+  <? include 'menu/links.inc'; ?>
  </li>
  <li><a href="contact.php">Contact</a>
-  <? include 'contact.inc'; ?>
+  <? include 'menu/contact.inc'; ?>
  </li>
 </ul>
 <br class="clearall">
@@ -198,7 +198,7 @@ function no_menu() { ?>
 function menu($file) { ?>
   <div id="twocolumnleft">
   <div id="smallcolumn">
-  <? include $file; ?>
+  <? include "menu/$file.inc"; ?>
   <p>&nbsp;</p>
   </div>
   <div id="maincolumn">

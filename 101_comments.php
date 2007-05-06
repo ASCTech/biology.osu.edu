@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 101','Comments');
-menu('101_menu.inc');
+menu('101');
 ?>
 <h1>Student Feedback and Comments on Biology 101</h1>
 <p>The following are students comments after taking the Center for Life Sciences Education's Biology 101 Course:</p>

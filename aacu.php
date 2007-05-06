@@ -1,8 +1,8 @@
 <?
 
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Events','AACU');
-menu('events.inc');
+menu('events');
 
 ?>
 

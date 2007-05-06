@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 101','NY Times');
-menu('101_menu.inc');
+menu('101');
 ?>
 <h1>New York Times usage in Biology 101</h1>
 <p>All students in Biology 101 are required to have a subscription, or regular access, to the New York Times. The New York Times is used in a variety

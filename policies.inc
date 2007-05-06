@@ -1,10 +1,10 @@
 <?
 
-include_once 'ibp.inc';
+include_once 'lib/basics.inc';
 
 function policies_page($course) {
 	$honors = $course > 114 ? 'Honors ' : '';
-	top($honors . 'Biology ' . $course . ';Course Policies');
+	top($honors . 'Biology ' . $course, 'Course Policies');
 	menu($course . '_menu.inc');
 	policies($course);
 	bottom();

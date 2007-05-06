@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 113','Sample Assignment');
-menu('113_menu.inc');
+menu('113');
 ?>
 <h1>Biology 113 Sample Assignment</h1>
 <h1><center>Long Lab Report<center></h1>

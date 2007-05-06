@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 114');
-menu('114_menu.inc');
+menu('114');
 ?>
 <h1>Biology 114: Form, Function, Diversity and Ecology</h1>
 <p>Biology 114 is intended for students majoring in the natural sciences and is the continuation of

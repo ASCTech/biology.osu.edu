@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 101','Syllabus');
-menu('101_menu.inc');
+menu('101');
 ?>
 <h1>Sample Syllabus / Lecture Schedule</h1>
 <a href="101_syllabus_exams.php">Syllabus &ndash; Midterms/Finals Style</a>

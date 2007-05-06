@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 102');
-menu('102_menu.inc');
+menu('102');
 ?>
 <h1>Biology 102: Human Biology &ndash; A Case Studies Approach</h1>
 <p>In this course, emphasis is placed upon understanding the interaction between science and

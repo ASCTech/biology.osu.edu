@@ -1,7 +1,7 @@
 <?
-include 'ibp.inc';
+include_once 'lib/basics.inc';
 top('Biology 114','NY Times');
-menu('114_menu.inc');
+menu('114');
 ?>
 <h1>Biology 114: New York Times Clippings Project</h1>
 <h2>Procedure: (50 points)</h2>
