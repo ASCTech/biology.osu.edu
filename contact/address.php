@@ -1,4 +1,5 @@
 <?
+chdir('..');
 include_once 'lib/basics.inc';
 top('Mailing Address');
 no_menu();

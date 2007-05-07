@@ -151,7 +151,7 @@ function top() {
  <li><a href="links.php">Links</a>
   <? include 'menu/links.inc'; ?>
  </li>
- <li><a href="contact.php">Contact</a>
+ <li><a href="contact/">Contact</a>
   <? include 'menu/contact.inc'; ?>
  </li>
 </ul>
