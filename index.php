@@ -26,13 +26,6 @@ menu('courses');
 </ul>
 </p>
 
-<div class="vspace"></div>
-
-<div class="news">
- <h2 class="headline">Past Event:</h2>
- <p class="text">The <a href="two_cultures.html">Evolution Forum and Lecture Series</a> was held
-    November 1&ndash;3.  Streaming video of each event is available.</p>
-</div>
 
 <div class="webcam">
  <h2>Check out the progress on our future home in Jennings Hall.</h2>
