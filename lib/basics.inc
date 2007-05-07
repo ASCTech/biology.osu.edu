@@ -140,7 +140,7 @@ function top() {
  <li><a href="courses/">Courses</a>
   <? include 'menu/courses.inc'; ?>
  </li>
- <li><a href="textbooks.php">Textbooks</a>
+ <li><a href="textbooks/">Textbooks</a>
   <? include 'menu/textbooks.inc'; ?>
  </li>
  <li><a href="nytimes/">New York Times</a></li>

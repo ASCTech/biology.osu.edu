@@ -1,4 +1,5 @@
 <?
+chdir('..');
 include_once 'lib/basics.inc';
 top('Textbooks','Spring 2006');
 menu('textbooks');

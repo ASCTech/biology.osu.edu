@@ -1,6 +1,7 @@
 <?
+chdir('..');
 include_once 'lib/basics.inc';
-top('Textbooks','Autumn 2006');
+top('Textbooks','Spring 2007');
 menu('textbooks');
 ?>
 <table class="textbooks" cellspacing="0" cellpadding="0">
@@ -12,11 +13,11 @@ menu('textbooks');
   <th>ISBN</th>
  </tr>
  <tr class="gray">
-  <td>101 TR</td>
-  <td>Baker</td>
-  <td>Essentials of Biology</td>
-  <td>Mader, Sylvia</td>
-  <td class="isbn">007-322479-0</td>
+  <td>101 MW</td>
+  <td>Taylor</td>
+  <td>Essential Biology 3rd edition</td>
+  <td>Campbell, Reece, Simon</td>
+  <td class="isbn">978-0-8053-6842-6</td>
  </tr>
  <tr class="gray">
   <td />
@@ -27,11 +28,11 @@ menu('textbooks');
  </tr>
  <tr><td>&nbsp;</td></tr>
  <tr>
-  <td>101 MW</td>
-  <td>Fisher</td>
-  <td>Essentials of the Living World</td>
-  <td>Johnson, George</td>
-  <td class="isbn">007-305238-8</td>
+  <td>101 TR</td>
+  <td>Stetson</td>
+  <td>Essential&nbsp;Biology 3rd&nbsp;edition, 3&nbsp;hole punched w/&nbsp;binder, &amp; Current&nbsp;Issues volume&nbsp;4</td>
+  <td>Campbell, Reece, Simon</td>
+  <td class="isbn">0-536-38343-X</td>
  </tr>
  <tr>
   <td />
@@ -44,9 +45,9 @@ menu('textbooks');
  <tr class="gray">
   <td>101N</td>
   <td>Chordas</td>
-  <td>Essential Biology, 2nd edition</td>
-  <td>Campbell &amp; Reece</td>
-  <td class="isbn">0-8053-7473-6</td>
+  <td>Essential Biology 3rd edition</td>
+  <td>Campbell, Reece, Simon</td>
+  <td class="isbn">978-0-8053-6842-6</td>
  </tr>
  <tr class="gray">
   <td />
@@ -58,18 +59,18 @@ menu('textbooks');
  <tr><td>&nbsp;</td></tr>
  <tr>
   <td>102</td>
-  <td>Reeve</td>
-  <td>Human Biology, 9th edition, custom</td>
-  <td>Mader, Sylvia</td>
-  <td class="isbn">007-347651-X</td>
+  <td>Rissing</td>
+  <td>NONE (New York Times only)</td>
+  <td />
+  <td />
  </tr>
  <tr><td>&nbsp;</td></tr>
  <tr class="gray">
   <td>113</td>
-  <td>Chang & Weinstein</td>
+  <td>Gopalan</td>
   <td>Biology, 7th edition</td>
-  <td>Campbell &amp; Reece</td>
-  <td class="isbn">0-8053-7146-X</td>
+  <td>Campbell, Reece</td>
+  <td class="isbn">978-0-8053-7146-X</td>
  </tr>
  <tr class="gray">
   <td />
@@ -81,10 +82,10 @@ menu('textbooks');
  <tr><td>&nbsp;</td></tr>
  <tr>
   <td>114</td>
-  <td>Klompen</td>
+  <td>Hetherington</td>
   <td>Biology, 7th edition</td>
-  <td>Campbell &amp; Reece</td>
-  <td class="isbn">0-8053-7146-X</td>
+  <td>Campbell, Reece</td>
+  <td class="isbn">978-0-8053-7146-X</td>
  </tr>
  <tr>
   <td />
@@ -109,18 +110,42 @@ menu('textbooks');
  </tr>
  <tr><td>&nbsp;</td></tr>
  <tr class="gray">
-  <td>H115</td>
-  <td>Dean</td>
-  <td>Biological Sciences, 2nd edition</td>
-  <td>Freeman, Scott</td>
-  <td class="isbn">0-13-218746-9</td>
+  <td>H116</td>
+  <td>Wilson</td>
+  <td>Biology, 7th edition</td>
+  <td>Campbell, Reece</td>
+  <td class="isbn">978-0-8053-7146-X</td>
  </tr>
  <tr class="gray">
   <td />
   <td />
-  <td>113/115 Lab Manual</td>
+  <td>Natural History of Medicinal Plants</td>
+  <td>Sumner</td>
+  <td class="isbn">0-88192-483-0</td>
+ </tr>
+ <tr class="gray">
   <td />
-  <td class="isbn">978-0-7380-2187-4</td>
+  <td />
+  <td>116 Lab Manual</td>
+  <td />
+  <td class="isbn">978-0-7380-2170-6</td>
+ </tr>
+ <tr class="gray">
+  <td />
+  <td />
+  <td>Concise Dissection, Sheep Brain, Pig Heart</td>
+  <td />
+  <td />
+ </tr>
+ <tr class="gray">
+  <td />
+  <td />
+  <td>Concise Dissection, Pigs</td>
+  <td />
+  <td />
  </tr>
 </table>
-<? bottom(); ?>
+<?
+#include 'textbook/bookstores.inc';
+bottom();
+?>
