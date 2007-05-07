@@ -1,4 +1,5 @@
 <?
+chdir('..');
 include_once 'lib/basics.inc';
 top('New York Times');
 menu('nyt');
@@ -9,8 +10,8 @@ menu('nyt');
    If you need to download the Acrobat Reader, please
    <a href="http://www.adobe.com/products/acrobat/readstep2.html">click here</a>
    and follow the on screen instructions for downloading Acrobat.</p>
-<center><a href="NYTimesOrderForm.pdf">New York Times Order Form</a></center>
+<center><a href="nytimes/order_form/current.pdf">New York Times Order Form</a></center>
 <?
-include 'nyt_usage.inc';
+include 'nytimes/usage.inc';
 bottom();
 ?>

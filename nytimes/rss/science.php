@@ -1,6 +1,6 @@
 document.write('<div class=\"rss_feed\"><ul class=\"rss_item_list\">');
 <?
-require_once 'simplepie.inc';
+require_once '../../lib/simplepie.inc';
 
 $url = 'http://www.nytimes.com/services/xml/rss/nyt/Science.xml';
 $rss = new SimplePie($url);

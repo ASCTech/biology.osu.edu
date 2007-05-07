@@ -143,7 +143,7 @@ function top() {
  <li><a href="textbooks.php">Textbooks</a>
   <? include 'menu/textbooks.inc'; ?>
  </li>
- <li><a href="nyt.php">New York Times</a></li>
+ <li><a href="nytimes/">New York Times</a></li>
  <li><a href="philosophy.php">Our Philosophy</a></li>
 <!-- <li><a href="events.php">Events</a>
   <? include 'menu/events.inc' ?>

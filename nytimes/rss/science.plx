@@ -16,7 +16,7 @@ use LWP::Simple;
 use Fatal qw( open );
 
 my $url   = 'http://www.nytimes.com/services/xml/rss/nyt/Science.xml';
-my $cache = 'nyt-science.js';
+my $cache = 'science.js';
 
 if (age($cache) > 5 * 60) {
 	my $xml = get($url);
