@@ -11,7 +11,7 @@ if (array_key_exists('_submit_check', $_POST)) {
 	$subject = $subject == 'other' ? $_POST['other'] : $subject;
 	$from = $_POST['from'];
 	$message = $_POST['message'];
-	$text  = "The following message was submitted from http://biology.osu.edu/webmaster.php\n\n";
+	$text  = "The following message was submitted from http://biology.osu.edu/contact/webmaster.php\n\n";
 	$text .= "   From: $from\n";
 	$text .= "Subject: $subject\n";
 	$text .= "Message:\n$message";

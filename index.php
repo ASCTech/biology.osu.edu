@@ -1,6 +1,6 @@
 <?
 include_once 'lib/basics.inc';
-top('');
+top();
 menu('courses');
 ?>
 

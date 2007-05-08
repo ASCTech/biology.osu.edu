@@ -199,9 +199,9 @@ function bottom() {
 </a>
 <p><a href="copyright.php">Copyright</a>, <?= date('Y') ?>. Center for Life Sciences Education.</p>
 <p>This page is maintained by: CLSE Technology Staff &mdash;
-   <a title="Contact CLSE webmaster" href="webmaster.php">Contact</a></p>
+   <a title="Contact CLSE webmaster" href="contact/webmaster.php">Contact</a></p>
 <p>If you have trouble accessing this page and need to request an alternate format,
-   <a href="webmaster.php">contact&nbsp;the&nbsp;webmaster</a>.</p>
+   <a href="contact/webmaster.php">contact&nbsp;the&nbsp;webmaster</a>.</p>
 </td><td width="10%" align="left" font="10pt" nowrap="nowrap" style="width:10%;text-align:left;font-size:10pt;white-space:nowrap">
 Center for Life Sciences Education<br/>
 4034 Smith Lab<br/>
