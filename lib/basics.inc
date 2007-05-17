@@ -93,7 +93,7 @@ function top() {
 <meta name="keywords" content="Biology, Center for Life Sciences Education, Introductory Biology, Ohio State, Ohio State University">
 <meta name="description" content="Teaching courses in Biology at The Ohio State University">
 
-<base href="<?= $_SERVER['SERVER_NAME'] == 'mikes-laptop.local' ? 'http://localhost:8000/~michaelgee/biology.osu.edu/' : 'http:/biology.osu.edu/'; ?>">
+<base href="<?= $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR'] ? 'http://localhost:8000/~michaelgee/biology.osu.edu/' : 'http:/biology.osu.edu/'; ?>">
 
 <style type="text/css">
 	<!--

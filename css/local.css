@@ -80,6 +80,11 @@ table.staff tr.r0 {
 	background-color: white;
 }
 
+table.staff .email {
+	text-decoration: none;
+	color: black;
+}
+
 table.textbooks {
     margin: 1em;
 }
