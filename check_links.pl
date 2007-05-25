@@ -64,9 +64,7 @@ while (my $url = next_unchecked()) {
   local_page($url) ? extract_links($url) : just_check($url);
 }
 
-print "\nUNCHECKED\n===========\n",
-      join("\n", sort keys %unchecked), "\n\n",
-      "GOOD\n===========\n",
+print "GOOD\n===========\n",
       join("\n", sort keys %good), "\n\n",
       "BAD\n===========\n",
       join("\n", sort keys %bad), "\n\n";
