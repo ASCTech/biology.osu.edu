@@ -21,8 +21,8 @@ menu('102');
    arguments.</p>
 
 <?
-instructors(array('Winter 2007' => array('sayre', 'chordas'),
-                  'Spring 2007' => array('rissing'),
+instructors(array('Spring 2007' => array('rissing.2'),
+                  'Summer 2007' => array('santangelo.11'),
                   )
             );
 
