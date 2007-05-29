@@ -15,7 +15,7 @@ menu('textbooks');
  <tr class="gray">
   <td>101 First&nbsp;Term</td>
   <td>Baker</td>
-  <td>Biology: Dimensions&nbsp;o&nbsp;Life</td>
+  <td>Biology: Dimensions&nbsp;of&nbsp;Life</td>
   <td>Jenner</td>
   <td class="isbn">978-07-2952674</td>
  </tr>
@@ -30,7 +30,7 @@ menu('textbooks');
  <tr>
   <td>101N</td>
   <td>Chordas</td>
-  <td>Essential&nbsp;Biology 3rd&nbsp;edition</td>
+  <td>Essential&nbsp;Biology, 3rd&nbsp;edition</td>
   <td>Campbell, Reece, Simon</td>
   <td class="isbn">0-536-38343-X</td>
  </tr>
