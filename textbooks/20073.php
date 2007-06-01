@@ -52,7 +52,7 @@ menu('textbooks');
  <tr><td>&nbsp;</td></tr>
  <tr>
   <td>102 Second&nbsp;Term</td>
-  <td>TBD</td>
+  <td>Taylor</td>
   <td>TBD</td>
   <td />
   <td />

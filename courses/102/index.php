@@ -22,7 +22,7 @@ menu('102');
 
 <?
 instructors(array('Spring 2007' => array('rissing.2'),
-                  'Summer 2007' => array('santangelo.11'),
+                  'Summer 2007' => array('santangelo.11', 'taylor.69'),
                   )
             );
 
