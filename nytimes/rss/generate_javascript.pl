@@ -23,7 +23,7 @@ my $cache = 'science.js';
 my $xml = get($url);
 my $rss = XML::RSS::JavaScript->new();
 $rss->parse($xml);
-my $js = $rss->as_javascript(0, 1);
+my $js = $rss->as_javascript(10, 1);
 if (length $js) {
   open(my $fh, '>', $cache);
   print {$fh} $js;
