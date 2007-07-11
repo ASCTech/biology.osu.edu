@@ -95,19 +95,15 @@ function top() {
 
 <base href="<?= $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR'] ? 'http://localhost:8000/~michaelgee/biology.osu.edu/' : 'http:/biology.osu.edu/'; ?>">
 
-<style type="text/css">
-	<!--
-	@import url(css/body.css);
-	@import url(css/navbar.css);
-	@import url(css/masthead.css);
-	@import url(css/menu_pulldown.css);
-	@import url(css/layout_1col.css);
-	@import url(css/layout_2col.css);
-	@import url(css/footer.css);
-	@import url(css/htmlandgraphics.css);
-	@import url(css/local.css);
-	-->
-</style>
+<link href="css/body.css" rel="stylesheet" type="text/css">
+<link href="css/navbar.css" rel="stylesheet" type="text/css">
+<link href="css/masthead.css" rel="stylesheet" type="text/css">
+<link href="css/menu_pulldown.css" rel="stylesheet" type="text/css">
+<link href="css/layout_1col.css" rel="stylesheet" type="text/css">
+<link href="css/layout_2col.css" rel="stylesheet" type="text/css">
+<link href="css/footer.css" rel="stylesheet" type="text/css">
+<link href="css/htmlandgraphics.css" rel="stylesheet" type="text/css">
+<link href="css/local.css" rel="stylesheet" type="text/css">
 
 </head>
 
