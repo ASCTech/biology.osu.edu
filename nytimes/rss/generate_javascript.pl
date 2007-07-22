@@ -41,14 +41,9 @@ sub xml2js {
 
 sub download {
   my ($url, $file) = @_;
-  my $age = age($file);
+  my $timestamp = mtime($file);
   mirror($url, $file);
-  $age ne age($file);
-}
-
-sub age {
-  my $file = shift;
-  time - mtime($file);
+  $timestamp != mtime($file);
 }
 
 sub mtime {
