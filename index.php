@@ -27,11 +27,4 @@ menu('courses');
 </p>
 
 
-<div class="webcam">
- <h2>Check out the progress on our future home in Jennings Hall.</h2>
- <ul>
-  <li><a href="http://www.biosci.ohio-state.edu/building/gallery/webcam.php">Jennings Hall construction webcam</a></li>
- </ul>
-</div>
-
 <? bottom(); ?>

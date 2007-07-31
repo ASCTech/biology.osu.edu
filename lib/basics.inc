@@ -93,7 +93,8 @@ function top() {
 <meta name="keywords" content="Biology, Center for Life Sciences Education, Introductory Biology, Ohio State, Ohio State University">
 <meta name="description" content="Teaching courses in Biology at The Ohio State University">
 
-<base href="<?= $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR'] ? 'http://localhost:8000/~michaelgee/biology.osu.edu/' : 'http://biology.osu.edu/'; ?>">
+<? $base = $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR'] ? 'http://localhost:8000/~michaelgee/biology.osu.edu/' : 'http://biology.osu.edu/'; ?>
+<base href="<?= $base ?>">
 
 <link href="css/body.css" rel="stylesheet" type="text/css">
 <link href="css/navbar.css" rel="stylesheet" type="text/css">
@@ -108,9 +109,6 @@ function top() {
 </head>
 
 <body>
-<!--Jumps past page's navigation-->
-<div id="skippagenav"><a href="#pagecontent">Skip navigation, view page content</a></div>
-<a name="top" id="top"></a>
 
 <? include_once "http://www.osu.edu/inc/osu_navbar.php"; ?>
 
@@ -132,7 +130,7 @@ function top() {
 
 <div id="menulist">
 <ul id="mainMenu">
- <li><a href="/">Home</a></li>
+ <li><a href="<?= $base ?>">Home</a></li>
  <li><a href="courses/">Courses</a>
   <? include 'menu/courses.inc'; ?>
  </li>
@@ -200,9 +198,9 @@ function bottom() {
    <a href="contact/webmaster.php">contact&nbsp;the&nbsp;webmaster</a>.</p>
 </td><td width="10%" align="left" font="10pt" nowrap="nowrap" style="width:10%;text-align:left;font-size:10pt;white-space:nowrap">
 Center for Life Sciences Education<br/>
-4034 Smith Lab<br/>
-174 W. 18th Ave.<br/>
-Columbus, OH 43210<br/>
+260 Jennings Hall<br/>
+1735 Neil Avenue<br/>
+Columbus, OH 43210-1106<br/>
 tel: (614) 292-9861<br/>
 fax: (614) 292-4390
 </td></tr></table>
