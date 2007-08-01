@@ -12,12 +12,12 @@ $people = array(
        'phone' => '292-6945'),
  array('first' => 'Judy',
        'last'  => 'Ridgway',
-       'title' => 'Assistant&nbsp;Director (Assessment&nbsp;&amp;&nbsp;Pedagogy)',
+       'title' => 'Assistant&nbsp;Director for Educational Research&nbsp;and&nbsp;Development',
        'email' => 'ridgway.14@osu.edu',
 	   'phone' => '292-0837'),
  array('first' => 'Matt',
        'last'  => 'Misicka',
-       'title' => 'Assistant&nbsp;Director (Introductory&nbsp;Biology)<br/>&nbsp; &amp; Course Coordinator (102)',
+       'title' => 'Assistant&nbsp;Director for Introductory&nbsp;Biology<br/>&nbsp; &amp; Course Coordinator (102)',
        'email' => 'misicka.1@osu.edu',
 	   'phone' => '688-3466'),
  array('first' => 'Kathy',
@@ -97,8 +97,8 @@ $n = 0;
  <tr class="r<?= $n = 1 - $n ?>">
   <td><?= $person['first'] ?> <?= $person['last'] ?></td>
   <td><?= $person['title'] ?></td>
-  <td><span style="white-space:nowrap"><a href="mailto:<?= $person['first'] ?> <?= $person['last'] ?> <<?= $person['email'] ?>>" class="email"><?= $person['email'] ?></a></span></td>
-  <td>(614) <span style="white-space:nowrap"><?= $person['phone'] ?></span></td>
+  <td style="white-space:nowrap"><a href="mailto:<?= $person['first'] ?> <?= $person['last'] ?> <<?= $person['email'] ?>>" class="email"><?= $person['email'] ?></a></td>
+  <td style="white-space:nowrap">(614) <?= $person['phone'] ?></td>
  </tr>
 <?   endwhile; ?>
 </table>
