@@ -36,19 +36,19 @@ sub xml2js {
   my $xml = shift;
   my $rss = XML::RSS::JavaScript->new;
   $rss->parse($xml);
-  $rss->as_javascript($number_of_headlines, $include_descriptions);
+  return $rss->as_javascript($number_of_headlines, $include_descriptions);
 }
 
 sub download {
   my ($url, $file) = @_;
   my $timestamp = mtime($file);
   mirror($url, $file);
-  $timestamp != mtime($file);
+  return $timestamp != mtime($file);
 }
 
 sub mtime {
   my $file = shift;
-  -e $file ? (stat $file)[9] : 0;
+  return -e $file ? (stat $file)[9] : 0;
 }
 
 sub read_file {
@@ -60,7 +60,7 @@ sub read_file {
     $content = <$fh>;
   }
   close($fh);
-  $content;
+  return $content;
 }
 
 sub write_file {
