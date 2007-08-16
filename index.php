@@ -1,12 +1,12 @@
 <?
 include_once 'lib/basics.inc';
 top();
-menu('courses');
+no_menu();
 ?>
 
-<p>The Center for Life Sciences Education (CLSE) is an interdepartmental program
+<p>The Center for Life Sciences Education is an interdepartmental program
    administered by the <a href="http://www.biosci.ohio-state.edu/">College of
-   Biological Sciences</a> at The Ohio State University. The Program's basic
+   Biological Sciences</a> at The Ohio State University. The Center's basic
    mission is to develop, teach, and provide administrative support for
    introductory-level Biology courses taught by the College of Biological
    Sciences. These courses include those that satisfy the General Education

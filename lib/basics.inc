@@ -47,6 +47,7 @@ $url_map = array(
 );
 
 function top() {
+	global $url_map, $base;
     $pages = func_get_args();
 	if (count($pages) > 0) {
 		array_unshift($pages, 'Center for Life Sciences Education');
@@ -56,7 +57,6 @@ function top() {
 	$title = implode(' - ', array_reverse($pages));
 	if ($title) $title .= ' - ';
 	$title .= 'The Ohio State University';
-	global $url_map;
 	$heading = '';
 	foreach ($pages as $p) {
 		if ($p) {
@@ -84,23 +84,30 @@ function top() {
 <meta name="keywords" content="Biology, Center for Life Sciences Education, Introductory Biology, Ohio State, Ohio State University">
 <meta name="description" content="Teaching courses in Biology at The Ohio State University">
 
-<base href="<? global $base; echo $base; ?>">
+<base href="<?= $base ?>">
 
-<link href="css/body.css" rel="stylesheet" type="text/css">
-<link href="css/navbar.css" rel="stylesheet" type="text/css">
-<link href="css/masthead.css" rel="stylesheet" type="text/css">
-<link href="css/menu_pulldown.css" rel="stylesheet" type="text/css">
-<link href="css/layout_1col.css" rel="stylesheet" type="text/css">
-<link href="css/layout_2col.css" rel="stylesheet" type="text/css">
-<link href="css/footer.css" rel="stylesheet" type="text/css">
-<link href="css/htmlandgraphics.css" rel="stylesheet" type="text/css">
-<link href="css/local.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+	@import url(http://www.osu.edu/css/template/osu-navbar.css);
+
+	@import url(css/body.css);
+	@import url(css/masthead.css);
+	@import url(css/menu_pulldown.css);
+	@import url(css/layout_1col.css);
+	@import url(css/layout_2col.css);
+	@import url(css/footer.css);
+	@import url(css/htmlandgraphics.css);
+	@import url(css/local.css);
+  -->
+</style>
 
 </head>
 
 <body>
 
-<? include_once "http://www.osu.edu/inc/osu_navbar.php"; ?>
+<? include_once "http://www.osu.edu/inc/template/osu_navbar.php"; ?>
+
+<div id="whole-page">
 
 <!-- Logo and title -->
  <div id="title">
@@ -153,7 +160,10 @@ function top() {
 
 function no_menu() { ?>
   <div id="singlecolumn">
-<? }
+<? 
+  global $divs;
+  $divs = 2;
+}
 
 function menu($file) { ?>
   <div id="twocolumnleft">
@@ -162,14 +172,20 @@ function menu($file) { ?>
   <p>&nbsp;</p>
   </div>
   <div id="maincolumn">
-<? }
+<? 
+  global $divs;
+  $divs = 3;
+}
 
 function bottom() {
 	?>
 <p>&nbsp;</p>
-</div>
-</div>
-</div>
+<?
+    global $divs;
+	for ($n=0; $n<$divs; $n++) {
+		echo "</div>\n";
+	}
+?>
 <!-- End of page content -->
 
 <br class="clearall">
@@ -193,6 +209,7 @@ Columbus, OH 43210-1106<br/>
 tel: (614) 292-9861<br/>
 fax: (614) 292-4390
 </td></tr></table>
+</div>
 </div>
 </body>
 </html>

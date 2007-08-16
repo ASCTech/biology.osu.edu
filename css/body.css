@@ -1,13 +1,15 @@
 body
 {
-	margin-top: 0px;
-	margin-bottom: 12px;
-	margin-left: 12px;
-	margin-right: 10px;
+	margin: 0;
 /*	font-size: 85%; */
 	font-size: 0.85em;
 	line-height: 135%;
 	padding: 0px;
+}
+
+/* whole-page does not include the OSU bar at the top */
+#whole-page {
+	margin: 12px;
 }
 
 #skippagenav
@@ -33,7 +35,9 @@ body
 	background-color: white;
 }
 
-#content { margin-bottom: 12px; }
+#content {
+	margin-bottom: 12px;
+}
 
 #content p
 {
