@@ -7,7 +7,7 @@ body {
 
 div.vspace {
 	height: 4em;
-	background white;
+	background: white;
 	background-color: white;
 }
 
@@ -21,11 +21,6 @@ a.heading {
 }
 
 span.nobreak { white-space: nowrap; }
-
-img.banner {
-	float: right;
-	margin-left: 10px;
-}
 
 table, tr, th, tr {
 	margin: 0;

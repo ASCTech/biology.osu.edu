@@ -1,5 +1,10 @@
 <?
 
+$base = $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR']
+      ? 'http://localhost:8000/~michaelgee/biology.osu.edu/'
+      : 'http://biology.osu.edu/';
+
+
 $QT2Q = array(
 	'WI' => 1,
 	'SP' => 2,
@@ -31,7 +36,7 @@ function QTYR2Quarter_Year($QTYR) {
 }
 
 $url_map = array(
-	'Center for Life Sciences Education' => '/',
+	'Center for Life Sciences Education' => $base,
 	'Introductory Biology Program' => '/',
 	'Biology 101' => 'courses/101/',
 	'Biology 102' => 'courses/102/',
@@ -39,17 +44,6 @@ $url_map = array(
 	'Biology 114' => 'courses/114/',
 	'Honors Biology 115' => 'courses/115/',
 	'Honors Biology 116' => 'courses/116/',
-);
-
-$banner_map = array(
-	'Courses' => 'courses_banner.jpg',
-	'Biology 101' => '101_banner.jpg',
-	'Biology 102' => 'john_glenn_banner.jpg',
-	'Biology 113' => '113_banner.jpg',
-	'Biology 114' => '114_banner.jpg',
-	'Honors Biology 115' => '115_banner.jpg',
-	'Honors Biology 116' => '116_banner.jpg',
-	'Steve Chordas' => 'chordas_banner.jpg',
 );
 
 function top() {
@@ -62,13 +56,10 @@ function top() {
 	$title = implode(' - ', array_reverse($pages));
 	if ($title) $title .= ' - ';
 	$title .= 'The Ohio State University';
-	global $url_map, $banner_map;
+	global $url_map;
 	$heading = '';
-	$banner = '<img class="banner" src="images/john_glenn_banner.jpg">';
 	foreach ($pages as $p) {
 		if ($p) {
-			if (array_key_exists($p, $banner_map)) $banner = '<img class="banner" src="images/' . $banner_map[$p] . '">';
-
 			$url = array_key_exists($p, $url_map) ? $url_map[$p] : 0;
 
 			$clse = $p == 'Center for Life Sciences Education' ? 1 : 0;
@@ -78,7 +69,7 @@ function top() {
 			if (file_exists($h_img)) $p = '<img src="' . $h_img . '" alt="' . $p . '" border="0"/>';
 
 			$heading .= '<span class="nobreak">';
-			if (!$clse) $heading .= '<img id="arrow" src="images/arrow.gif" alt="" width="14" height="31">';
+			if (!$clse) $heading .= '<img class="arrow" src="images/arrow.gif" alt=""> ';
 			$heading .= '<a ' . ($url ? 'href="' . $url . '" ' : '') . 'class="heading">' . $p . "</a>\n";
 			$heading .= '</span>';
 		}
@@ -93,8 +84,7 @@ function top() {
 <meta name="keywords" content="Biology, Center for Life Sciences Education, Introductory Biology, Ohio State, Ohio State University">
 <meta name="description" content="Teaching courses in Biology at The Ohio State University">
 
-<? $base = $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR'] ? 'http://localhost:8000/~michaelgee/biology.osu.edu/' : 'http://biology.osu.edu/'; ?>
-<base href="<?= $base ?>">
+<base href="<? global $base; echo $base; ?>">
 
 <link href="css/body.css" rel="stylesheet" type="text/css">
 <link href="css/navbar.css" rel="stylesheet" type="text/css">
@@ -114,7 +104,6 @@ function top() {
 
 <!-- Logo and title -->
  <div id="title">
- <?= $banner ?>
  <a href="http://www.osu.edu/"><img id="logo" src="images/osu_logo.png" alt="The Ohio State University" width="74" height="70" border="0"></a>
  <?= $heading ?>
  </div>

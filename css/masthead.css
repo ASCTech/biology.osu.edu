@@ -18,10 +18,9 @@
 		vertical-align: middle;
 	}
 
-	#title #arrow
+	#title .arrow
 	{
-		margin: 9px;
-		padding-top: 3px;
+		margin: 0.5em;
 	}
 
 	#title #logo
