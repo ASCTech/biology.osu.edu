@@ -37,7 +37,6 @@ function QTYR2Quarter_Year($QTYR) {
 
 $url_map = array(
 	'Center for Life Sciences Education' => $base,
-	'Introductory Biology Program' => '/',
 	'Biology 101' => 'courses/101/',
 	'Biology 102' => 'courses/102/',
 	'Biology 113' => 'courses/113/',
@@ -82,7 +81,7 @@ function top() {
 <meta http-equiv="content-type" content="text/html; charset=us-ascii">
 <meta name="robots" content="all">
 <meta name="keywords" content="Biology, Center for Life Sciences Education, Introductory Biology, Ohio State, Ohio State University">
-<meta name="description" content="Teaching courses in Biology at The Ohio State University">
+<meta name="description" content="Teaching courses in Biology and advising Biology students at The Ohio State University">
 
 <base href="<?= $base ?>">
 
@@ -96,7 +95,6 @@ function top() {
 	@import url(css/layout_1col.css);
 	@import url(css/layout_2col.css);
 	@import url(css/footer.css);
-	@import url(css/htmlandgraphics.css);
 	@import url(css/local.css);
   -->
 </style>

@@ -269,10 +269,10 @@ table.instructors img {
 
 #bookstores {
 	margin: 3em 1em;
+	border: 2px solid gray;
 	padding: 1em 3em;
 	color: black;
 	background-color: white;
-	border: 2px solid gray;
 	text-align: left;
 	font: 100% sans-serif;
 	width: 50%;
