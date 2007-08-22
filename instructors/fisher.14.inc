@@ -5,4 +5,4 @@
    am also interested in factors which affect trophic transfer and in relating tissue levels of
    contaminants with the myriad of biological effects that they produce. Although not an insect,
    alien species such as the zebra mussel, has become a focus of my research with emphasis
-   on&hellip; <a href="http://iris.biosci.ohio-state.edu/osuent/personnel/fisher.html">more</a>.</p>
+   on&hellip; <a href="http://www.oardc.ohio-state.edu/entomology/personnelsingle.asp?strid=207">more</a>.</p>
