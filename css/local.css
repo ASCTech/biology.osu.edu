@@ -1,13 +1,11 @@
 body {
     font-family: sans-serif;
 	color: black;
-	background: white;
 	background-color: white;
 }
 
 div.vspace {
 	height: 4em;
-	background: white;
 	background-color: white;
 }
 
@@ -66,12 +64,10 @@ table.staff tr td:first-child {
 }
 
 table.staff tr.r1 {
-	background: #E5E5E5;
 	background-color: #E5E5E5;
 }
 
 table.staff tr.r0 {
-	background: white;
 	background-color: white;
 }
 
@@ -80,26 +76,21 @@ table.staff .email {
 	color: black;
 }
 
-table.textbooks {
-    margin: 1em;
-}
 
-table.textbooks th {
-    text-align: left;
-}
+table.textbooks { margin: 1em; }
 
-table.textbooks td, table.textbooks th {
-	padding: 0.2em 0.5em;
-}
+table.textbooks th { text-align: left; }
+
+table.textbooks td, table.textbooks th { padding: 0.2em 0.5em; }
 
 table.textbooks tr.gray td {
-	background: #E5E5E5;
 	background-color: #E5E5E5;
 }
 
 table.textbooks td.isbn {
     white-space: nowrap;
 }
+
 
 table#syllabus tr td {
 	text-align: right;
@@ -203,7 +194,6 @@ table.instructors th {
 	border: 1px solid #BEBFBF;
 	border-right: 0;
 	vertical-align: middle;
-	background: #E5E5E5;
 	background-color: #E5E5E5;
 	font-size: 1.1em;
 	margin: 0;
@@ -218,7 +208,6 @@ table.instructors td {
 	padding: 1em;
 }
 table.instructors div.hr {
-	background: #BEBFBF;
 	background-color: #BEBFBF;
 	height: 1px;
 	width: 90%;
