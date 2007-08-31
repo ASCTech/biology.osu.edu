@@ -29,7 +29,7 @@ menu('101');
 
 <?
 instructors(array('Summer 2007' => array('baker.2', 'chordas.2'),
-                  'Autumn 2007' => array('baker.2', 'fisher.14', 'chordas.2'),
+                  'Autumn 2007' => array('baker.2', 'fisher.14', 'cogan.1', 'chordas.2'),
             )     );
 
 bottom();

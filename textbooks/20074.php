@@ -14,7 +14,7 @@ menu('textbooks');
  </tr>
  <tr class="gray">
   <td>101<br/>(all&nbsp;sections)</td>
-  <td>Baker, Fisher, Chordas</td>
+  <td>Baker, Fisher, Cogan, Chordas</td>
   <td>Biology: Concepts&nbsp;&amp;&nbsp;Applications 7th&nbsp;edition</td>
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
