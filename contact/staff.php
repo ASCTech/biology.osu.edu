@@ -17,7 +17,7 @@ $people = array(
 	   'phone' => '292-0837'),
  array('first' => 'Matt',
        'last'  => 'Misicka',
-       'title' => 'Assistant&nbsp;Director for Introductory&nbsp;Biology<br/>&nbsp; &amp; Course Coordinator (102)',
+       'title' => 'Assistant&nbsp;Director for Introductory&nbsp;Biology &amp;&nbsp;Course&nbsp;Coordinator&nbsp;(102)',
        'email' => 'misicka.1@osu.edu',
 	   'phone' => '688-3466'),
  array('first' => 'Kathy',
@@ -27,7 +27,7 @@ $people = array(
        'phone' => '292-0535'),
  array('first' => 'Rosemarie',
        'last'  => 'Thornton',
-       'title' => 'Office Associate (Introductory Biology)',
+       'title' => 'Office&nbsp;Associate (Introductory&nbsp;Biology)',
        'email' => 'thornton.2@osu.edu',
        'phone' => '292-9861'),
  array('first' => 'Adam',
@@ -57,7 +57,7 @@ $people = array(
        'phone' => '247-6576'),
  array('first' => 'Barbara',
        'last'  => 'Eakins',
-       'title' => 'Office Associate (Academic Advising)',
+       'title' => 'Office&nbsp;Associate (Academic&nbsp;Advising)',
 	   'email' => 'eakins.16@osu.edu',
 	   'phone' => '292-1704'),
  array('first' => 'David',
@@ -72,9 +72,19 @@ $people = array(
 	   'phone' => '292-1704'),
  array('first' => 'David',
        'last'  => 'Stetson',
-       'title' => 'Associate Director',
+       'title' => 'Associate&nbsp;Director, Honors&nbsp;Advisor',
 	   'email' => 'stetson.1@osu.edu',
 	   'phone' => '292-5307'),
+ array('first' => 'Neil',
+       'last'  => 'Baker',
+       'title' => 'Associate Director',
+	   'email' => 'baker.2@osu.edu',
+	   'phone' => '292-3342'),
+ array('first' => 'Tom',
+       'last'  => 'Wilson',
+       'title' => 'Honors Advisor',
+	   'email' => 'wilson.1457@osu.edu',
+	   'phone' => '247-6036'),
 );
 
 function cmp($a, $b) {
@@ -86,7 +96,42 @@ usort($people, 'cmp');
 
 $n = 0;
 ?>
-<table class="staff" cellspacing="0" cellpadding="0" border="0">
+
+<style type="text/css">
+#singlecolumn td, #singlecolumn th {
+	padding: 3px;
+	padding-left: 1em;
+	vertical-align: top;
+	text-align: left;
+}
+
+#singlecolumn tr td:first-child {
+	padding-left: 3px;
+}
+
+#singlecolumn tr.r1 {
+	background-color: #E5E5E5;
+}
+
+#singlecolumn tr.r0 {
+	background-color: white;
+}
+
+.name div, .title div {
+	text-indent: -0.5em;
+	padding-left: 0.5em;
+}
+
+.email a {
+	text-decoration: none;
+	color: black;
+}
+.email, .phone {
+	white-space: nowrap;
+}
+</style>
+
+<table cellspacing="0" cellpadding="0" border="0">
  <tr>
   <th/>
   <th>Position</th>
@@ -95,10 +140,10 @@ $n = 0;
  </tr>
 <?   while ($person = array_shift($people)): ?>
  <tr class="r<?= $n = 1 - $n ?>">
-  <td><?= $person['first'] ?> <?= $person['last'] ?></td>
-  <td><?= $person['title'] ?></td>
-  <td style="white-space:nowrap"><a href="mailto:<?= $person['first'] ?> <?= $person['last'] ?> <<?= $person['email'] ?>>" class="email"><?= $person['email'] ?></a></td>
-  <td style="white-space:nowrap">(614) <?= $person['phone'] ?></td>
+  <td class="name"><div><?= $person['first'] ?> <?= $person['last'] ?></div></td>
+  <td class="title"><div><?= $person['title'] ?></div></td>
+  <td class="email"><a href="mailto:<?= $person['first'] ?> <?= $person['last'] ?> <<?= $person['email'] ?>>"><?= $person['email'] ?></a></td>
+  <td class="phone">(614) <?= $person['phone'] ?></td>
  </tr>
 <?   endwhile; ?>
 </table>

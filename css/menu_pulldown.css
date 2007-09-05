@@ -97,6 +97,15 @@ ul#mainMenu li:hover ul, ul#mainMenu li.hover ul
 	visibility: visible;
 }
 
+
+ul#mainMenu ul hr {
+	color: black;
+	background-color: black;
+	height: 1px;
+	margin: 4px 10px;
+}
+
+
 ul#mainMenu li { behavior: url(css/hover.htc); }
 
 #menulist

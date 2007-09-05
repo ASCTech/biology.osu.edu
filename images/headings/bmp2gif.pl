@@ -10,7 +10,7 @@ my $image = MainWindow->new->Photo;
 $|++;
 undef $/;
 foreach (<*.bmp>) {
-    next unless /Center/;
+#    next unless /Major/;
 	s/\.bmp$//;
 	print "$_\n";
 	my ($bmp, $gif) = ("$_.bmp", "$_.gif");

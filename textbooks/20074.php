@@ -52,7 +52,7 @@ menu('textbooks');
  <tr><td>&nbsp;</td></tr>
  <tr>
   <td>114</td>
-  <td>TBD</td>
+  <td>Klompen</td>
   <td>Biology, 7th edition</td>
   <td>Campbell &amp; Reece</td>
   <td class="isbn">978-0-8053-7146-X</td>

@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 	color: black;
 	background-color: white;
 }
@@ -50,30 +50,6 @@ table#gradescale {
 table#gradescale tr td:first-child, table#gradescale tr th:first-child {
 	text-align: center;
 	padding-right: 1em;
-}
-
-table.staff td, table.staff th {
-	padding: 3px;
-	padding-left: 1em;
-	vertical-align: top;
-	text-align: left;
-}
-
-table.staff tr td:first-child {
-	padding-left: 3px;
-}
-
-table.staff tr.r1 {
-	background-color: #E5E5E5;
-}
-
-table.staff tr.r0 {
-	background-color: white;
-}
-
-table.staff .email {
-	text-decoration: none;
-	color: black;
 }
 
 
@@ -240,7 +216,8 @@ table.instructors img {
     margin-top: 3em;
     padding: 0em;
     color: black;
-    font: 100% sans-serif;
+    font-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .news {
@@ -249,7 +226,8 @@ table.instructors img {
     color: black;
     background-color: #E5E5E5;
     text-align: left;
-    font: 100% sans-serif;
+    font-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .news .headline {
@@ -263,7 +241,8 @@ table.instructors img {
 	color: black;
 	background-color: white;
 	text-align: left;
-	font: 100% sans-serif;
+    font-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
 	width: 50%;
 	min-width: 30em;
 }

@@ -125,17 +125,14 @@ function top() {
 <div id="menulist">
 <ul id="mainMenu">
  <li><a href="<?= $base ?>">Home</a></li>
- <li><a href="courses/">Courses</a>
-  <? include 'menu/courses.inc'; ?>
+ <li><a href="biology-major/">Biology Major</a>
+  <? include 'menu/biology-major.inc'; ?>
  </li>
- <li><a href="textbooks/">Textbooks</a>
-  <? include 'menu/textbooks.inc'; ?>
+ <li><a href="courses/">Introductory Biology Courses</a>
+  <? include 'menu/courses.inc'; ?>
  </li>
  <li><a href="nytimes/">New York Times</a></li>
  <li><a href="philosophy.php">Our Philosophy</a></li>
-<!-- <li><a href="events.php">Events</a>
-  <? include 'menu/events.inc' ?>
- </li> -->
  <li><a href="links.php">Links</a>
   <? include 'menu/links.inc'; ?>
  </li>

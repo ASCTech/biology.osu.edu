@@ -11,8 +11,8 @@ menu('114');
    biological organization. Evolution will be the unifying theme. The diversity, form, function, and
    ecology of organisms will be covered, with particular emphasis on plants and animals.</p>
 <?
-instructors(array('Spring 2007' => array('hetherington.1'),
-                  'Summer 2007' => array('kovach.71'),
+instructors(array('Summer 2007' => array('kovach.71'),
+                  'Autumn 2007' => array('klompen.1'),
             )     );
 
 bottom();

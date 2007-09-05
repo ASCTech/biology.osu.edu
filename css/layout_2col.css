@@ -54,14 +54,6 @@
 	background: white;
 }
 
-#twocolumnleft #maincolumn p, #twocolumnright #maincolumn p
-{
-	font-family: georgia, Helvetica, Arial, sans-serif;
-	line-height: 135%;
-	font-size: small;
-	color: black;
-}
-
 #twocolumnleft #smallcolumn p, #twocolumnright #smallcolumn p
 {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
@@ -78,13 +70,6 @@
 	font-size: 1em;
 }
 
-/* #content #smallcolumn #maincolumn h2 { margin-top: 0px; } */
-#maincolumn OL LI
-{
-	font-family: georgia, Helvetica, Arial, sans-serif;
-	list-style-type: square;
-	line-height: 135%;
-}
 
 /**********************************************
 		Content Layouts: 2 column right
