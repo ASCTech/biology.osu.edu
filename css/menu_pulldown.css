@@ -98,11 +98,8 @@ ul#mainMenu li:hover ul, ul#mainMenu li.hover ul
 }
 
 
-ul#mainMenu ul hr {
-	color: black;
-	background-color: black;
-	height: 1px;
-	margin: 4px 10px;
+ul#mainMenu li.hr {
+	letter-spacing: -0.25em;
 }
 
 
