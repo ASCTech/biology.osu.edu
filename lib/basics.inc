@@ -43,6 +43,7 @@ $url_map = array(
 	'Biology 114' => 'courses/114/',
 	'Honors Biology 115' => 'courses/115/',
 	'Honors Biology 116' => 'courses/116/',
+	'Staff' => 'contact/staff',
 );
 
 function top() {
@@ -108,7 +109,7 @@ function top() {
 <div id="whole-page">
 
 <!-- Logo and title -->
- <div id="title">
+ <div id="pagetitle">
  <a href="http://www.osu.edu/"><img id="logo" src="images/osu_logo.png" alt="The Ohio State University" width="74" height="70" border="0"></a>
  <?= $heading ?>
  </div>
@@ -200,7 +201,7 @@ function bottom() {
 Center for Life Sciences Education<br/>
 260 Jennings Hall<br/>
 1735 Neil Avenue<br/>
-Columbus, OH 43210-1106<br/>
+Columbus, OH 43210&ndash;1106<br/>
 tel: (614) 292-9861<br/>
 fax: (614) 292-4390
 </td></tr></table>
