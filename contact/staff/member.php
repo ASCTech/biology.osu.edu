@@ -19,6 +19,8 @@ no_menu();
 }
 #businesscard {
 	white-space: nowrap;
+	border: 1px solid #BEBFBF;
+	padding: 0.5em;
 }
 #name {
 	font-weight: bold;
@@ -59,7 +61,7 @@ no_menu();
 	text-align: left;
 	margin: 0;
 	padding: 0;
-	margin-top: 1em;
+/*	margin-top: 1em;*/
 }
 #extrainfo h1 { font-size: 16pt; }
 #extrainfo h2 { font-size: 15pt; }
@@ -68,7 +70,7 @@ no_menu();
 #extrainfo h5 { font-size: 12pt; }
 
 #extrainfo div {
-    margin-left: 0.5em;
+    margin: 1em 0 1em 0.5em;
 }
 
 </style>
