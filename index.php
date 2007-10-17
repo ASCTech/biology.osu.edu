@@ -28,7 +28,8 @@ no_menu();
 
 
 <div class="news">
-  <h2 class="heading">Student Programmer Internship Available</h2>
+  <h2 class="headline" style="color:#990000;margin-bottom:1em">Student Programmer Internship Available</h2>
+  <p>The Center is offering a paid internship to a student for aiding in the development of a web application.</p>
   <p>More details are available on <a href="Student Programmer Flyer.pdf">this flyer</a>.</p>
 </div>
 
