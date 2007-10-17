@@ -27,4 +27,9 @@ no_menu();
 </p>
 
 
+<div class="news">
+  <h2 class="heading">Student Programmer Internship Available</h2>
+  <p>More details are available on <a href="Student Programmer Flyer.pdf">this flyer</a>.</p>
+</div>
+
 <? bottom(); ?>
