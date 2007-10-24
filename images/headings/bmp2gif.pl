@@ -10,10 +10,10 @@ my $image = MainWindow->new->Photo;
 $|++;
 undef $/;
 foreach (<*.bmp>) {
-#    next unless /Major/;
 	s/\.bmp$//;
-	print "$_\n";
 	my ($bmp, $gif) = ("$_.bmp", "$_.gif");
+    next if -e $gif;
+	print "$_\n";
 	$image->read($bmp, -format=>'bmp', -shrink);
 	$image->write($gif, -format=>'gif');
 }
