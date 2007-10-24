@@ -13,7 +13,7 @@ no_menu();
 <style type="text/css">
 #businesscard, #extrainfo {
 	float: left;
-	font-family: serif;
+	font-family: Georgia, serif;
 	font-size: 12pt;
 	margin-bottom: 2em;
 }
@@ -33,9 +33,6 @@ no_menu();
 }
 #address #city, #address #state, #address #zip {
 	display: inline;
-}
-#address #city:after {
-	content: ',';
 }
 #address #zip {
 	margin-left: 0.4em;
@@ -82,7 +79,7 @@ no_menu();
 <div id="address">
   <div id="line1"><?= array_key_exists('address1',$person) ? $person['address1'] : '260 Jennings Hall' ?></div>
   <div id="line2"><?= array_key_exists('address2',$person) ? $person['address2'] : '1735 Neil Avenue' ?></div>
-  <div id="city"><?=  array_key_exists('city',$person)     ? $person['city']     : 'Columbus' ?></div>
+  <div id="city"><?=  array_key_exists('city',$person)     ? $person['city']     : 'Columbus' ?>,</div>
   <div id="state"><?= array_key_exists('state',$person)    ? $person['state']    : 'OH' ?></div>
   <div id="zip"><?=   array_key_exists('zip',$person)      ? $person['zip']      : '43210&ndash;1106' ?></div>
 </div>
