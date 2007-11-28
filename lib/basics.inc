@@ -1,7 +1,7 @@
 <?
 
 $base = $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR']
-      ? 'http://localhost:8000/~michaelgee/biology.osu.edu/'
+      ? 'http://localhost:8080/~michaelgee/biology.osu.edu/'
       : 'http://biology.osu.edu/';
 
 

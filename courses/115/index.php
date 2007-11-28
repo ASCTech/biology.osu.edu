@@ -25,8 +25,8 @@ menu('115');
 </ul>
 
 <?
-instructors(array('Summer 2007' => array('NA'),
-				  'Autumn 2007' => array('dean.10'),
+instructors(array('Autumn 2007' => array('dean.10'),
+                  'Winter 2008' => array('ding.35', 'simcox.1'),
             )     );
 
 bottom();
