@@ -37,6 +37,7 @@ function QTYR2Quarter_Year($QTYR) {
 
 $url_map = array(
 	'Center for Life Sciences Education' => $base,
+	'Biology Programs at Ohio State' => $base,
 	'Biology 101' => 'courses/101/',
 	'Biology 102' => 'courses/102/',
 	'Biology 113' => 'courses/113/',
@@ -50,9 +51,9 @@ function top() {
 	global $url_map, $base;
     $pages = func_get_args();
 	if (count($pages) > 0) {
-		array_unshift($pages, 'Center for Life Sciences Education');
+		array_unshift($pages, 'Biology Programs at Ohio State');
 	} else {
-		$pages = array('Center for Life Sciences Education');
+		$pages = array('Biology Programs at Ohio State');
 	}
 	$title = implode(' - ', array_reverse($pages));
 	if ($title) $title .= ' - ';
@@ -62,7 +63,7 @@ function top() {
 		if ($p) {
 			$url = array_key_exists($p, $url_map) ? $url_map[$p] : 0;
 
-			$clse = $p == 'Center for Life Sciences Education' ? 1 : 0;
+			$clse = $p == 'Biology Programs at Ohio State' ? 1 : 0;
 
 			$h_img = str_replace(' ', '_', $p);
 			$h_img = "images/headings/$h_img.gif";
@@ -81,7 +82,7 @@ function top() {
 <title><?= $title ?></title>
 <meta http-equiv="content-type" content="text/html; charset=us-ascii">
 <meta name="robots" content="all">
-<meta name="keywords" content="Biology, Center for Life Sciences Education, Introductory Biology, Ohio State, Ohio State University">
+<meta name="keywords" content="Biology, Biology Programs at Ohio State, Center for Life Sciences Education, Introductory Biology, Ohio State, Ohio State University">
 <meta name="description" content="Teaching courses in Biology and advising Biology students at The Ohio State University">
 
 <base href="<?= $base ?>">
@@ -133,7 +134,6 @@ function top() {
   <? include 'menu/courses.inc'; ?>
  </li>
  <li><a href="nytimes/">New York Times</a></li>
- <li><a href="philosophy.php">Our Philosophy</a></li>
  <li><a href="links.php">Links</a>
   <? include 'menu/links.inc'; ?>
  </li>
