@@ -50,7 +50,7 @@ $directory = array(
   'eakins.16' => array(
        'first' => 'Barbara',
        'last'  => 'Eakins',
-       'title' => 'Office&nbsp;Associate (Academic&nbsp;Advising)',
+       'title' => 'Office Associate',
 	   'phone' => '292-1704'),
   'wells.252' => array(
        'first' => 'David',
@@ -82,6 +82,11 @@ $directory = array(
        'last'  => 'Kulesza',
        'title' => 'Assistant Course Coordinator (101)',
 	   'phone' => '247-8087'),
+  'rinehart.7' => array(
+       'first' => 'Glenda',
+       'last'  => 'Rinehart',
+       'title' => 'Office Associate',
+	   'phone' => '292-9861'),
 );
 
 ?>
