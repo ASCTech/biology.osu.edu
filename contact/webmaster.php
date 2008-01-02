@@ -29,7 +29,7 @@ if (array_key_exists('_submit_check', $_POST)) {
     	$text .= "Message:\n$message";
     	$subject = "biology.osu.edu message: $subject";
     	mail($webmaster, $subject, $text);
-    	echo '<h1 style="color: red">Your message has been submitted and
+    	echo '<h1 style="color:blue">Your message has been submitted and
     	              will be processed as soon as possible.</h1><hr>', "\n";
     } else {
         $error = $resp->error;
