@@ -1,3 +1,3 @@
 <div>
-<a href="http://www.linkedin.com/in/mikegee">My Professional Profile</a> is available on LinkedIn.
+<a href="http://www.linkedin.com/in/mikegee">Michael's Professional Profile</a> is available on LinkedIn.
 </div>
