@@ -1,10 +1,10 @@
 <?
 chdir('../..');
-include_once 'lib/basics.inc';
+require_once 'lib/basics.inc';
 top('Biology 113','Syllabus');
 menu('113');
 
-include 'courses/syllabus_disclaimer.inc';
+require 'courses/syllabus_disclaimer.inc';
 
 ?>
 <h1>Biology 113</h1>

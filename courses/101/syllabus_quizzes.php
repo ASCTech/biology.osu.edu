@@ -1,10 +1,10 @@
 <?
 chdir('../..');
-include_once 'lib/basics.inc';
+require_once 'lib/basics.inc';
 top('Biology 101','Syllabus');
 menu('101');
 
-include 'courses/syllabus_disclaimer.inc';
+require 'courses/syllabus_disclaimer.inc';
 
 ?>
 <h1>Biology 101: An Introduction to Biology</h1>
@@ -34,7 +34,7 @@ include 'courses/syllabus_disclaimer.inc';
      Times, any experience preparing food, and a sense of humor.</li>
 </ul>
 
-<? include 'courses/GEC.inc'; ?>
+<? require 'courses/GEC.inc'; ?>
 
 <h2>Philosophy:</h2>
 <p>This course is designed to teach the science of biology by doing biology. I believe the content

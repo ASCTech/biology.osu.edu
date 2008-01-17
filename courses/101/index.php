@@ -1,7 +1,7 @@
 <?
 chdir('../..');
-include_once 'lib/basics.inc';
-include_once 'lib/instructors.inc';
+require_once 'lib/basics.inc';
+require_once 'lib/instructors.inc';
 top('Biology 101');
 menu('101');
 ?>

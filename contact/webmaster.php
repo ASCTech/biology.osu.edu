@@ -1,6 +1,6 @@
 <?
 chdir('..');
-include_once 'lib/basics.inc';
+require_once 'lib/basics.inc';
 require_once 'lib/recaptchalib.php';
 top('Contact the Webmaster');
 no_menu();

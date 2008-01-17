@@ -1,6 +1,6 @@
 <?
 chdir('../..');
-include_once 'lib/basics.inc';
+require_once 'lib/basics.inc';
 top('Honors Biology 115','NY Times');
 menu('115');
 ?>

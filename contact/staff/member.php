@@ -1,8 +1,8 @@
 <?
 chdir('../..');
-include_once 'lib/basics.inc';
+require_once 'lib/basics.inc';
 $username = $_GET{username};
-include_once 'contact/staff/directory.inc';
+require_once 'contact/staff/directory.inc';
 if (!array_key_exists($username,$directory))
   header('Location: '.$base.'contact/staff');
 $person = $directory{$username};

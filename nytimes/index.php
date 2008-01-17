@@ -1,9 +1,9 @@
 <?
 chdir('..');
-include_once 'lib/basics.inc';
+require_once 'lib/basics.inc';
 top('New York Times');
 menu('nyt');
-include 'nytimes/usage.inc';
+require 'nytimes/usage.inc';
 ?>
 <h1>How to order the New York Times</h1>
 <p>Should you choose to obtain your own personal subscription to the New York

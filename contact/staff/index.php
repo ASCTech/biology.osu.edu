@@ -1,10 +1,10 @@
 <?
 chdir('../..');
-include_once 'lib/basics.inc';
+require_once 'lib/basics.inc';
 top('Staff Directory');
 no_menu();
 
-include_once 'contact/staff/directory.inc';
+require_once 'contact/staff/directory.inc';
 uksort($directory, 'strnatcmp');
 
 $n = 0;

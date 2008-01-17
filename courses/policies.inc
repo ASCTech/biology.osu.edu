@@ -1,6 +1,6 @@
 <?
 
-include_once 'lib/basics.inc';
+require_once 'lib/basics.inc';
 
 function policies_page($course) {
 	$honors = $course > 114 ? 'Honors ' : '';
@@ -48,7 +48,7 @@ function policies($course) { ?>
      sign a change form.</li>
  <li>Late Assignment Policy:
 <?
-include file_exists('courses/' . $course . '/late_assignment_policy.inc')
+require file_exists('courses/' . $course . '/late_assignment_policy.inc')
         ? 'courses/' . $course . '/late_assignment_policy.inc'
         : 'courses/general_late_assignment_policy.inc';
 ?>
