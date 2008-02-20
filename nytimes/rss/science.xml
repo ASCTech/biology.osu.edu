@@ -1,304 +1,250 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>NYT > Science</title>
-<link>http://www.nytimes.com/pages/science/index.html?partner=rssnyt</link>
-<description></description>
-<language>en-us</language>
-<copyright>Copyright 2007 The New York Times Company</copyright>
-<lastBuildDate>Thu, 09 Aug 2007 18:05:01 GMT</lastBuildDate>
-<image>
-<title>NYT > Science</title>
-<url>http://graphics.nytimes.com/images/section/NytSectionHeader.gif</url>
-<link>http://www.nytimes.com/pages/science/index.html</link>
-</image>
-<item>
-<title>Shuttle Endeavour Lifts Off Toward Space Station</title>
-<link>http://www.nytimes.com/2007/08/09/science/space/09shuttle.html?ex=1344312000&amp;en=a5de3e8154fad3cf&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>The space shuttle Endeavour lifted off, carrying pieces of the International Space Station and a living reminder of the loss of the shuttle Challenger two decades ago.</description>
-<author>KENNETH CHANG</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/09/science/space/09shuttle.html</guid>
-<pubDate>Thu, 09 Aug 2007 08:02:40 GMT</pubDate>
-</item>
-<item>
-<title>Fossils in Kenya Challenge Linear Evolution</title>
-<link>http://www.nytimes.com/2007/08/09/science/09fossil.html?ex=1344312000&amp;en=1faed3085a1eb8a2&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Two fossils could rearrange major branches thought to be in a straight ancestral line to Homo sapiens.</description>
-<author>JOHN NOBLE WILFORD</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/09/science/09fossil.html</guid>
-<pubDate>Thu, 09 Aug 2007 07:30:09 GMT</pubDate>
-</item>
-<item>
-<title>Aid to Help Asia and Africa With Effects of Warming</title>
-<link>http://www.nytimes.com/2007/08/09/science/earth/09adapt.html?ex=1344312000&amp;en=14ed7eabfdd8869c&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>The Rockefeller Foundation says it will invest $70 million to help Asian cities and African farmers withstand floods, droughts and other global warming hazards.</description>
-<author>ANDREW C. REVKIN</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/09/science/earth/09adapt.html</guid>
-<pubDate>Thu, 09 Aug 2007 11:56:51 GMT</pubDate>
-</item>
-<item>
-<title>California: Stem Cell Program Appointment</title>
-<link>http://www.nytimes.com/2007/08/09/health/09brfs-STEMCELLPROG_BRF.html?ex=1344312000&amp;en=c3291092148c1b4b&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>California&#8217;s $3 billion stem cell research program appointed an interim president, Richard A. Murphy, while it continued a longer-than-expected search for a permanent chief.</description>
-<author>ANDREW POLLACK</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/09/health/09brfs-STEMCELLPROG_BRF.html</guid>
-<pubDate>Thu, 09 Aug 2007 07:51:24 GMT</pubDate>
-</item>
-<item>
-<title>Ethanol Is Feeding Hot Market for Farmland</title>
-<link>http://www.nytimes.com/2007/08/08/us/08farmers.html?ex=1344225600&amp;en=09831f486420b923&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Skyrocketing farmland prices are stirring optimism, but for young and small-scale farmers, the news is grim.</description>
-<author>MONICA DAVEY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/08/us/08farmers.html</guid>
-<pubDate>Wed, 08 Aug 2007 13:28:36 GMT</pubDate>
-</item>
-<item>
-<title>The Energy Challenge: Cooking Up More Uses for the Leftovers of Biofuel Production</title>
-<link>http://www.nytimes.com/2007/08/08/business/08biodiesel.html?ex=1344225600&amp;en=02a4d2314f815ea7&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Scientists, entrepreneurs and venture capitalists are becoming increasingly interested in making more than fuel out of the raw materials for biodiesel fuel and ethanol.</description>
-<author>HILLARY ROSNER</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/08/business/08biodiesel.html</guid>
-<pubDate>Wed, 08 Aug 2007 05:21:16 GMT</pubDate>
-</item>
-<item>
-<title>In Case of Apocalypse Later, a Plan to Ensure America&#8217;s Regreening</title>
-<link>http://www.nytimes.com/2007/08/08/nyregion/08seeds.html?ex=1344225600&amp;en=d3c25a14cf1f963d&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>New York&#8217;s municipal native-plant nursery is part of a global project to collect and store seeds from 10 percent of the world&#8217;s flowering plant species in case of disaster.</description>
-<author>ANDY NEWMAN</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/08/nyregion/08seeds.html</guid>
-<pubDate>Wed, 08 Aug 2007 06:04:02 GMT</pubDate>
-</item>
-<item>
-<title>Warming Threatens Farms in India, U.N. Official Says</title>
-<link>http://www.nytimes.com/2007/08/08/world/asia/08floods.html?ex=1344225600&amp;en=2c51d7c0018b2677&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Climate change could ultimately affect food production and add to the woes of already desperate peasants in India, the official said.</description>
-<author>SOMINI SENGUPTA</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/08/world/asia/08floods.html</guid>
-<pubDate>Wed, 08 Aug 2007 05:02:48 GMT</pubDate>
-</item>
-<item>
-<title>Beach Closings and Advisories</title>
-<link>http://www.nytimes.com/2007/08/08/science/earth/08brfs-BEACHCLOSING_BRF.html?ex=1344225600&amp;en=7321966ff6696f9f&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>The number of United States beaches declared unsafe for swimming reached a record last year, the Natural Resources Defense Council reported. </description>
-<author>REUTERS</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/08/science/earth/08brfs-BEACHCLOSING_BRF.html</guid>
-<pubDate>Wed, 08 Aug 2007 05:55:49 GMT</pubDate>
-</item>
-<item>
-<title>Space Shuttle Set to Lift Off</title>
-<link>http://www.nytimes.com/2007/08/08/science/space/08brfs-SPACESHUTTLE_BRF.html?ex=1344225600&amp;en=13e9f2bed824e0cb&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>The space shuttle Endeavour and its seven-astronaut crew are scheduled to lift off on Wednesday night and head to the International Space Station.</description>
-<author>KENNETH CHANG</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/08/science/space/08brfs-SPACESHUTTLE_BRF.html</guid>
-<pubDate>Wed, 08 Aug 2007 05:56:20 GMT</pubDate>
-</item>
-<item>
-<title>Personal Health: Injections to Kick-Start Tissue Repair</title>
-<link>http://www.nytimes.com/2007/08/07/health/07brod.html?ex=1344139200&amp;en=dd2d80104d609107&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Prolotherapy is an alternative medicine method to promote connective tissue repair even years after the damage occurred.</description>
-<author>JANE E. BRODY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07brod.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:20:24 GMT</pubDate>
-</item>
-<item>
-<title>Vital Signs: Learning: In Tiny Part of the Brain, a Key to Foreign Tongues</title>
-<link>http://www.nytimes.com/2007/08/07/health/07lear.html?ex=1344139200&amp;en=74107c94109d2a81&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>A tiny part of the brain appears to play an important role in how well adults can learn another language, a new study finds.</description>
-<author>ERIC NAGOURNEY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07lear.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:27:01 GMT</pubDate>
-</item>
-<item>
-<title>Deadly Inheritance, Desperate Trade-Off</title>
-<link>http://www.nytimes.com/2007/08/07/health/07canc.html?ex=1344139200&amp;en=5fc747686ef92587&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Some patients at high risk of pancreatic cancer opt for surgery that yields hope &#8212; and diabetes.</description>
-<author>DENISE GRADY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07canc.html</guid>
-<pubDate>Wed, 08 Aug 2007 01:42:05 GMT</pubDate>
-</item>
-<item>
-<title>In Dusty Archives, a Theory of Affluence</title>
-<link>http://www.nytimes.com/2007/08/07/science/07indu.html?ex=1344139200&amp;en=9dd30e392b912628&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Gregory Clark believes that the Industrial Revolution occurred because of a change in the nature of the human population. </description>
-<author>NICHOLAS WADE</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/07indu.html</guid>
-<pubDate>Tue, 07 Aug 2007 03:06:53 GMT</pubDate>
-</item>
-<item>
-<title>Basics: Its Poor Reputation Aside, Our Fat Is Doing Us a Favor</title>
-<link>http://www.nytimes.com/2007/08/07/science/07angi.html?ex=1344139200&amp;en=82a983539272f030&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Fat&#8217;s bland and amorphous appearance notwithstanding, it represents a highly specialized organ, as finely honed to the task of energy storage as muscle is built for flexing.</description>
-<author>NATALIE ANGIER</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/07angi.html</guid>
-<pubDate>Wed, 08 Aug 2007 01:43:10 GMT</pubDate>
-</item>
-<item>
-<title>Essay: What&#8217;s in a Name? Parsing the &#8216;God Particle,&#8217; the Ultimate Metaphor</title>
-<link>http://www.nytimes.com/2007/08/07/science/07essa.html?ex=1344139200&amp;en=5b394ddc6d035e28&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>The biggest name-dropper in science, Albert Einstein, mentioned God often enough that one could imagine he and the &#8220;Old One&#8221; had a standing date for coffee or tennis. </description>
-<author>DENNIS OVERBYE</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/07essa.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:39:03 GMT</pubDate>
-</item>
-<item>
-<title>From Fresh Ideas and Better Steel, Safer Bridges</title>
-<link>http://www.nytimes.com/2007/08/07/science/07stee.html?ex=1344139200&amp;en=719797efa32745e9&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Aging spans may be troubled, but more recent ones are longer and stronger thanks to new ideas and technologies. </description>
-<author>WILLIAM J. BROAD</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/07stee.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:44:28 GMT</pubDate>
-</item>
-<item>
-<title>The Consumer: It Banishes Uterine Fibroids, but for How Long?</title>
-<link>http://www.nytimes.com/2007/08/07/health/07cons.html?ex=1344139200&amp;en=63db2ce59eae2419&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Magnetic-resonance-guided focused ultrasound appeals to many women with fibroids but doubt about its efficacy remains. </description>
-<author>RONI CARYN RABIN</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07cons.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:33:44 GMT</pubDate>
-</item>
-<item>
-<title>Cases: In a Hospital Stay, No Time to Rest</title>
-<link>http://www.nytimes.com/2007/08/07/health/07case.html?ex=1344139200&amp;en=7a58408b238eb0e6&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Grand Central Terminal may be synonymous with noise and haste, but it can be a lot quieter than a hospital bed. </description>
-<author>CAITLIN KELLY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07case.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:31:55 GMT</pubDate>
-</item>
-<item>
-<title>Research Identifies Brain Site for Fever</title>
-<link>http://www.nytimes.com/2007/08/07/health/07feve.html?ex=1344139200&amp;en=19945c3266997bae&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>New research indicates that the area of the brain responsible for causing fever would just about fit on the head of a pin.</description>
-<author>AMANDA SCHAFFER</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07feve.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:34:20 GMT</pubDate>
-</item>
-<item>
-<title>Doctors Warn Against Infrared Thermometers</title>
-<link>http://www.nytimes.com/2007/08/07/health/07heat.html?ex=1344139200&amp;en=a26cd5fa2adbbd3f&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Infrared thermometers have produced lower readings in lab tests meant to simulate athletic settings than other devices, which could deprive patients of critical care.</description>
-<author>BARNABY J. FEDER</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07heat.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:19:27 GMT</pubDate>
-</item>
-<item>
-<title>Kai Siegbahn, Swedish Physicist, Dies at 89</title>
-<link>http://www.nytimes.com/2007/08/07/world/europe/07siegbahn.html?ex=1344139200&amp;en=7425760b95557d00&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Dr. Siegbahn&#8217;s work in developing a novel technique using electrons to test the composition and purity of materials received a Nobel Prize in 1981.</description>
-<author>JEREMY PEARCE</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/world/europe/07siegbahn.html</guid>
-<pubDate>Tue, 07 Aug 2007 05:19:15 GMT</pubDate>
-</item>
-<item>
-<title>Teacher-Astronaut to Fly Decades After Challenger</title>
-<link>http://www.nytimes.com/2007/08/07/science/space/07shuttle.html?ex=1344139200&amp;en=ca8aec1698463950&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Barbara R. Morgan, a former teacher, is about to fulfill a two-decade-old dream by becoming the first &#8220;educator astronaut.&#8221;</description>
-<author>WARREN E. LEARY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/space/07shuttle.html</guid>
-<pubDate>Tue, 07 Aug 2007 05:22:13 GMT</pubDate>
-</item>
-<item>
-<title>Observatory: Ancient Flying Reptiles Probably Swooped, Not Skimmed, for Food</title>
-<link>http://www.nytimes.com/2007/08/07/science/07obse3.html?ex=1344139200&amp;en=4a3e6a2c6e4294b3&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>A new report suggests that pterosaurs probably were incapable of skimming behavior.</description>
-<author>HENRY FOUNTAIN</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/07obse3.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:42:28 GMT</pubDate>
-</item>
-<item>
-<title>Q &amp; A: Little Blue Lights</title>
-<link>http://www.nytimes.com/2007/08/07/science/07qna.html?ex=1344139200&amp;en=eefe13315e12c469&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Is it true that airport taxiways are lined with blue lights because blue light can be seen from the longest distance?</description>
-<author>C. CLAIBORNE RAY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/07qna.html</guid>
-<pubDate>Thu, 09 Aug 2007 05:41:13 GMT</pubDate>
-</item>
-<item>
-<title>Judge Limits Navy Sonar, Citing a Threat to Wildlife</title>
-<link>http://www.nytimes.com/2007/08/07/science/earth/07sonar.html?ex=1344139200&amp;en=6e2b302fcb335f1c&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>A federal judge ordered the Navy to stop using medium-range sonar in training exercises, citing a prediction that marine mammals could be harmed.</description>
-<author>FELICITY BARRINGER</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/earth/07sonar.html</guid>
-<pubDate>Tue, 07 Aug 2007 05:46:25 GMT</pubDate>
-</item>
-<item>
-<title>Observatory: A New Answer for Another Mystery in Saturn&#8217;s Rings</title>
-<link>http://www.nytimes.com/2007/08/07/science/space/07obse1.html?ex=1344139200&amp;en=5db6dbc268d44b9a&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>The latest puzzle to be cleared up about Saturn&#8217;s rings involves the origin of one of the outermost ones, a thin, faint one labeled G.</description>
-<author>HENRY FOUNTAIN</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/space/07obse1.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:41:24 GMT</pubDate>
-</item>
-<item>
-<title>Observatory: Found at Yellowstone: Hot Spring Bacteria That Harvest Light</title>
-<link>http://www.nytimes.com/2007/08/07/science/07obse2.html?ex=1344139200&amp;en=c5c0447fa784c09d&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Yellowstone is home to elk and bison, wolf and beaver, eagle and hawk &#8212; and a newly discovered light-harvesting bacterium.</description>
-<author>HENRY FOUNTAIN</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/07obse2.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:40:09 GMT</pubDate>
-</item>
-<item>
-<title>Really?: The Claim: With Sunscreens, High SPF Ratings Are Best</title>
-<link>http://www.nytimes.com/2007/08/07/health/07real.html?ex=1344139200&amp;en=a3e72abe07eaaaea&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Everyone knows that an SPF rating of 60 provides double the protection of SPF 30 &#8212; or does it?</description>
-<author>ANAHAD O&#8217;CONNOR</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07real.html</guid>
-<pubDate>Thu, 09 Aug 2007 18:03:15 GMT</pubDate>
-</item>
-<item>
-<title>Vital Signs: Aging: Hip Protectors Don&#8217;t Help Prevent Fractures in Falls</title>
-<link>http://www.nytimes.com/2007/08/07/health/07agin.html?ex=1344139200&amp;en=2803017afa095e3a&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>A new study raises questions about the effectiveness of padded hip protectors worn by older people to help prevent fractures if they fall.</description>
-<author>ERIC NAGOURNEY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07agin.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:28:17 GMT</pubDate>
-</item>
-<item>
-<title>Vital Signs: Mental Abilities: Good Readers Better Able to Retain Brain Skills</title>
-<link>http://www.nytimes.com/2007/08/07/health/07ment.html?ex=1344139200&amp;en=9d199f67efe87d39&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Years of reading, a new study suggest, may help a brain develop more of what doctors call cognitive reserve.</description>
-<author>ERIC NAGOURNEY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07ment.html</guid>
-<pubDate>Wed, 08 Aug 2007 05:04:35 GMT</pubDate>
-</item>
-<item>
-<title>Vital Signs: Awareness: Counseling by Phone Benefits Drinkers</title>
-<link>http://www.nytimes.com/2007/08/07/health/07awar.html?ex=1344139200&amp;en=f3d945becc8d9505&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>A new study has found that counseling by telephone could be effective in curbing excessive drinking.</description>
-<author>ERIC NAGOURNEY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07awar.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:27:50 GMT</pubDate>
-</item>
-<item>
-<title>In a Former First Family, Cancer Has a Grim Legacy</title>
-<link>http://www.nytimes.com/2007/08/07/health/07jimm.html?ex=1344139200&amp;en=f34b507e8f8eaf80&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Few families have been as devastated by pancreatic cancer as that of former President Jimmy Carter.</description>
-<author>DENISE GRADY</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/health/07jimm.html</guid>
-<pubDate>Tue, 07 Aug 2007 02:21:49 GMT</pubDate>
-</item>
-<item>
-<title>News Reports Are Criticized by Astronaut</title>
-<link>http://www.nytimes.com/2007/08/07/science/space/07astro.html?ex=1344139200&amp;en=76cca8e0dece0ba6&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>The commander of the space shuttle mission scheduled to be launched on Tuesday sent a letter saying that reports of alcohol use by astronauts had been exaggerated.</description>
-<author>THE NEW YORK TIMES</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/space/07astro.html</guid>
-<pubDate>Tue, 07 Aug 2007 05:21:34 GMT</pubDate>
-</item>
-<item>
-<title>Astronaut Profiles </title>
-<link>http://www.nytimes.com/2007/08/07/science/space/07astroprof.html?ex=1344139200&amp;en=c37c371f9b1d6ef9&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Profiles of the seven members of STS-118, which will bring structural elements up to the International Space Station and carry on the process of building the station.</description>
-<author>JOHN SCHWARTZ</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/science/space/07astroprof.html</guid>
-<pubDate>Wed, 08 Aug 2007 21:12:13 GMT</pubDate>
-</item>
-<item>
-<title>Setback for Novartis in India Over Drug Patent</title>
-<link>http://www.nytimes.com/2007/08/07/business/worldbusiness/07drug.html?ex=1344139200&amp;en=1e974763cf4fc99f&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
-<description>Drug companies can continue to make less expensive generic drugs, many of which flow to the developing world, after an Indian court Monday rejected a patent law challenge.</description>
-<author>AMELIA GENTLEMAN</author>
-<guid isPermaLink="false">http://www.nytimes.com/2007/08/07/business/worldbusiness/07drug.html</guid>
-<pubDate>Tue, 07 Aug 2007 16:02:31 GMT</pubDate>
-</item>
-</channel>
+<?xml version="1.0"?>
+<rss xmlns:ncr="http://www.nytimes.com/NewsClientReader#" version="2.0">
+  <channel>
+    <title>NYT &gt; Science</title>
+    <link>http://www.nytimes.com/pages/science/index.html?partner=rssnyt</link>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2008
+ The New York Times Company</copyright>
+    <lastBuildDate>Wed, 20 Feb 2008 19:06:49 GMT
+</lastBuildDate>
+    <image>
+      <title>NYT &gt; Science</title>
+      <url>http://graphics.nytimes.com/images/section/NytSectionHeader.gif</url>
+      <link>http://www.nytimes.com/pages/science/index.html</link>
+    </image>
+    <item>
+      <title>Shuttle Lands Safely in Florida</title>
+      <link>http://www.nytimes.com/2008/02/20/science/space/20cnd-shuttle.html?ex=1361250000&amp;en=84f596a3f12a28f9&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>The shuttle ended a challenging 13-day mission to deliver a major new section to the International Space Station.</description>
+      <author>WARREN E. LEARY</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/20/science/space/20cnd-shuttle.html</guid>
+      <pubDate>Wed, 20 Feb 2008 19:05:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Paleontologists Reconstruct a Monster Frog</title>
+      <link>http://www.nytimes.com/2008/02/19/science/18frog.html?ex=1361250000&amp;en=7f9b7596ed095b27&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Beelzebufo may be the largest frog that ever lived, weighing more than 10 pounds.</description>
+      <author>KENNETH CHANG</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/18frog.html</guid>
+      <pubDate>Tue, 19 Feb 2008 00:51:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>China Notes Pollution at Three Gorges Dam</title>
+      <link>http://www.nytimes.com/2008/02/20/world/asia/20briefs-china.html?ex=1361250000&amp;en=8847ef28beaf18a7&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>China&#x2019;s State Environmental Protection Administration said on Tuesday that water quality is barely improving in the main body of water behind the Three Gorges Dam.</description>
+      <author>KEITH BRADSHER</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/20/world/asia/20briefs-china.html</guid>
+      <pubDate>Wed, 20 Feb 2008 07:56:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scientists Would Turn Greenhouse Gas Into Gasoline</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19carb.html?ex=1361250000&amp;en=aee28c5b1efac3c2&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Two scientists are introducing a concept, which they have patriotically named Green Freedom, for removing carbon dioxide from the air and turning it back into gasoline.</description>
+      <author>KENNETH CHANG</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19carb.html</guid>
+      <pubDate>Tue, 19 Feb 2008 18:35:34 GMT</pubDate>
+    </item>
+    <item>
+      <title>Long Nights, 90 Below. What More Could Astronomers Want?</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19scope.html?ex=1361250000&amp;en=73c03ff3b9821dbe&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>The whitest place on Earth could be the coolest place on the planet for astronomy. </description>
+      <author>DENNIS OVERBYE</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19scope.html</guid>
+      <pubDate>Tue, 19 Feb 2008 04:22:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Russia&#x2019;s Claim Under Polar Ice Irks American</title>
+      <link>http://www.nytimes.com/2008/02/19/world/europe/19arctic.html?ex=1361250000&amp;en=d848378734af1b24&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>A Russian dive that was the basis of a claim to nearly half of the Arctic seabed had American origins.</description>
+      <author>WILLIAM J. BROAD</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/world/europe/19arctic.html</guid>
+      <pubDate>Tue, 19 Feb 2008 16:31:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Satellite Shooting Is Next as Shuttle Heads Home</title>
+      <link>http://www.nytimes.com/2008/02/19/science/space/19shuttle.html?ex=1361250000&amp;en=b1908dfba9452b34&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>The shuttle Atlantis has cleared the way for a Defense Department effort to shoot down a failed spy satellite.</description>
+      <author>WARREN E. LEARY</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/space/19shuttle.html</guid>
+      <pubDate>Tue, 19 Feb 2008 05:34:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>With Oil Prices Rising, Wood Makes a Comeback</title>
+      <link>http://www.nytimes.com/2008/02/19/us/19woodstove.html?ex=1361250000&amp;en=8c9935bbb2778c29&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>With oil prices rising people are turning to wood heat, raising concerns about the environmental impact of some older devices that are being used.</description>
+      <author>KATIE ZEZIMA</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/us/19woodstove.html</guid>
+      <pubDate>Tue, 19 Feb 2008 05:36:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>NASA Insists It Can Fix Flaw in Rocket Design</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19ROCKET.html?ex=1361250000&amp;en=6dbda7b5d35cba70&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Vibrations in NASA&#x2019;s new rocket may cause severe, perhaps fatal, injuries. </description>
+      <author>KENNETH CHANG</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19ROCKET.html</guid>
+      <pubDate>Tue, 19 Feb 2008 04:50:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fighting Bedsores With a Team Approach</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19sore.html?ex=1361250000&amp;en=4957f37e46897a00&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Bedsores may seem simple, but they are a serious matter for medical professionals.</description>
+      <author>AMANDA SCHAFFER</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19sore.html</guid>
+      <pubDate>Wed, 20 Feb 2008 17:03:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>&#x2018;Have You Ever Been in Psychotherapy, Doctor?&#x2019;</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19mind.html?ex=1361250000&amp;en=80923c4a9967d0b7&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>A patient of one of my psychiatric residents recently caught him off guard with a challenging question: &#x201C;Have you ever been in psychotherapy yourself?&#x201D;</description>
+      <author>RICHARD A. FRIEDMAN, M.D.</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19mind.html</guid>
+      <pubDate>Wed, 20 Feb 2008 00:05:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Gentlemen, 5 Easy Steps to Living Long and Well</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19agin.html?ex=1361250000&amp;en=a2306138936e95a8&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Five behaviors in elderly men are associated not only with living into extreme old age, a new study has found, but also with good health and independent functioning.</description>
+      <author>NICHOLAS BAKALAR</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19agin.html</guid>
+      <pubDate>Tue, 19 Feb 2008 05:30:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Magnetic Personalities</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19qna.html?ex=1361250000&amp;en=05b2eb318e375273&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Why won&#x2019;t a magnet stick to stainless steel?</description>
+      <author>C. CLAIBORNE RAY</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19qna.html</guid>
+      <pubDate>Tue, 19 Feb 2008 04:14:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>Support for a Theory as to Why Land Sinks Along the Gulf Coast</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19obsink.html?ex=1361250000&amp;en=0d77829920451971&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Understanding why land sinks may help to prevent rising water levels along the Gulf Coast.</description>
+      <author>HENRY FOUNTAIN</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19obsink.html</guid>
+      <pubDate>Tue, 19 Feb 2008 04:28:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scientists Finding Ways to Perfect a Cup of Joe, Without the Attitude</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19objava.html?ex=1361250000&amp;en=1f73f5c0ca449e5c&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>A new machine may be able to judge the sensory qualities of a cup of espresso. </description>
+      <author>Henry Fountain</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19objava.html</guid>
+      <pubDate>Tue, 19 Feb 2008 04:29:29 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Color of Victory? Rethinking the Power of a Blue Judo Uniform</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19objudo.html?ex=1361250000&amp;en=0acb3eed6fcad7d9&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Can the color of an athlete&#x2019;s uniform affect success?</description>
+      <author>Henry Fountain</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19objudo.html</guid>
+      <pubDate>Wed, 20 Feb 2008 17:02:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>Prognosis: Large Social Networks May Help Surgical Patients</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19prog.html?ex=1361250000&amp;en=183dc3056ec5fcae&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Having a large network of friends and family may help surgical patients experience less anxiety and pain before their operations and a quicker recovery afterward.</description>
+      <author>NICHOLAS BAKALAR</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19prog.html</guid>
+      <pubDate>Tue, 19 Feb 2008 05:02:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Patterns: A Video Game, an M.R.I. and What Men&#x2019;s Brains Do</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19patt.html?ex=1361250000&amp;en=155562d67a93b7e9&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Why does it often seem that men enjoy playing video games more than women? Perhaps because they do.</description>
+      <author>ERIC NAGOURNEY</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19patt.html</guid>
+      <pubDate>Tue, 19 Feb 2008 06:41:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Regimens: Diet Supplement Seen as Risky for Some Users</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19regi.html?ex=1361250000&amp;en=50ee2bcabbd67b22&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Probiotics, the potentially beneficial bacteria and yeasts available as diet supplements, may not be as helpful as widely believed. </description>
+      <author>NICHOLAS BAKALAR</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19regi.html</guid>
+      <pubDate>Tue, 19 Feb 2008 05:00:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>Behavior: An Absence of Free Will, a Tendency to Cheat</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19beha.html?ex=1361250000&amp;en=81a1bf33816bc62b&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>If there is no such thing as free will, do you really have to put that money into the office coffee kitty when no one is looking?</description>
+      <author>ERIC NAGOURNEY</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19beha.html</guid>
+      <pubDate>Tue, 19 Feb 2008 05:00:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Decoding Human Rapport (1 Letter)</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19lett-DECODINGHUMA_LETTERS.html?ex=1361250000&amp;en=2c3b35ce20ac3042&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>To the Editor:.</description>
+      <author/>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19lett-DECODINGHUMA_LETTERS.html</guid>
+      <pubDate>Tue, 19 Feb 2008 04:35:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Of Couples and Romance (1 Letter)</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19lett-OFCOUPLESAND_LETTERS.html?ex=1361250000&amp;en=0c0a408c005a60d8&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>To the Editor:.</description>
+      <author/>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19lett-OFCOUPLESAND_LETTERS.html</guid>
+      <pubDate>Tue, 19 Feb 2008 04:38:48 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Early Lure of Tobacco (2 Letters)</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19lett-THEEARLYLURE_LETTERS.html?ex=1361250000&amp;en=d44ac25ac18c8c84&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>To the Editor:.</description>
+      <author/>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19lett-THEEARLYLURE_LETTERS.html</guid>
+      <pubDate>Tue, 19 Feb 2008 04:35:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Verifying a Diagnosis (1 Letter)</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19lett-VERIFYINGADI_LETTERS.html?ex=1361250000&amp;en=af03c889ae620d1c&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>To the Editor:.</description>
+      <author/>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19lett-VERIFYINGADI_LETTERS.html</guid>
+      <pubDate>Tue, 19 Feb 2008 04:34:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Revealed: Secrets of the Camouflage Masters</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19camo.html?ex=1361250000&amp;en=446c5802ac60f92f&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>After decades of dives, a scientist offers a theory to explain the spectacular deceptions of cephalopods.</description>
+      <author>CARL ZIMMER</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19camo.html</guid>
+      <pubDate>Tue, 19 Feb 2008 15:16:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lowering Odds of Multiple Births</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19mult.html?ex=1361250000&amp;en=63ab82b23b39de47&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>In the world of fertility treatment, doctors are sounding a call to arms to reverse the soaring rate of multiple births.</description>
+      <author>LAURIE TARKAN</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19mult.html</guid>
+      <pubDate>Wed, 20 Feb 2008 17:07:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>What People Owe Fish: A Lot</title>
+      <link>http://www.nytimes.com/2008/02/19/science/19angi.html?ex=1361250000&amp;en=2389c3be8513a1dd&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Feel like a fish out of water? You may not be too far off.</description>
+      <author>NATALIE ANGIER</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/science/19angi.html</guid>
+      <pubDate>Wed, 20 Feb 2008 00:00:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>An Oldie Vies for Nutrient of the Decade</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19brod.html?ex=1361250000&amp;en=d28c410c237e0869&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Researchers are trying to understand how much vitamin D is necessary for optimal health. Are you taking enough?</description>
+      <author>JANE E. BRODY</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19brod.html</guid>
+      <pubDate>Tue, 19 Feb 2008 05:03:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Claim: Honey Can Soothe a Burn</title>
+      <link>http://www.nytimes.com/2008/02/19/health/19real.html?ex=1361250000&amp;en=48dfc606107b233f&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss</link>
+      <description>Home remedies for soothing mild burns run the gamut, from aloe vera gel to butter, but how does honey fare?</description>
+      <author>ANAHAD O&#x2019;CONNOR</author>
+      <guid isPermaLink="false">http://www.nytimes.com/2008/02/19/health/19real.html</guid>
+      <pubDate>Tue, 19 Feb 2008 16:26:01 GMT</pubDate>
+    </item>
+  </channel>
 </rss>
