@@ -28,8 +28,8 @@ menu('113');
    definitely worth the wait!</p>
 
 <?
-instructors(array('Autumn 2007' => array('chang.108', 'weinstein.41'),
-                  'Winter 2008' => array('weinstein.41', 'cogan.1'),
+instructors(array('Winter 2008' => array('weinstein.41', 'cogan.1'),
+                  'Spring 2008' => array('scholl.1', 'swenson.1')
             )     );
 
 bottom();

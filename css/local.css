@@ -188,6 +188,7 @@ table.instructors div.hr {
 	height: 1px;
 	width: 90%;
 	margin: 0.75em 0;
+	clear: both;
 }
 table.instructors h2 { margin-top: 0; }
 table.instructors img {

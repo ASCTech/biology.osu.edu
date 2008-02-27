@@ -21,8 +21,8 @@ menu('102');
    arguments.</p>
 
 <?
-instructors(array('Autumn 2007' => array('reeve.2'),
-                  'Winter 2008' => array('reeve.2', 'gough.21', 'chordas.2'),
+instructors(array('Winter 2008' => array('reeve.2', 'gough.21', 'chordas.2'),
+                  'Spring 2008' => array('rissing.2', 'nunley.3', 'taylor.69')
                   )
             );
 
