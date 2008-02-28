@@ -28,9 +28,6 @@ menu('101');
    that will be useful in their future endeavors.</p>
 
 <?
-instructors(array('Winter 2008' => array('lanno.1', 'wenzel.12', 'taylor.69'),
-                  'Spring 2008' => array('cogan.1', 'stetson.1', 'chordas.2')
-            )     );
-
+instructors(101);
 bottom();
 ?>

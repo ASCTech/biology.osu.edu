@@ -15,9 +15,6 @@ menu('116');
    two-quarter sequence.</p>
 
 <?
-instructors(array('Winter 2008' => array('boerner.1'),
-                  'Spring 2008' => array('wilson.1457')
-            )     );
-
+instructors(116);
 bottom();
 ?>
