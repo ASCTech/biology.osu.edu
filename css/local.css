@@ -251,3 +251,23 @@ table.instructors img {
 	text-decoration: underline;
 }
 
+/* vcard styles */
+
+.vcard .tel .type {
+	position: absolute;
+	top: -900px;
+	left: -900px;
+}
+
+
+/* CLSE contact info in footer specifics */
+
+#clse.vcard {
+	float: right;
+}
+
+#clse.vcard .organization-name {
+	position: absolute;
+	top: -900px;
+	left: -900px;
+}

@@ -186,7 +186,29 @@ function bottom() {
 
 <br class="clearall">
 <div id="footer">
-<table border="0" cellpadding="0" cellspacing="0"><tr><td width="90%" align="left" style="width:90%;text-align:left">
+
+<div class="vcard" id="clse">
+<div class="fn org">
+ <div class="organization-unit">Center for Life Sciences Education</div>
+ <div class="organization-name">The Ohio State University</div>
+</div>
+<div class="adr">
+ <div class="extended-address">260 Jennings Hall</div>
+ <div class="street-address">1735 Neil Avenue</div>
+ <span class="locality">Columbus</span>,
+ <span class="region">OH</span>
+ <span class="postal-code">43210-1106</span>
+</div>
+<div class="tel">
+ <div class="type">Work</div>
+ tel: <span class="value">(614) 292-9861</span>
+</div>
+<div class="tel">
+ <div class="type">Fax</div>
+ fax: <span class="value">(614) 292-4390</span>
+</div
+</div>
+
 <a href="http://www.osu.edu/" title="The Ohio State University">
 <img src="images/footer.png"
      alt="The Ohio State University, www.osu.edu"
@@ -197,14 +219,7 @@ function bottom() {
    <a title="Contact CLSE webmaster" href="contact/webmaster.php">Contact</a></p>
 <p>If you have trouble accessing this page and need to request an alternate format,
    <a href="contact/webmaster.php">contact&nbsp;the&nbsp;webmaster</a>.</p>
-</td><td width="10%" align="left" font="10pt" nowrap="nowrap" style="width:10%;text-align:left;font-size:10pt;white-space:nowrap">
-Center for Life Sciences Education<br/>
-260 Jennings Hall<br/>
-1735 Neil Avenue<br/>
-Columbus, OH 43210&ndash;1106<br/>
-tel: (614) 292-9861<br/>
-fax: (614) 292-4390
-</td></tr></table>
+
 </div>
 </div>
 </body>
