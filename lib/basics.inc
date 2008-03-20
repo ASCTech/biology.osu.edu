@@ -82,7 +82,7 @@ function top() {
 <title><?= $title ?></title>
 <meta http-equiv="content-type" content="text/html; charset=us-ascii">
 <meta name="robots" content="all">
-<meta name="keywords" content="Biology, Biology Programs at Ohio State, Center for Life Sciences Education, Introductory Biology, Ohio State, Ohio State University">
+<meta name="keywords" content="Biology, Biology Programs at The Ohio State University, Center for Life Sciences Education, Introductory Biology, Ohio State, The Ohio State University, OSU">
 <meta name="description" content="Teaching courses in Biology and advising Biology students at The Ohio State University">
 
 <base href="<?= $base ?>">
@@ -187,28 +187,7 @@ function bottom() {
 <br class="clearall">
 <div id="footer">
 
-<div class="vcard" id="clse">
-<div class="fn org">
- <div class="organization-unit">Center for Life Sciences Education</div>
- <div class="organization-name">The Ohio State University</div>
-</div>
-<div class="adr">
- <div class="extended-address">260 Jennings Hall</div>
- <div class="street-address">1735 Neil Avenue</div>
- <span class="locality">Columbus</span>,
- <span class="region">OH</span>
- <span class="postal-code">43210-1106</span>
-</div>
-<div class="tel">
- <div class="type">Work</div>
- tel: <span class="value">(614) 292-9861</span>
-</div>
-<div class="tel">
- <div class="type">Fax</div>
- fax: <span class="value">(614) 292-4390</span>
-</div
-</div>
-
+<div id="footer-left">
 <a href="http://www.osu.edu/" title="The Ohio State University">
 <img src="images/footer.png"
      alt="The Ohio State University, www.osu.edu"
@@ -219,6 +198,30 @@ function bottom() {
    <a title="Contact CLSE webmaster" href="contact/webmaster.php">Contact</a></p>
 <p>If you have trouble accessing this page and need to request an alternate format,
    <a href="contact/webmaster.php">contact&nbsp;the&nbsp;webmaster</a>.</p>
+</div>
+
+<div class="vcard" id="clse">
+<div class="fn org">
+ <div class="organization-unit">Center for Life Sciences Education</div>
+ <div class="organization-name">The Ohio State University</div>
+</div>
+<a class="url" href="http://clse.osu.edu/">http://clse.osu.edu/</a>
+<div class="adr">
+ <div class="extended-address">260 Jennings Hall</div>
+ <div class="street-address">1735 Neil Avenue</div>
+ <span class="locality">Columbus</span>,
+ <span class="region">OH</span>
+ <span class="postal-code">43210-1106</span>
+</div>
+<div class="tel">
+ <div class="type">Work</div><div class="type">Pref</div>
+ tel: <span class="value">(614) 292-9861</span>
+</div>
+<div class="tel">
+ <div class="type">Fax</div>
+ fax: <span class="value">(614) 292-4390</span>
+</div
+</div>
 
 </div>
 </div>

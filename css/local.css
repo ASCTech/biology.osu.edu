@@ -251,6 +251,12 @@ table.instructors img {
 	text-decoration: underline;
 }
 
+
+#footer-left {
+	float: left;
+}
+
+
 /* vcard styles */
 
 .vcard .tel .type {
@@ -267,6 +273,12 @@ table.instructors img {
 }
 
 #clse.vcard .organization-name {
+	position: absolute;
+	top: -900px;
+	left: -900px;
+}
+
+#clse.vcard .url {
 	position: absolute;
 	top: -900px;
 	left: -900px;
