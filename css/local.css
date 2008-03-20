@@ -254,6 +254,7 @@ table.instructors img {
 
 #footer-left {
 	float: left;
+	clear: left;
 }
 
 
@@ -270,6 +271,7 @@ table.instructors img {
 
 #clse.vcard {
 	float: right;
+	clear: right;
 }
 
 #clse.vcard .organization-name {
