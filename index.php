@@ -13,12 +13,12 @@ no_menu();
 <p>The introductory level majors and non-majors courses taught by the CLSE are
    an important component of the GEC of the Colleges of the Arts and Sciences.
    Within the paradigm of an arts and sciences curriculum, it is the mission of
-   the CLSE to provide courses that:
+   the CLSE to provide courses that:</p>
 <ul>
  <li>meet the interests and needs of the diverse population of students served,</li>
  <li>are academically challenging and rewarding,</li>
  <li>are of the highest quality in both content and presentation.</li>
 </ul>
-</p>
+
 
 <? bottom(); ?>
