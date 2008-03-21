@@ -76,7 +76,8 @@ function top() {
 		}
 	}
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
 <title><?= $title ?></title>
@@ -198,6 +199,7 @@ function bottom() {
    <a title="Contact CLSE webmaster" href="contact/webmaster.php">Contact</a></p>
 <p>If you have trouble accessing this page and need to request an alternate format,
    <a href="contact/webmaster.php">contact&nbsp;the&nbsp;webmaster</a>.</p>
+<p><a title="valid this page" style="text-decoration:none;font-size:0.8em" href="http://validator.w3.org/check?uri=referer"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></p>
 </div>
 
 <div class="vcard" id="clse">
