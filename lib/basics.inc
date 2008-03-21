@@ -78,15 +78,15 @@ function top() {
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <title><?= $title ?></title>
-<meta http-equiv="content-type" content="text/html; charset=us-ascii">
-<meta name="robots" content="all">
-<meta name="keywords" content="Biology, Biology Programs at The Ohio State University, Center for Life Sciences Education, Introductory Biology, Ohio State, The Ohio State University, OSU">
-<meta name="description" content="Teaching courses in Biology and advising Biology students at The Ohio State University">
+<meta http-equiv="content-type" content="text/html; charset=us-ascii"/>
+<meta name="robots" content="all"/>
+<meta name="keywords" content="Biology, Biology Programs at The Ohio State University, Center for Life Sciences Education, Introductory Biology, Ohio State, The Ohio State University, OSU"/>
+<meta name="description" content="Teaching courses in Biology and advising Biology students at The Ohio State University"/>
 
-<base href="<?= $base ?>">
+<base href="<?= $base ?>"/>
 
 <style type="text/css">
 <!--
@@ -112,18 +112,18 @@ function top() {
 
 <!-- Logo and title -->
  <div id="pagetitle">
- <a href="http://www.osu.edu/"><img id="logo" src="images/osu_logo.png" alt="The Ohio State University" width="74" height="70" border="0"></a>
+ <a href="http://www.osu.edu/"><img id="logo" src="images/osu_logo.png" alt="The Ohio State University" width="74" height="70" border="0"/></a>
  <?= $heading ?>
  </div>
-<br class="clearall">
+<br class="clearall"/>
 <!-- End Logo and title -->
 
 <!-- Page navigation -->
 
 <!-- menu: rounded corners - top -->
-<div id="cornertop"><img src="images/corner_ul.png" alt="" width="4" height="4">
-<div class="rightcorner"><img src="images/corner_ur.png" alt="" width="4" height="4">
-</div></div>
+<div id="cornertop"><img src="images/corner_ul.png" alt="" width="4" height="4"/>
+ <div class="rightcorner"><img src="images/corner_ur.png" alt="" width="4" height="4"/></div>
+</div>
 
 <div id="menulist">
 <ul id="mainMenu">
@@ -142,13 +142,13 @@ function top() {
   <? include 'menu/contact.inc'; ?>
  </li>
 </ul>
-<br class="clearall">
+<br class="clearall"/>
 </div>
 
 <!-- menu: rounded corners - bottoms -->
-<div id="cornerbottom"><img src="images/corner_ll.png" alt="" width="4" height="4">
-<div class="rightcorner"><img src="images/corner_lr.png" alt="" width="4" height="4">
-</div></div>
+<div id="cornerbottom"><img src="images/corner_ll.png" alt="" width="4" height="4"/>
+ <div class="rightcorner"><img src="images/corner_lr.png" alt="" width="4" height="4"/></div>
+</div>
 
 <!-- Page content begins here -->
 <a name="pagecontent" id="pagecontent"></a>
@@ -185,15 +185,11 @@ function bottom() {
 ?>
 <!-- End of page content -->
 
-<br class="clearall">
+<br class="clearall"/>
 <div id="footer">
 
 <div id="footer-left">
-<a href="http://www.osu.edu/" title="The Ohio State University">
-<img src="images/footer.png"
-     alt="The Ohio State University, www.osu.edu"
-     width="250" height="17" border="0">
-</a>
+<a href="http://www.osu.edu/" title="The Ohio State University"><img src="images/footer.png" alt="The Ohio State University, www.osu.edu" width="250" height="17" border="0"/></a>
 <p><a href="copyright.php">Copyright</a>, <?= date('Y') ?>. Center for Life Sciences Education.</p>
 <p>This page is maintained by: CLSE Technology Staff &mdash;
    <a title="Contact CLSE webmaster" href="contact/webmaster.php">Contact</a></p>
