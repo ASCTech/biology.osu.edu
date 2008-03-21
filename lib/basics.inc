@@ -67,7 +67,7 @@ function top() {
 
 			$h_img = str_replace(' ', '_', $p);
 			$h_img = "images/headings/$h_img.gif";
-			if (file_exists($h_img)) $p = '<img src="' . $h_img . '" alt="' . $p . '" border="0"/>';
+			if (file_exists($h_img)) $p = '<img src="' . $h_img . '" alt="' . $p . '"/>';
 
 			$heading .= '<span class="nobreak">';
 			if (!$clse) $heading .= '<img class="arrow" src="images/arrow.gif" alt=""> ';

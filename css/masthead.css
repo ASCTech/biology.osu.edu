@@ -16,6 +16,7 @@
 	#pagetitle img
 	{
 		vertical-align: middle;
+		border: none;
 	}
 
 	#pagetitle .arrow
@@ -25,7 +26,6 @@
 
 	#pagetitle #logo
 	{
-		border: none;
 		margin-right: 9px;
 	}
 
