@@ -222,7 +222,7 @@ function bottom() {
 <div id="footer">
 
 <div id="footer-left">
-<a href="http://www.osu.edu/" title="The Ohio State University"><img src="images/footer.png" alt="The Ohio State University, www.osu.edu" width="250" height="17" border="0"/></a>
+<a href="http://www.osu.edu/" title="The Ohio State University"><img src="images/footer.png" alt="The Ohio State University, www.osu.edu" width="250" height="17"/></a>
 <p><a href="copyright.php">Copyright</a>, <?= date('Y') ?>. Center for Life Sciences Education.</p>
 <p>This page is maintained by: CLSE Technology Staff &mdash;
    <a title="Contact CLSE webmaster" href="contact/webmaster.php">Contact</a></p>

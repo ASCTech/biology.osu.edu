@@ -4,6 +4,8 @@ body {
 	background-color: white;
 }
 
+img { border: none }
+
 div.vspace {
 	height: 4em;
 	background-color: white;
