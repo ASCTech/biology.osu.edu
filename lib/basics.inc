@@ -70,7 +70,7 @@ function top() {
 			if (file_exists($h_img)) $p = '<img src="' . $h_img . '" alt="' . $p . '"/>';
 
 			$heading .= '<span class="nobreak">';
-			if (!$clse) $heading .= '<img class="arrow" src="images/arrow.gif" alt=""> ';
+			if (!$clse) $heading .= '<img class="arrow" src="images/arrow.gif" alt=""/> ';
 			$heading .= '<a ' . ($url ? 'href="' . $url . '" ' : '') . 'class="heading">' . $p . "</a>\n";
 			$heading .= '</span>';
 		}
