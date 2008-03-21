@@ -76,8 +76,8 @@ function top() {
 		}
 	}
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <title><?= $title ?></title>
@@ -106,13 +106,46 @@ function top() {
 
 <body>
 
-<? include_once "http://www.osu.edu/inc/template/osu_navbar.php"; ?>
+<!-- Ohio State University masthead: Updated September 2006: Accessiblity improvements. See http://www.osu.edu/resources/ -->
+<h2 class="osu-semanticContent">OSU masthead and toolbar</h2>
+<div id="osu-masthead">
+	<div class="osu-masttitle">
+	<a href="http://www.osu.edu/" title="The Ohio State University">The Ohio State University</a>
+	</div>
+
+	<div class="osu-masturl">
+	 <a href="http://www.osu.edu/" title="The Ohio State University">www.osu.edu</a>
+
+	</div>
+	<form id="osu-mastnavigation" action="http://google.service.ohio-state.edu/search" method="get">
+		<ol>
+			<li><a href="http://www.osu.edu/help.php" title="OSU Help">Help</a></li>
+			<li><a href="http://www.osu.edu/map/" title="Campus map">Campus map</a></li>
+			<li><a href="http://www.osu.edu/findpeople.php" title="Find people at OSU">Find people</a></li>
+			<li><a href="https://webmail.osu.edu" title="OSU Webmail">Webmail</a></li>
+
+			<li>
+				<div class="osu-semanticContent">
+					<label for="Search">Search Ohio State</label>
+				</div>
+				<input id="Search" class="textfield" type="text" name="q" size="14" maxlength="256" value="Search" onfocus="this.value='';" accesskey="s" tabindex="1" />
+				<input class="go" type="submit" value="Go" name="submit"/>
+				<input value="date:D:L:d1" name="sort" type="hidden" /><input value="xml_no_dtd" name="output" type="hidden" /><input value="UTF-8" name="ie" type="hidden" /><input value="UTF-8" name="oe" type="hidden" /><input value="default_frontend" name="client" type="hidden" /><input value="default_frontend" name="proxystylesheet" type="hidden" /><input value="default_collection" name="site" type="hidden" /><input type="hidden" name="as_dt" value="i" />
+			</li>
+
+		</ol>
+	</form>
+	<br class="osu-clearall" />
+</div>
+<div class="osu-hr"><hr /></div>
+<!-- End masthead -->
+
 
 <div id="whole-page">
 
 <!-- Logo and title -->
  <div id="pagetitle">
- <a href="http://www.osu.edu/"><img id="logo" src="images/osu_logo.png" alt="The Ohio State University" width="74" height="70" border="0"/></a>
+ <a href="http://www.osu.edu/"><img id="logo" src="images/osu_logo.png" alt="The Ohio State University" width="74" height="70"/></a>
  <?= $heading ?>
  </div>
 <br class="clearall"/>
@@ -218,7 +251,7 @@ function bottom() {
 <div class="tel">
  <div class="type">Fax</div>
  fax: <span class="value">(614) 292-4390</span>
-</div
+</div>
 </div>
 
 </div>
