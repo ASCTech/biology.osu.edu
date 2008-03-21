@@ -1,5 +1,6 @@
-<img src="images/rlanno.jpg" />
-<h2>Dr. Roman Lanno</h2>
+<? $name = 'Dr. Roman Lanno'; ?>
+<img src="images/rlanno.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>The primary focus of research in our laboratory lies in applied and theoretical aspects of
    determining the bioavailability of chemicals in the environment, particularly in soil systems.
    We strive to understand and interpret bioavailability as it relates to 1) soil-chemical

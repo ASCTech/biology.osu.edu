@@ -7,6 +7,8 @@
 #       use HTML::Entities;
 #       and s/$self->_encode/encode_entities/g
 #
+#       Version 0.62 removed _encode and uses HTML::Entities; this may be fixed.
+#
 ##########
 
 use strict;

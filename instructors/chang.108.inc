@@ -1,5 +1,6 @@
-<img src="images/tchang.jpg" />
-<h2>Dr. Tien-Hsien Chang</h2>
+<? $name = 'Dr. Tien-Hsien Chang'; ?>
+<img src="images/tchang.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>We are studying the functions of the ubiquitous DExD/H-box proteins, which are often referred
    to as RNA helicases or RNA unwindases.  These proteins are essential for all RNA-related
    biological processes such as pre-mRNA splicing, ribosomal biogenesis, mRNA export, translation,

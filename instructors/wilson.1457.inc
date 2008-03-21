@@ -1,5 +1,6 @@
-<img src="images/twilson.jpg" />
-<h2>Dr. Tom Wilson</h2>
+<? $name = 'Dr. Tom Wilson'; ?>
+<img src="images/twilson.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>In my laboratory we study two areas of entomology. The first focuses on the endocrine control
    of development and reproduction in insects. We study two hormones, juvenile hormone (JH) and
    ecdysone, that control metamorphosis, and we use both <i>Drosophila melanogaster</i> and the

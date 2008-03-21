@@ -1,5 +1,6 @@
-<img src="images/sfisher.jpg" />
-<h2>Dr. Susan Fisher</h2>
+<? $name = 'Dr. Susan Fisher'; ?>
+<img src="images/sfisher.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>My research interests are in the general area of environmental toxicology with emphasis on the
    influence of physical factors on contaminant transfer from sediment into aquatic foodchains. I
    am also interested in factors which affect trophic transfer and in relating tissue levels of

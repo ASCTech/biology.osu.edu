@@ -1,5 +1,6 @@
-<img src="images/thetherington.jpg" />
-<h2>Dr. Tom Hetherington</h2>
+<? $name = 'Dr. Tom Hetherington'; ?>
+<img src="images/thetherington.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>I have two major research focuses: (1) the function and evolution of sensory systems and the
    sensory behavior of amphibians and reptiles, and (2) the conservation biology of amphibians and
    reptiles. (1) One current project involves behavioral and functional studies of alternative

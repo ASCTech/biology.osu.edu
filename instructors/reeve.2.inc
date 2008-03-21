@@ -1,5 +1,6 @@
-<img src="images/jreeve.jpg" />
-<h2>Dr. John N. Reeve</h2>
+<? $name = 'Dr. John N. Reeve'; ?>
+<img src="images/jreeve.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>Archaea are prokaryotes, many of which are unusual and live in extreme environments, such as the
    boiling water surrounding volcanic vents, in saturated salt solutions, and in the complete
    absence of oxygen. We are investigating the molecular biology of methane-producing Archaea that

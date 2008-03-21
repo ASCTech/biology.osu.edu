@@ -1,5 +1,6 @@
-<img src="images/asimcox.JPG" />
-<h2>Dr. Amanda Simcox</h2>
+<? $name = 'Dr. Amanda Simcox'; ?>
+<img src="images/asimcox.JPG" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>We study EGF receptor signaling in Drosophila development focusing mainly on the ligand called
    Vein, which by similarity is the fly neuregulin. Neuregulins are activators of the erbB
    receptors in vertebrates and play important roles in development and disease. We are currently

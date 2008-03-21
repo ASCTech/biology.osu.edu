@@ -1,3 +1,4 @@
-<!--<img src="images/equinlan.jpg" />-->
-<h2>Dr. Erin Quinlan</h2>
+<? $name = 'Dr. Erin Quinlan'; ?>
+<!--<img src="images/equinlan.jpg" alt="<?= $name ?>"/>-->
+<h2><?= $name ?></h2>
 <p></p>

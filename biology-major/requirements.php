@@ -5,32 +5,6 @@ top('Biology Major','Course Requirements');
 menu('biology-major');
 ?>
 
-<style type="text/css">
-#maincolumn h2 {
-	margin-top: 2em;
-}
-#maincolumn .detail {
-	margin: 1em 3em;
-}
-#maincolumn ol {
-	list-style-type: upper-roman;
-}
-#maincolumn ol>li {
-	margin-top: 0.5em;
-}
-#maincolumn li li {
-	font-size: 90%;
-}
-#maincolumn .hr {
-	color: gray;
-	background-color: gray;
-	height: 2px;
-}
-#maincolumn .hr hr {
-	display: none;
-}
-</style>
-
 <p>The biology major provides a structured program that includes the
    major areas of importance to modern biology, as well as an in-depth
    concentration of study in one of the six departments in the College
@@ -128,8 +102,8 @@ menu('biology-major');
 <h3>Advisors</h3>
 
 <ul>
- <li>Peggy Strow, <a href="mailto:Peggy Strow <strow.1@osu.edu>">strow.1@osu.edu</a></li>
- <li>David Wells, <a href="mailto:David Wells <wells.252@osu.edu>">wells.252@osu.edu</a></li>
+ <li>Peggy Strow, <a href="mailto:Peggy Strow &lt;strow.1@osu.edu&gt;">strow.1@osu.edu</a></li>
+ <li>David Wells, <a href="mailto:David Wells &lt;wells.252@osu.edu&gt;">wells.252@osu.edu</a></li>
 </ul>
 
 <p>For an appointment, please call (614) 292-1704.</p>
@@ -137,8 +111,8 @@ menu('biology-major');
 <h3>Honors Advisors</h3>
 
 <ul>
- <li>Prof. David Stetson, <a href="mailto:David Stetson <stetson.1@osu.edu>">stetson.1@osu.edu</a>, (614) 292-5307</li>
- <li>Prof. Tom Wilson, <a href="mailto:Tom Wilson <wilson.1457@osu.edu>">wilson.1457@osu.edu</a>, (614) 247-6036</li>
+ <li>Prof. David Stetson, <a href="mailto:David Stetson &lt;stetson.1@osu.edu&gt;">stetson.1@osu.edu</a>, (614) 292-5307</li>
+ <li>Prof. Tom Wilson, <a href="mailto:Tom Wilson &lt;wilson.1457@osu.edu&gt;">wilson.1457@osu.edu</a>, (614) 247-6036</li>
 </ul>
 
 <? bottom(); ?>

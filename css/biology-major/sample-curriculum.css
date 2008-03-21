@@ -1,0 +1,22 @@
+#curriculum th {
+	font-size: 120%;
+	font-weight: bold;
+	text-align: left;
+	background-color: #e5e5e5;
+	padding: 0.5em 0.5em 0.3em;
+}
+#curriculum td {
+	padding-left: 1em;
+	padding-bottom: 1.5em;
+	width: 33%;
+}
+#curriculum td ul {
+	list-style: none;
+	margin: 0;
+	margin-left: 0.5em;
+	padding: 0;
+}
+#curriculum li {
+	text-indent: -2em;
+	margin-left: 2em;
+}

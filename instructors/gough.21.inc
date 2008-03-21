@@ -1,5 +1,6 @@
-<img src="images/chris_gough.jpg" />
-<h2>Dr. Christopher Gough</h2>
+<? $name = 'Dr. Christopher Gough'; ?>
+<img src="images/chris_gough.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>My research within the field of ecosystem ecology and plant physiological ecology focuses on
    understanding the relationship between forest carbon cycling and global change. Forests are an
    important component of the global carbon cycle, storing carbon in biomass, detritus, and soils.

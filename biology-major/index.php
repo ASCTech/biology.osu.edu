@@ -36,9 +36,9 @@ menu('biology-major');
    take courses that satisfy secondary interests or alternative goals.</p>
 
 <p>For more information about the biology major, contact David Wells at
-   <a href="mailto:David Wells <wells.252@osu.edu>">wells.252@osu.edu</a>
+   <a href="mailto:David Wells &lt;wells.252@osu.edu&gt;">wells.252@osu.edu</a>
    or Peggy Strow at
-   <a href="mailto:Peggy Strow <strow.1@osu.edu>">strow.1@osu.edu</a>
-   or call (614) 292-1704 to schedule an appointment.
+   <a href="mailto:Peggy Strow &lt;strow.1@osu.edu&gt;">strow.1@osu.edu</a>
+   or call (614) 292-1704 to schedule an appointment.</p>
 
 <? bottom(); ?>

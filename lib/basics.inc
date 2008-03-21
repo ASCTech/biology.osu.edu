@@ -99,6 +99,13 @@ function top() {
 	@import url(css/layout_2col.css);
 	@import url(css/footer.css);
 	@import url(css/local.css);
+<?
+$requested_file = preg_replace('/^.*biology\.osu\.edu/','',$_SERVER['REQUEST_URI']);
+$css_file = 'css' . preg_replace('/(php)|(html)$/i', 'css', $requested_file);
+$css_file = preg_replace('/\?.*$/','',$css_file);
+$css_file = preg_replace('/\/$/', '/index.css', $css_file);
+echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\t@import url($css_file);\n" ;
+?>
   -->
 </style>
 

@@ -30,33 +30,35 @@ if (array_key_exists('_submit_check', $_POST)) {
     	$subject = "biology.osu.edu message: $subject";
     	mail($webmaster, $subject, $text);
     	echo '<h1 style="color:blue">Your message has been submitted and
-    	              will be processed as soon as possible.</h1><hr>', "\n";
+    	              will be processed as soon as possible.</h1><hr/>', "\n";
     } else {
         $error = $resp->error;
-    	echo '<h1 style="color: red">An error has occured. Check below.</h1><hr>', "\n";
+    	echo '<h1 style="color: red">An error has occured. Check below.</h1><hr/>', "\n";
     }
 }
 
 ?>
-<form name="form" method="post">
+<form method="post" action="<?= $_SERVER['REQUEST_URI'] ?>">
+<fieldset>
 <h2>Subject:</h2>
-<input type="radio" name="subject" value="copyright">Copyright Inquiry</input><br>
-<input type="radio" name="subject" value="alternate_format">Alternate Format Request</input><br>
-<input type="radio" name="subject" value="broken_link">Report a Broken Link</input><br>
-<input type="radio" name="subject" value="other" checked="checked"
-  onChange="javascript:document.form.other.focus();">Other:</input><br>
-  <input id="indent" type="text" name="other" size="30" value="<?= $_POST['other'] ?>" /><br>
+<label><input type="radio" name="subject" value="copyright"/>Copyright Inquiry</label><br/>
+<label><input type="radio" name="subject" value="alternate_format"/>Alternate Format Request</label><br/>
+<label><input type="radio" name="subject" value="broken_link"/>Report a Broken Link</label><br/>
+<label><input type="radio" name="subject" value="other" checked="checked"
+  onchange="javascript:document.getElementById('othertext').focus();"/>Other:</label><br/>
+  <input class="indent" type="text" name="other" id="othertext" size="30" value="<?= $_POST['other'] ?>" /><br/>
 <h2>Your Email Address:</h2>
-<input id="indent" type="text" name="from" size="30" value="<?= $_POST['from'] ?>" />
+<input class="indent" type="text" name="from" size="30" value="<?= $_POST['from'] ?>" />
 <h2>Message:</h2>
-<span id="indent">Please provide adequate details with your message.</span><br>
-<textarea id="indent" name="message" rows="10" cols="50"><?= $_POST['message'] ?></textarea><br>
+<span class="indent">Please provide adequate details with your message.</span><br/>
+<textarea class="indent" name="message" rows="10" cols="50"><?= $_POST['message'] ?></textarea><br/>
 <div style="margin:1em">
   <? if ($error) { ?><h3 style="color:red">There was a problem with the words you typed.</h3><? } ?>
   <? echo recaptcha_get_html($publickey, $error); ?>
 </div>
-<input type="hidden" name="_submit_check" value="1" />
-<input id="indent" type="submit" value="Submit" />
+<input type="hidden" name="_submit_check" value="1"/>
+<input class="indent" type="submit" value="Submit"/>
+</fieldset>
 </form>
-<script lang="javascript">document.form.other.focus();</script>
+<script type="text/javascript">document.getElementById('othertext').focus();</script>
 <? bottom(); ?>

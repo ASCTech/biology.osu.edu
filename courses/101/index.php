@@ -11,7 +11,7 @@ menu('101');
    of scientific study, organismal diversity, evolution, ecology, genetics, reproduction, cell
    structure and function, and scientific literacy. Our course is taught by faculty from all areas of
    biological study, each bringing their own views, experiences, and ideas to the classroom.</p>
-<u>Students in Biology 101 Should</u>:
+<span style="text-decoration:underline">Students in Biology 101 Should</span>:
 <ul>
  <li>Gain insight to problem-solving as a team effort through cooperative, inquiry-based learning in
      the laboratory, and in-class exercises,</li>

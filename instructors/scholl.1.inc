@@ -1,5 +1,6 @@
-<img src="images/rscholl.jpg" />
-<h2>Dr. Randy Scholl</h2>
+<? $name = 'Dr. Randy Scholl'; ?>
+<img src="images/rscholl.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>Ribosomal protein (RP) genes have been studied extensively in E. Coli, yeast and animals. Many
    genetic traits are associated with RPs: Resistance to trichothecene mycotoxins is conferred by
    ribosomal protein L3 (RPL3) of yeast, and the minute phenotype of Drosophila is the result of

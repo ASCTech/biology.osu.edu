@@ -1,5 +1,6 @@
-<img src="images/vgopalan.jpg" />
-<h2>Dr. Venkat Gopalan</h2>
+<? $name = 'Dr. Venkat Gopalan'; ?>
+<img src="images/vgopalan.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>Ribonuclease P (RNase P) is a ubiquitous and essential ribonucleoprotein (RNP) involved in 5Õ
    maturation of transfer RNAs (tRNAs). Bacterial RNase P consists of a catalytic RNA subunit and a
    protein cofactor. While the RNA subunits of most archaeal and all eukaryal RNase P contain

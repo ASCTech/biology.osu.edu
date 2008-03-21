@@ -1,5 +1,6 @@
-<img src="images/rswenson.jpg" />
-<h2>Dr. Richard Swenson</h2>
+<? $name = 'Dr. Richard Swenson'; ?>
+<img src="images/rswenson.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>Our research is focused primarily on the study of a family of proteins that use derivatives of
    riboflavin (vitamin B2) as essential cofactors or coenzymes for their biological activity. Our
    emphasis is the investigation of the structure of the protein, its influence on the chemical and

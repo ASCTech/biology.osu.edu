@@ -78,7 +78,7 @@ table#syllabus tr td:first-child {
 	text-align: left;
 }
 
-#indent { margin-left: 1.5em; }
+.indent { margin-left: 1.5em; }
 
 ul.nobullet { list-style-type: none; }
 
@@ -166,7 +166,6 @@ table.instructors {
 	border-right: 1px solid #BEBFBF;
 	padding: 0;
 }
-table.instructors div { margin: 0; }
 table.instructors th {
 	width: 50%;
 	border: 1px solid #BEBFBF;
@@ -185,12 +184,13 @@ table.instructors td {
 	margin: 0;
 	padding: 1em;
 }
-table.instructors div.hr {
+table.instructors .hr {
 	background-color: #BEBFBF;
 	height: 1px;
 	width: 90%;
 	margin: 0.75em 0;
 	clear: both;
+	display: block;
 }
 table.instructors h2 { margin-top: 0; }
 table.instructors img {

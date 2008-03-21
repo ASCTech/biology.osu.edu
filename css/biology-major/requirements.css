@@ -1,0 +1,23 @@
+#maincolumn h2 {
+	margin-top: 2em;
+}
+#maincolumn .detail {
+	margin: 1em 3em;
+}
+#maincolumn ol {
+	list-style-type: upper-roman;
+}
+#maincolumn ol>li {
+	margin-top: 0.5em;
+}
+#maincolumn li li {
+	font-size: 90%;
+}
+#maincolumn .hr {
+	color: gray;
+	background-color: gray;
+	height: 2px;
+}
+#maincolumn .hr hr {
+	display: none;
+}

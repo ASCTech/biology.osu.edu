@@ -1,5 +1,6 @@
-<img src="images/ddean.jpg" />
-<h2>Dr. Donald Dean</h2>
+<? $name = 'Dr. Donald Dean'; ?>
+<img src="images/ddean.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>Protein engineering and biophysical analysis of insecticidal toxins is the major research interest
    in my laboratory. The ultimate goal of these studies is to understand the structure/function
    relationships of these proteins to create more specific and environmentally safer pesticides.</p>

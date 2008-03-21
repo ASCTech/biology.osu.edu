@@ -1,5 +1,6 @@
-<img src="images/mweinstein.jpg" />
-<h2>Dr. Michael Weinstein</h2>
+<? $name = 'Dr. Michael Weinstein'; ?>
+<img src="images/mweinstein.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>Smad proteins are the intracellular mediators of the transforming growth factor beta (TGF-b)
    superfamily. My laboratory will be focusing on role of Smad genes in the control of mammalian
    development, disease, and cancer using primarily knockout and transgenic mice. Our research has

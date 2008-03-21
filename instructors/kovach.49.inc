@@ -1,5 +1,6 @@
-<img src="images/jkovach.jpg" />
-<h2>Dr. Joseph Kovach</h2>
+<? $name = 'Dr. Joseph Kovach'; ?>
+<img src="images/jkovach.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>As Integrated Pest Management Coordinator, I work closely with research and extension faculty in
    entomology, plant pathology, and horticulture and crop science to develop and implement programs
    that use ecological principles to better mange pest populations. My research interests are in

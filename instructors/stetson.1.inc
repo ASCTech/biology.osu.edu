@@ -1,5 +1,6 @@
-<img src="images/dstetson.jpg" />
-<h2>Dr. David Stetson</h2>
+<? $name = 'Dr. David Stetson'; ?>
+<img src="images/dstetson.jpg" alt="<?= $name ?>"/>
+<h2><?= $name ?></h2>
 <p>My research efforts have concentrated on defining the cullular mechanisms of ion transport,
    particularly epithelian H+ secretion, and the means by which cells involved in ion transport
    compensate for changes in physiologic demand. Turtle and toad urinary bladders are used as

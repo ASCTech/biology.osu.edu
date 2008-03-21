@@ -1,0 +1,36 @@
+#singlecolumn td, #singlecolumn th {
+	padding: 3px;
+	padding-left: 1em;
+	vertical-align: top;
+	text-align: left;
+}
+
+#singlecolumn tr td:first-child {
+	padding-left: 3px;
+}
+
+#singlecolumn tr.r1 {
+	background-color: #E5E5E5;
+}
+
+#singlecolumn tr.r0 {
+	background-color: white;
+}
+
+.name div, .title div {
+	text-indent: -0.5em;
+	padding-left: 0.5em;
+}
+
+.name a, .email a {
+	text-decoration: none;
+	color: black;
+}
+
+.name a:hover, .email a:hover {
+	text-decoration: underline;
+}
+
+.email, .phone {
+	white-space: nowrap;
+}
