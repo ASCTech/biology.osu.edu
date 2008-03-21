@@ -103,8 +103,6 @@ ul#mainMenu li.hr {
 }
 
 
-ul#mainMenu li { behavior: url(css/hover.htc); }
-
 #menulist
 {
 	background: #e5e5e5;
