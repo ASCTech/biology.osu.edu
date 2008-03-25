@@ -8,7 +8,7 @@ menu('115');
 
 <h2>Procedure: (50 points)</h2>
 <ol>
- <li><p class="undent">Select a topic for your project:</p>
+ <li><h3>Select a topic for your project:</h3>
      <p>To start this project, you will pick an issue of interest to you from among many you will
         find covered in The New York Times. You may want to look at back issues of The Times and
         recent magazines to identify a topic you find interesting. You may also want to gather
@@ -20,12 +20,12 @@ menu('115');
         ready to begin writing your paper, you may need to narrow your subject to a particular facet
         of evolution, for example, the social implications of evolution. The Tuesday edition of The
         New York Times contains a special science section.</p></li>
- <li><p class="undent">Confirm with your TA that the subject is appropriate for your course: (NYT
-        Assignment I: 7 points)</p>
+ <li><h3>Confirm with your TA that the subject is appropriate for your course: (NYT
+        Assignment I: 7 points)</h3>
      <p>Submit two paragraphs that briefly discuss why you have chosen the subject and how it
         relates to the course curriculum. List the resources you have consulted for background
         information.</p></li>
- <li><p class="undent">Clip relevant articles from The New York Times:</p>
+ <li><h3>Clip relevant articles from The New York Times:</h3>
      <p>Clip any articles, editorials, columns, letters to the editors, or other items that address
         your topic. Keep in mind that news stories are intended to convey the basic facts of a
         topic, while the other types of articles weigh competing opinions and points of view. You
@@ -37,20 +37,19 @@ menu('115');
         subjects that are addressed. You may also want to highlight portions of the clippings that
         you find especially interesting or pertinent. Also, look for any items under
         &quot;corrections&quot; on page A2 that may refer to the articles you have clipped.</p></li>
- <li><p class="undent">Supplement the materials you have found in The Times with other sources:</p>
+ <li><h3>Supplement the materials you have found in The Times with other sources:</h3>
      <p>Draw on other publications such as books and magazines, radio or television news programs,
         and the Internet to supplement the information you found in The New York Times.</p></li>
- <li><p class="undent">Submit a progress report to your instructor: (NYT Assignment II: 3 points)</p>
+ <li><h3>Submit a progress report to your instructor: (NYT Assignment II: 3 points)</h3>
      <p>Include a bibliography of sources you have used to date and indicate whether you have
         narrowed the subject matter or shifted your original approach.</p></li>
- <li><p class="undent">Complete one of the following projects: (NYT Assignment III: 40 points)</p>
-  <ol style="list-style-type: upper-alpha">
-   <li><p class="undent">Analysis of the development of the issue over a discrete time frame
-          (3&ndash;4 pages)</p>
+ <li><h3>Complete one of the following projects: (NYT Assignment III: 40 points)</h3>
+  <ol style="list-style-type:upper-alpha">
+   <li><h4>Analysis of the development of the issue over a discrete time frame (3&ndash;4 pages)</h4>
        <p>Write a brief introduction to your topic/issue, then analyze your subject and discuss how
           it has evolved since you began clipping articles. Refer to governmental, political, social
           and economic forces that were involved.</p></li>
-   <li><p class="undent">Opinion review (3&ndash;4 pages)</p>
+   <li><h4>Opinion review (3&ndash;4 pages)</h4>
        <p>Write a brief introduction to your topic/issue, then discuss the various viewpoints of
           individuals and organizations involved whose opinions appear either in pieces on the
           Op-Ed page or in quotations included in news stories. You may wish to use other resources
@@ -60,11 +59,11 @@ menu('115');
           and magazines, etc.</p></li>
   </ol>
  </li>
-</ul>
+</ol>
 
 <h2>Project Components:</h2>
 <ol style="list-style-type: upper-alpha">
- <li>Evolution and analysis of the issue within a discrete time frame
+ <li><h3>Evolution and analysis of the issue within a discrete time frame</h3>
   <ul>
    <li>Brief introduction with clear statement of issue being analyzed</li>
    <li>Analysis of issue and a discussion of how the issue has developed since you began clipping
@@ -74,7 +73,7 @@ menu('115');
    <li>Turn in all the clippings you used for this project</li>
   </ul>
  </li>
- <li>Opinion review
+ <li><h3>Opinion review</h3>
   <ul>
    <li>Brief introduction with clear statement of issue being reviewed</li>
    <li>Brief introduction with clear statement of issue being reviewed</li>

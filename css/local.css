@@ -20,7 +20,7 @@ a.heading {
 	vertical-align: middle;
 }
 
-span.nobreak { white-space: nowrap; }
+.nobreak { white-space: nowrap; }
 
 table, tr, th, tr {
 	margin: 0;
@@ -36,8 +36,6 @@ div#content { padding-top: 16px; }
 
 div#content p { text-indent: 1.5em; }
 
-div#content p.undent { text-indent: 0; }
-
 div#syllabus p { text-indent: 0; }
 
 div#syllabus ol    { list-style-type: decimal; }
@@ -49,7 +47,8 @@ table#gradescale {
 	border: 1px solid black;
 }
 
-table#gradescale tr td:first-child, table#gradescale tr th:first-child {
+table#gradescale tr td:first-child,
+table#gradescale tr th:first-child {
 	text-align: center;
 	padding-right: 1em;
 }

@@ -1,0 +1,22 @@
+#maincolumn .paragraph-containing-blockquote p {
+	text-indent: 0;
+}
+
+#maincolumn .paragraph-containing-blockquote p:first-child {
+	text-indent: 1.5em;
+}
+
+
+#maincolumn dt {
+	margin-top: 1em;
+	text-decoration: underline;
+}
+
+#maincolumn dd .title,
+#maincolumn dd .species {
+	font-style: oblique;
+}
+
+#maincolumn dd a {
+	color: black;
+}

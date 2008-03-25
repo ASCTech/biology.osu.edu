@@ -1,6 +1,6 @@
-<p class="undent">The papers will be graded on the following criteria:</p>
+<h2>The papers will be graded on the following criteria:</h2>
 
-<h2>Content (50%):</h2>
+<h3>Content (50%):</h3>
 <ul>
  <li><strong>Excellent:</strong> Addresses the assignment thoughtfully and with clear focus,
      displays awareness of and purpose in communicating to audience, completely describes
@@ -21,7 +21,7 @@
      disregard for appropriate jargon or incorrect use of terms <strong>(0&ndash;25%)</strong>.</li>
 </ul>
 
-<h2>Organization (30%):</h2>
+<h3>Organization (30%):</h3>
 <ul>
  <li><strong>Excellent:</strong> Demonstrates sophisticated organization, first paragraph
      establishes a clearly focused controlling theme, makes effective connections between
@@ -39,7 +39,7 @@
      <strong>(0&ndash;12%)</strong>.</li>
 </ul>
 
-<h2>Surface Correctness/Physical Layout (10%):</h2>
+<h3>Surface Correctness/Physical Layout (10%):</h3>
 <ul>
  <li><strong>Excellent:</strong> Displays superior, consistent syntax, sentence variety, word
      choice (3 or less grammatical mistakes), physical layout (font, spacing, margins) is clean and
@@ -58,7 +58,7 @@
      <strong>(0&ndash;3%)</strong>.</li>
 </ul>
 
-<h2>Task (10%):</h2>
+<h3>Task (10%):</h3>
 <ul>
  <li><strong>Excellent:</strong> Paper is on topic, 1 page in length, focuses on objectives
      <strong>(10%)</strong>.</li>
