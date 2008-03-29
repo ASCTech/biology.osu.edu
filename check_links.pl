@@ -50,7 +50,7 @@ sub extract_links {
     my $base = $resp->base;
     while (my $link = shift @links) {
       $link = url($link, $base)->abs;
-      next if $good{$link} or $bad{$link};
+      next if $good{$link} or $bad{$link} or $link =~ m/^mailto:/;
       $unchecked{$link} = 1;
     }
   }
