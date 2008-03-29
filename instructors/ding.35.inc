@@ -1,5 +1,5 @@
 <? $name = 'Dr. Biao Ding'; ?>
-<img src="images/bding.jpg" alt="<?= $name ?>"/>
+<img src="images/bding.JPG" alt="<?= $name ?>"/>
 <h2><?= $name ?></h2>
 <p>The eukaryotic cell has evolved highly elaborate subcellular organelles/structures that
    specialize in distinct biochemical/biophysical processes. The biogenesis of
