@@ -6,4 +6,4 @@
    compensate for changes in physiologic demand. Turtle and toad urinary bladders are used as
    model systems for the mammalian renal collecting ducts, major sites of active H+ secretion in
    the kidneys. A wide range of research tools are used to&hellip;
-   <a href="http://www.biosci.ohio-state.edu/~eeob/resints/res_stetson.html">more</a>.</p>
+   <a href="http://excelsior.biosci.ohio-state.edu/~eeob/drupal//?q=userpages/38">more</a>.</p>

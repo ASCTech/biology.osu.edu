@@ -6,4 +6,4 @@
    management, fire, and landscape structure on the interchanges of carbon, nitrogen, and
    phosphorus among soils, plants, animals, and microbes. Techniques of plant ecophysiology, soil
    chemistry and biochemistry, and community analysis are&hellip;
-   <a href="http://www.biosci.ohio-state.edu/~eeob/resints/res_boerner.html">more</a>.</p>
+   <a href="http://excelsior.biosci.ohio-state.edu/~eeob/drupal//?q=userpages/17">more</a>.</p>
