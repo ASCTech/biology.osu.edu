@@ -127,8 +127,8 @@ echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\t@import url($cs
 	<form id="osu-mastnavigation" action="http://google.service.ohio-state.edu/search" method="get">
 		<ol>
 			<li><a href="http://www.osu.edu/help.php" title="OSU Help">Help</a></li>
-			<li><a href="http://buckeyelink.osu.edu/" title="OSU's academic center">Buckeye Link</a></li>
 			<li><a href="http://www.osu.edu/map/" title="Campus map">Campus map</a></li>
+      <li><a href="http://buckeyelink.osu.edu/" title="OSU's academic center">Buckeye Link</a></li>
 			<li><a href="http://www.osu.edu/findpeople.php" title="Find people at OSU">Find people</a></li>
 			<li><a href="https://webmail.osu.edu" title="OSU Webmail">Webmail</a></li>
 
