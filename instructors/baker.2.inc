@@ -1,5 +1,5 @@
 <? $name = 'Dr. Neil Baker'; ?>
-<img src="images/nbaker.jpg" alt="<?= $name ?>/>
+<img src="images/nbaker.jpg" alt="<?= $name ?>"/>
 <h2><?= $name ?></h2>
 <p>My research is primarily concerned with secondary pathogens of the respiratory tract.
    Pseudomonas aeruginosa, has been of particular concern because of the high mortality rates

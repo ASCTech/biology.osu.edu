@@ -1,14 +1,20 @@
 <?
 
 $instructors = array(
-    'Spring 2008' => array(
-        101 => array('cogan.1', 'stetson.1', 'chordas.2'),
-        102 => array('rissing.2', 'nunley.3', 'taylor.69'),
-        113 => array('scholl.1', 'swenson.1'),
-        114 => array('taylor.69'),
-        115 => array('NA'),
-        116 => array('wilson.1457'),
-    ),
+  'Summer 2008' => array(
+    101 => array('baker.2', 'chordas.2'),
+    102 => array('taylor.69', 'santangelo.11'),
+    113 => array('cogan.1', 'breitenberger.1'),
+    114 => array('kovach.71'),
+  ),
+	'Spring 2008' => array(
+		101 => array('cogan.1', 'stetson.1', 'chordas.2'),
+		102 => array('rissing.2', 'nunley.3', 'taylor.69'),
+		113 => array('scholl.1', 'swenson.1'),
+		114 => array('taylor.69'),
+		115 => array('NA'),
+		116 => array('wilson.1457'),
+	),
 	'Winter 2008' => array(
 		101 => array('lanno.1', 'wenzel.12', 'taylor.69'),
 		102 => array('reeve.2', 'gough.21', 'chordas.2'),
