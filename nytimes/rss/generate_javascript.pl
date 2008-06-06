@@ -28,6 +28,7 @@ my $include_descriptions = 1;
 if (download($xml_url, $xml_file)) {
   my $xml = read_file($xml_file);
   my $js = xml2js($xml);
+  print "didn't write js_file\n" unless $js;
   write_file($js_file, $js) if $js;
 
   append(mtime($xml_file), 'mtimes.log');
@@ -38,6 +39,15 @@ sub xml2js {
   my $xml = shift;
   my $rss = XML::RSS::JavaScript->new;
   $rss->parse($xml);
+  my @stories = ();
+  push(@stories, shift(@{$rss->{'items'}})) while @{$rss->{'items'}};
+  foreach my $story (@stories[0 .. 3]) {
+    # NYT started putting html links back to the article in the description.
+    # XML::RSS::JavaScript makes the title link to the full article.
+    $story->{'description'} =~ s/<.*?>//g;
+    $story->{'description'} =~ s/\s+$//;
+    $rss->add_item(%$story);
+  }
   return $rss->as_javascript($number_of_headlines, $include_descriptions);
 }
 
