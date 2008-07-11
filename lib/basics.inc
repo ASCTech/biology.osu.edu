@@ -233,8 +233,8 @@ function bottom() {
    <a title="Contact CLSE webmaster" href="contact/webmaster.php">Contact</a></p>
 <p>If you have trouble accessing this page and need to request an alternate format,
    <a href="contact/webmaster.php">contact&nbsp;the&nbsp;webmaster</a>.</p>
-<p><a title="valid this page" style="text-decoration:none" href="http://validator.w3.org/check?uri=referer"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a>
- | <a title="valid this page's stylesheet" style="text-decoration:none" href="http://jigsaw.w3.org/css-validator/validator?uri=<?= urlencode('http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']) ?>"><abbr title="Cascading Style Sheet">CSS</abbr></a></p>
+<p><a title="validate this page's structure" style="text-decoration:none" href="http://validator.w3.org/check?uri=referer"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a>
+ | <a title="validate this page's stylesheet" style="text-decoration:none" href="http://jigsaw.w3.org/css-validator/validator?uri=<?= urlencode('http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']) ?>"><abbr title="Cascading Style Sheet">CSS</abbr></a></p>
 </div>
 
 <div class="vcard" id="clse">
