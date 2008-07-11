@@ -1,7 +1,7 @@
 <?
 chdir('..');
 require_once 'lib/basics.inc';
-top('Textbooks','Spring 2008');
+top('Textbooks','Summer 2008');
 menu('textbooks');
 ?>
 <table class="textbooks" cellspacing="0" cellpadding="0">
