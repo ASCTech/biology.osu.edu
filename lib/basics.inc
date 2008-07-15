@@ -153,7 +153,7 @@ echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\t@import url($cs
 
 <!-- Logo and title -->
  <div id="pagetitle">
- <a href="http://www.osu.edu/"><img id="logo" src="images/osu_logo.png" alt="The Ohio State University" width="74" height="70"/></a>
+ <a href="http://www.osu.edu/"><img id="logo" src="images/OSU_fulllogo.gif" alt="The Ohio State University" width="58" height="58"/></a>
  <?= $heading ?>
  </div>
 <br class="clearall"/>
