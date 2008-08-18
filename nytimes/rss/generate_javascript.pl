@@ -22,7 +22,7 @@ use Fatal qw( open );
 my $xml_url  = 'http://www.nytimes.com/services/xml/rss/nyt/Science.xml';
 my $xml_file = 'science.xml';
 my $js_file  = 'science.js';
-my $number_of_headlines = 4;
+my $number_of_headlines = 6;
 my $include_descriptions = 1;
 
 if (download($xml_url, $xml_file)) {
