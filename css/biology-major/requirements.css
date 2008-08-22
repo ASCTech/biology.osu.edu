@@ -1,18 +1,31 @@
+#maincolumn .preface {
+  border: 2px solid #888;
+  background-color: #ddd;
+	padding: 1em;
+	margin: 0 3em 2em 3em;
+}
+#maincolumn th {
+	text-align: left;
+}
 #maincolumn h2 {
 	margin-top: 2em;
 }
 #maincolumn .detail {
-	margin: 1em 3em;
+	padding: 0 1em 1em 3em;
 }
-#maincolumn ol {
-	list-style-type: upper-roman;
+#maincolumn .bullet {
+	padding-left: 2em;
+	font-weight: bolder;
+	font-size: larger;
 }
-#maincolumn ol>li {
-	margin-top: 0.5em;
+#maincolumn .hours {
+  text-align: center;
+	padding-left: 2em;
 }
-#maincolumn li li {
-	font-size: 90%;
+#maincolumn .roman {
+	font-family: "Times New Roman", Times, serif;
 }
+
 #maincolumn .hr {
 	color: gray;
 	background-color: gray;
