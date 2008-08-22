@@ -41,7 +41,7 @@ sub xml2js {
   $rss->parse($xml);
   my @stories = ();
   push(@stories, shift(@{$rss->{'items'}})) while @{$rss->{'items'}};
-  foreach my $story (@stories[0 .. 3]) {
+  foreach my $story (@stories[0 .. $number_of_headlines-1]) {
     # NYT started putting html links back to the article in the description.
     # XML::RSS::JavaScript makes the title link to the full article.
     $story->{'description'} =~ s/<.*?>//g;
