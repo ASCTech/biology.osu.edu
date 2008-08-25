@@ -6,6 +6,8 @@ $instructors = array(
     102 => array('taylor.69', 'santangelo.11'),
     113 => array('cogan.1', 'breitenberger.1'),
     114 => array('kovach.71'),
+    115 => array('NA'),
+    116 => array('NA')
   ),
 	'Spring 2008' => array(
 		101 => array('cogan.1', 'stetson.1', 'chordas.2'),
