@@ -1,11 +1,9 @@
 <?
-chdir('..');
-require_once 'lib/basics.inc';
-top('Textbooks');
-menu('textbooks');
+$quarters = preg_grep('/\A\d{5}\.php\Z/', scandir('.'));
+rsort($quarters);
+$page = $quarters[0];
+
+$host  = $_SERVER['HTTP_HOST'];
+$uri   = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
+header("Location: http://$host$uri/$page");
 ?>
-
-<h1 style="min-height:8em">Please choose a Quarter from the list on the left.</h1>
-
-
-<? bottom(); ?>
