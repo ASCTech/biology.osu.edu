@@ -62,11 +62,8 @@ function top() {
 		if ($p) {
 			$url = array_key_exists($p, $url_map) ? $url_map[$p] : 0;
 
-			$h_img = str_replace(' ', '_', $p);
-			$h_img = "images/headings/$h_img.gif";
-			if (file_exists($h_img)) $p = '<img src="' . $h_img . '" alt="' . $p . '"/>';
-
 			if ($heading != '') $heading .= '<img class="arrow" src="images/arrow.gif" alt=""/> ';
+
 			$heading .= '<a ' . ($url ? 'href="' . $url . '" ' : '') . 'class="heading">' . $p . "</a>\n";
 		}
 	}
@@ -197,7 +194,7 @@ echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\n" ;
 <div id="whole-page">
 
 <!-- Logo and title -->
- <div id="pagetitle"><?= $heading ?></div>
+ <div id="pagetitle"><h1><?= $heading ?></h1></div>
 <br class="clearall"/>
 <!-- End Logo and title -->
 
