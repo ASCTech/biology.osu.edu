@@ -1,7 +1,7 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
-	color: black;
-	background-color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
 }
 
 img { border: none }
@@ -34,7 +34,10 @@ th, td {
 
 div#content { padding-top: 16px; }
 
-div#content p { text-indent: 1.5em; }
+div#content p {
+  text-indent: 1.5em;
+	margin-bottom: 1em;
+}
 
 div#syllabus p { text-indent: 0; }
 
@@ -79,7 +82,14 @@ table#syllabus tr td:first-child {
 
 .indent { margin-left: 1.5em; }
 
-ul.nobullet { list-style-type: none; }
+ul {
+  list-style-type: disc;
+  margin: 1em 3em;
+}
+
+ol {
+	margin: 1em 3em;
+}
 
 tr.underline th, tr.underline td { border-bottom: 1px solid black; }
 

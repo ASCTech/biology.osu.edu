@@ -15,6 +15,7 @@
 }
 #maincolumn .bullet {
 	padding-left: 2em;
+	padding-right: 0.5em;
 	font-weight: bolder;
 	font-size: larger;
 }

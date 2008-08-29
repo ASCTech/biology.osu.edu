@@ -88,12 +88,38 @@ function top() {
 
 <base href="<?= $base ?>"/>
 
+<!-- 
+  OSU Navigation Bar: Optional CSS
+  Highly recommended but not required. 
+  Resets style values for uniformity across all browsers. See file for more information.
+-->
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+  
+<!-- OSU Navigation Bar: Required CSS. -->
+<link rel="stylesheet" type="text/css" href="css/navbar.css" />
+  
+<!-- OSU Navigation Bar: Required Conditional CSS. -->
+<!--[if lte IE 6]>  
+  <link rel="stylesheet" type="text/css" href="css/navbar-ie6.css" />
+<![endif]-->
+<!--[if IE 7]>  
+  <link rel="stylesheet" type="text/css" href="css/navbar-ie7.css" />
+<![endif]-->
+  
+<!-- 
+  OSU Navigation Bar: Optional javascript
+  Dynamically shows and hides form input labels.
+-->
+<script type="text/javascript" src="js/searchform.js"></script>
+
+<!-- OSU: Optional Favicon -->
+<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
 <style type="text/css">
 <!--
-	@import url(http://www.osu.edu/css/template/osu-navbar.css);
-
-	@import url(css/body.css);
-	@import url(css/masthead.css);
+  @import url(css/masthead.css);
+  @import url(css/body.css);
 	@import url(css/menu_pulldown.css);
 	@import url(css/layout_1col.css);
 	@import url(css/layout_2col.css);
@@ -104,8 +130,23 @@ $requested_file = preg_replace('/^.*biology\.osu\.edu/','',$_SERVER['REQUEST_URI
 $css_file = 'css' . preg_replace('/(php)|(html)$/i', 'css', $requested_file);
 $css_file = preg_replace('/\?.*$/','',$css_file);
 $css_file = preg_replace('/\/$/', '/index.css', $css_file);
-echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\t@import url($css_file);\n" ;
+echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\n" ;
 ?>
+
+  /*
+    OSU Navigation Bar: Note for developers:
+    Page content following the OSU Navigation Bar must have a width assigned or 
+    IE will not perform "skip to content".
+  */
+  #page-content
+  {
+    width: 100%;
+  }
+  #page-content h1, #page-content p
+  {
+    padding: 1em 3em;
+  }
+
   -->
 </style>
 
@@ -113,41 +154,50 @@ echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\t@import url($cs
 
 <body>
 
-<!-- Ohio State University masthead: Updated September 2006: Accessiblity improvements. See http://www.osu.edu/resources/ -->
-<h2 class="osu-semanticContent">OSU masthead and toolbar</h2>
-<div id="osu-masthead">
-	<div class="osu-masttitle">
-	<a href="http://www.osu.edu/" title="The Ohio State University">The Ohio State University</a>
-	</div>
-
-	<div class="osu-masturl">
-	 <a href="http://www.osu.edu/" title="The Ohio State University">www.osu.edu</a>
-
-	</div>
-	<form id="osu-mastnavigation" action="http://google.service.ohio-state.edu/search" method="get">
-		<ol>
-			<li><a href="http://www.osu.edu/help.php" title="OSU Help">Help</a></li>
-			<li><a href="http://www.osu.edu/map/" title="Campus map">Campus map</a></li>
-      <li><a href="http://buckeyelink.osu.edu/" title="OSU's academic center">Buckeye Link</a></li>
-			<li><a href="http://www.osu.edu/findpeople.php" title="Find people at OSU">Find people</a></li>
-			<li><a href="https://webmail.osu.edu" title="OSU Webmail">Webmail</a></li>
-
-			<li>
-				<div class="osu-semanticContent">
-					<label for="Search">Search Ohio State</label>
-				</div>
-				<input id="Search" class="textfield" type="text" name="q" size="14" maxlength="256" value="Search" onfocus="this.value='';" accesskey="s" tabindex="1" />
-				<input class="go" type="submit" value="Go" name="submit"/>
-				<input value="date:D:L:d1" name="sort" type="hidden" /><input value="xml_no_dtd" name="output" type="hidden" /><input value="UTF-8" name="ie" type="hidden" /><input value="UTF-8" name="oe" type="hidden" /><input value="default_frontend" name="client" type="hidden" /><input value="default_frontend" name="proxystylesheet" type="hidden" /><input value="default_collection" name="site" type="hidden" /><input type="hidden" name="as_dt" value="i" />
-			</li>
-
-		</ol>
-	</form>
-	<br class="osu-clearall" />
+<!-- Begin OSU Navigation Bar -->
+<div id="osu-Navbar">
+  <p>
+    <a href="#page-content" id="skip" class="osu-semantic">skip to main content</a>
+  </p>
+  <h2 class="osu-semantic">OSU Navigation Bar</h2>
+  <div id="osu-NavbarBreadcrumb">
+    <p id="osu">
+      <a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a>
+    </p>
+    <p id="site-name">
+       <a href="<?= $base ?>">Biology Programs</a>
+    </p>
+  </div>
+  <div id="osu-NavbarLinks">
+    <ul>
+      <li><a href="http://www.osu.edu/help.php" title="OSU Help">Help</a></li>
+      <li><a href="http://buckeyelink.osu.edu/" title="Buckeye Link">Buckeye Link</a></li>
+      <li><a href="http://www.osu.edu/map/" title="Campus map">Map</a></li>
+      <li><a href="http://www.osu.edu/findpeople.php" title="Find people at OSU">Find People</a></li>
+      <li><a href="https://webmail.osu.edu" title="OSU Webmail">Webmail</a></li>
+      <li id="searchbox">
+        <form action="http://google.service.ohio-state.edu/search" method="get" >
+          <input value="date:D:L:d1" name="sort" type="hidden" />
+          <input value="xml_no_dtd" name="output" type="hidden" />
+          <input value="UTF-8" name="ie" type="hidden" />
+          <input value="UTF-8" name="oe" type="hidden" />
+          <input value="default_frontend" name="client" type="hidden" />
+          <input value="default_frontend" name="proxystylesheet" type="hidden" />
+          <input value="default_collection" name="site" type="hidden" />
+          <input type="hidden" name="as_dt" value="i" />
+          <fieldset>
+            <legend>
+              <span class="osu-semantic">Search</span>
+            </legend>
+            <label for="search-field" class="overlabel">Search Ohio State</label>
+            <input id="search-field" class="textfield" type="text" name="q" value="" />
+            <button type="submit" name="go">Go</button>
+          </fieldset>
+        </form>
+      </li>       
+    </ul>
+  </div>
 </div>
-<div class="osu-hr"><hr /></div>
-<!-- End masthead -->
-
 
 <div id="whole-page">
 
