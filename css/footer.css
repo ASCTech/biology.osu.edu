@@ -1,12 +1,41 @@
 #footer {
-width: 100%;
-padding-top: 1em;
-border-top: 2px solid #ccc;
+  width: 100%;
+  padding-top: 1em;
+  border-top: 2px solid #ccc;
 }
 
 #footer p {
-padding: 0px;
-margin-top: 0px;
-margin-bottom:0px;
-font-size: .9em;
+	line-height: 130%;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom:0px;
+  font-size: .9em;
+}
+
+#footer #clse_logo {
+  float: left;
+  clear: left;
+	margin-right: 1em;
+}
+
+#clse.vcard .organization-name {
+  position: absolute;
+  top: -900px;
+  left: -900px;
+}
+
+#clse.vcard .url {
+  position: absolute;
+  top: -900px;
+  left: -900px;
+}
+
+#clse.vcard .tel.fax {
+  position: absolute;
+  top: -900px;
+  left: -900px;
+}
+
+#clse.vcard .nowrap {
+	white-space: nowrap;
 }

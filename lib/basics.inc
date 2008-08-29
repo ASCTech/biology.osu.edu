@@ -45,14 +45,13 @@ $url_map = array(
 	'Honors Biology 115' => 'courses/115/',
 	'Honors Biology 116' => 'courses/116/',
 	'Staff' => 'contact/staff',
+  'Biology Major' => 'biology-major/'
 );
 
 function top() {
 	global $url_map, $base;
     $pages = func_get_args();
-	if (count($pages) > 0) {
-		array_unshift($pages, 'Biology Programs at Ohio State');
-	} else {
+	if (count($pages) == 0) {
 		$pages = array('Biology Programs at Ohio State');
 	}
 	$title = implode(' - ', array_reverse($pages));
@@ -63,16 +62,12 @@ function top() {
 		if ($p) {
 			$url = array_key_exists($p, $url_map) ? $url_map[$p] : 0;
 
-			$clse = $p == 'Biology Programs at Ohio State' ? 1 : 0;
-
 			$h_img = str_replace(' ', '_', $p);
 			$h_img = "images/headings/$h_img.gif";
 			if (file_exists($h_img)) $p = '<img src="' . $h_img . '" alt="' . $p . '"/>';
 
-			$heading .= '<span class="nobreak">';
-			if (!$clse) $heading .= '<img class="arrow" src="images/arrow.gif" alt=""/> ';
+			if ($heading != '') $heading .= '<img class="arrow" src="images/arrow.gif" alt=""/> ';
 			$heading .= '<a ' . ($url ? 'href="' . $url . '" ' : '') . 'class="heading">' . $p . "</a>\n";
-			$heading .= '</span>';
 		}
 	}
 ?>
@@ -176,16 +171,16 @@ echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\n" ;
       <li><a href="http://www.osu.edu/findpeople.php" title="Find people at OSU">Find People</a></li>
       <li><a href="https://webmail.osu.edu" title="OSU Webmail">Webmail</a></li>
       <li id="searchbox">
-        <form action="http://google.service.ohio-state.edu/search" method="get" >
-          <input value="date:D:L:d1" name="sort" type="hidden" />
-          <input value="xml_no_dtd" name="output" type="hidden" />
-          <input value="UTF-8" name="ie" type="hidden" />
-          <input value="UTF-8" name="oe" type="hidden" />
-          <input value="default_frontend" name="client" type="hidden" />
-          <input value="default_frontend" name="proxystylesheet" type="hidden" />
-          <input value="default_collection" name="site" type="hidden" />
-          <input type="hidden" name="as_dt" value="i" />
+        <form action="http://google.service.ohio-state.edu/search" method="get">
           <fieldset>
+            <input type="hidden" name="sort" value="date:D:L:d1" />
+            <input type="hidden" name="output" value="xml_no_dtd" />
+            <input type="hidden" name="ie" value="UTF-8" />
+            <input type="hidden" name="oe" value="UTF-8" />
+            <input type="hidden" name="client" value="default_frontend" />
+            <input type="hidden" name="proxystylesheet" value="default_frontend" />
+            <input type="hidden" name="site" value="default_collection" />
+            <input type="hidden" name="as_dt" value="i" />
             <legend>
               <span class="osu-semantic">Search</span>
             </legend>
@@ -202,10 +197,7 @@ echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\n" ;
 <div id="whole-page">
 
 <!-- Logo and title -->
- <div id="pagetitle">
- <a href="http://www.osu.edu/"><img id="logo" src="images/OSU_fulllogo.gif" alt="The Ohio State University" width="58" height="58"/></a>
- <?= $heading ?>
- </div>
+ <div id="pagetitle"><?= $heading ?></div>
 <br class="clearall"/>
 <!-- End Logo and title -->
 
@@ -276,38 +268,40 @@ function bottom() {
 <br class="clearall"/>
 <div id="footer">
 
-<div id="footer-left">
-<a href="http://www.osu.edu/" title="The Ohio State University"><img src="images/footer.png" alt="The Ohio State University, www.osu.edu" width="250" height="17"/></a>
-<p><a href="copyright.php">Copyright</a>, <?= date('Y') ?>. Center for Life Sciences Education.</p>
+<div id="clse_logo">
+  <a href="<?= $base ?>"><img src="images/clse_logo.png" alt="Center for Life Sciences Education"/></a>
+</div>
+<div id="footer-text">
+<p>&copy; <?= date('Y') ?>,
+  <span class="vcard" id="clse">
+    <span class="fn org">
+      <span class="organization-unit nowrap">Center for Life Sciences Education</span>
+      <span class="organization-name">The Ohio State University</span>
+    </span>
+    <a class="url" href="http://clse.osu.edu/">http://clse.osu.edu/</a>
+    <span class="adr">
+      <span class="nowrap">| <span class="extended-address">260 Jennings Hall</span></span>
+      <span class="nowrap">| <span class="street-address">1735 Neil Avenue</span></span>
+      <span class="nowrap">|
+        <span class="locality">Columbus</span>,
+        <span class="region">OH</span>
+        <span class="postal-code">43210</span>
+      </span>
+    </span>
+    <span class="tel nowrap">
+      | <span class="type">Work</span><span class="type">Pref</span><span class="value">(614) 292-9861</span>
+    </span>
+    <span class="tel fax">
+      <span class="type">Fax</span><span class="value">(614) 292-4390</span>
+    </span>
+  </span>
+</p>
 <p>This page is maintained by: CLSE Technology Staff &mdash;
    <a title="Contact CLSE webmaster" href="contact/webmaster.php">Contact</a></p>
 <p>If you have trouble accessing this page and need to request an alternate format,
    <a href="contact/webmaster.php">contact&nbsp;the&nbsp;webmaster</a>.</p>
 <p><a title="validate this page's structure" style="text-decoration:none" href="http://validator.w3.org/check?uri=referer"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a>
  | <a title="validate this page's stylesheet" style="text-decoration:none" href="http://jigsaw.w3.org/css-validator/validator?uri=<?= urlencode('http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']) ?>"><abbr title="Cascading Style Sheet">CSS</abbr></a></p>
-</div>
-
-<div class="vcard" id="clse">
-<div class="fn org">
- <div class="organization-unit">Center for Life Sciences Education</div>
- <div class="organization-name">The Ohio State University</div>
-</div>
-<a class="url" href="http://clse.osu.edu/">http://clse.osu.edu/</a>
-<div class="adr">
- <div class="extended-address">260 Jennings Hall</div>
- <div class="street-address">1735 Neil Avenue</div>
- <span class="locality">Columbus</span>,
- <span class="region">OH</span>
- <span class="postal-code">43210-1106</span>
-</div>
-<div class="tel">
- <div class="type">Work</div><div class="type">Pref</div>
- tel: <span class="value">(614) 292-9861</span>
-</div>
-<div class="tel">
- <div class="type">Fax</div>
- fax: <span class="value">(614) 292-4390</span>
-</div>
 </div>
 
 </div>

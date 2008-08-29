@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: black;
   background-color: white;
 }
@@ -263,35 +263,9 @@ table.instructors img {
 }
 
 
-#footer-left {
-	float: left;
-	clear: left;
-}
-
-
 /* vcard styles */
 
 .vcard .tel .type {
-	position: absolute;
-	top: -900px;
-	left: -900px;
-}
-
-
-/* CLSE contact info in footer specifics */
-
-#clse.vcard {
-	float: right;
-	clear: right;
-}
-
-#clse.vcard .organization-name {
-	position: absolute;
-	top: -900px;
-	left: -900px;
-}
-
-#clse.vcard .url {
 	position: absolute;
 	top: -900px;
 	left: -900px;
