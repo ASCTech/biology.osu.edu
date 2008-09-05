@@ -69,10 +69,128 @@ menu('biology-major');
    the College of Biological Sciences Curriculum Committee for approval.</p>
 
 <h3>Sample Specialization Areas for the Biology Major:</h3>
-<ul>
-  <li>Education in Life Sciences</li>
-  <li>Forensic Biology</li> 
-  <li>Pre-health Professions</li>
+<ul id="specializations">
+  <li><span class="title" title="Show Details"
+        onclick="this.parentNode.lastChild.style.display='block'">
+      Education in Life Sciences</span>
+      <div class="details">
+        <span class="closelink" title="hide the requirements for this specializtion"
+          onclick="this.parentNode.style.display='none'">&times;</span>
+        <p>Students wishing to pursue a career as a high school science
+           teacher are encouraged to complete a bachelor's degree in the
+           content area (e.g. Biology) and apply to the Master's of Education
+           (M.Ed.) program through Ohio State's College of Education. For
+           further information, and for additional information about entrance
+           requirements to the M.Ed. program, please refer to
+           <a href="http://www.coe.ohio-state.edu">The College of Education</a>.</p>
+        <ul>
+          <li><strong>Required:</strong>
+              Introduction to Biological Chemistry: Biochemistry 511 (5 cr.)
+              </li>
+          <li><strong>Required:</strong>
+              General Genetics: Mol Gen 500 (5 cr.)
+              </li>
+          <li><strong>Required:</strong>
+              Evolution: EEOB 400 (5 cr.)
+              </li>
+          <li><strong>Required:</strong>
+              Basic and Practical Microbiology: Micro 509 (5 cr.)
+              </li>
+          <li><strong>Required:</strong>
+              General Plant Biology: PCMB 300 (5 cr.)
+              </li>
+          <li><strong>Additional coursework</strong> &ndash; choose at least
+              <u>two</u> courses from the following list or consult with the
+              Biology major advisor for additional suggestions:
+              <ul>
+                <li>General Entomology: Entomol 500 (5 cr.)</li>
+                <li>Introduction to Ornithology: EEOB 322 (5 cr.)</li>
+                <li>Diversity and Systematics of Organisms: EEOB 405.01 (4 cr.)
+                    (<em>strongly recommended</em>)</li>
+                <li>Ichthyology: EEOB 621 (5 cr.)</li>
+                <li>Mammalogy: EEOB 625 (5 cr.)</li>
+                <li>DNA Fingerprinting Workshops in Columbus Public Schools:
+                    Mol Gen, Biochem, or Micro 591 (2 cr.
+                      &ndash; may only be counted once)</li>
+              </ul>
+              </li>
+        </ul>
+      </div></li>
+  <li><span class="title" title="Show Details"
+      onclick="this.parentNode.lastChild.style.display='block'">
+      Forensic Biology</span>
+      <div class="details">
+        <span class="closelink" title="hide the requirements for this specializtion"
+          onclick="this.parentNode.style.display='none'">&times;</span>
+        <ul>
+          <li><strong>Recommended additional prerequisite:</strong>
+              Introduction to Physical Anthropology: Anthropology 200 (5 cr.)
+              </li>
+          <li><strong>Required:</strong>
+              An introductory course or sequence in biochemistry:
+              Biochemistry 511 <u>or</u> Biochemistry 613 <u>and</u> 614
+              (5&ndash;8 cr.)
+              </li>
+          <li><strong>Required:</strong>
+              An introductory course or sequence in molecular genetics:
+              Mol Gen 500 <u>or</u> Mol Gen 605 <u>and</u> 606 (5&ndash;8 cr.)
+              </li>
+          <li><strong>Additional coursework</strong> in molecular biology and
+              forensic science &ndash; choose at least <u>three</u> courses or
+              series from the following list:
+              <ul>
+                <li>Biological Anthropology of the Human Skeleton:
+                    Anthropology 603.01, 603.02, 603.03 <u>or</u> 603.04 (5 cr.)</li>
+                <li>Forensic Anthropology: Anthropology 640.04 (5 cr.; Anthro 603.01 prereq)</li>
+                <li>3<sup>rd</sup> course in Biochemistry and Molecular Biology:
+                    Biochemistry 615 (4 cr.)</li>
+                <li>Eukaryotic Molecular Genetics Laboratory: Mol Gen 601 (5 cr.)</li>
+                <li>Cell Biology: Mol Gen 607 (3 cr.)</li>
+                <li>Molecular Genetics: DNA Transactions: Mol Gen 701 (3 cr.)</li>
+                <li>A course or sequence in microbiology: Micro 509 <u>or</u>
+                    Micro 520 <u>and</u> 521 (5&ndash;10 cr.)</li>
+                <li>DNA Fingerprinting Workshops in Columbus Public Schools:
+                    Mol Gen, Biochem, or Micro 591 (2 cr.
+                      &ndash; may only be counted once)</li>
+              </ul>
+              </li>
+        </ul>
+      </div></li>
+  <li><span class="title" title="Show Details"
+      onclick="this.parentNode.lastChild.style.display='block'">
+      Pre-health Professions</span>
+      <div class="details">
+        <span class="closelink" title="hide the requirements for this specializtion"
+          onclick="this.parentNode.style.display='none'">&times;</span>
+        <ul>
+          <li><strong>Recommended additional prerequisite:</strong>
+              Chemistry 253
+              </li>
+          <li><strong>Required:</strong>
+              An introductory course or sequence in molecular genetics:
+              Mol Gen 500 <u>or</u> Mol Gen 605 <u>and</u> 606 (5&ndash;8 cr.)
+              </li>
+          <li><strong>Additional coursework</strong> &ndash; choose at least
+              <u>four</u> courses or series from the following list:
+              <ul>
+                <li>An introductory course or sequence in biochemistry:
+                    Biochemistry 511 <u>or</u> Biochemistry 613 <u>and</u> 614
+                    (5&ndash;8 cr.)</li>
+                <li>Evolution: EEOB 400 (5 cr.)</li>
+                <li>An introductory course or sequence in general microbiology:
+                    Micro 509 <u>or</u> Micro 520 <u>and</u> 521 (5&ndash;10 cr.)</li>
+                <li>Principles of Animal Cellular and Developmental Biology:
+                    EEOB 415 (4 cr.)</li>
+                <li>Vertebrate Histology: EEOB 630 (5 cr.)</li>
+                <li>A course in human or comparative anatomy:
+                    Anatomy 200 <u>or</u> EEOB 410 (4&ndash;5 cr.)
+                    [A course in human anatomy is required by the OSU Dental School.]</li>
+                <li>A sequence in human physiology: Physiology CB 311 and 312
+                    <u>or</u> Physiology CB 601 and 602 (10 cr.)</li>
+              </ul>
+              </li>
+        </ul>
+      </div></li>
 </ul>
 <p>Please see a biology advisor for the lists of approved courses in these and
    other specializations.</p>

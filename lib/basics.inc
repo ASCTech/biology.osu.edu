@@ -1,7 +1,7 @@
 <?
 
 $base = $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR']
-      ? 'http://localhost:8080/~michaelgee/biology.osu.edu/'
+      ? 'http://localhost/~michaelgee/biology.osu.edu/'
       : 'http://biology.osu.edu/';
 
 
@@ -108,23 +108,21 @@ function top() {
 <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
-<style type="text/css">
-<!--
-  @import url(css/masthead.css);
-  @import url(css/body.css);
-	@import url(css/menu_pulldown.css);
-	@import url(css/layout_1col.css);
-	@import url(css/layout_2col.css);
-	@import url(css/footer.css);
-	@import url(css/local.css);
+<link rel="stylesheet" type="text/css" href="css/masthead.css" />
+<link rel="stylesheet" type="text/css" href="css/body.css" />
+<link rel="stylesheet" type="text/css" href="css/menu_pulldown.css" />
+<link rel="stylesheet" type="text/css" href="css/layout_1col.css" />
+<link rel="stylesheet" type="text/css" href="css/layout_2col.css" />
+<link rel="stylesheet" type="text/css" href="css/footer.css" />
+<link rel="stylesheet" type="text/css" href="css/local.css" />
 <?
 $requested_file = preg_replace('/^.*biology\.osu\.edu/','',$_SERVER['REQUEST_URI']);
 $css_file = 'css' . preg_replace('/(php)|(html)$/i', 'css', $requested_file);
 $css_file = preg_replace('/\?.*$/','',$css_file);
 $css_file = preg_replace('/\/$/', '/index.css', $css_file);
-echo file_exists($css_file) ? "\t@import url($css_file);\n" : "\n" ;
+echo file_exists($css_file) ? "\t<link rel=\"stylesheet\" type=\"text/css\" href=\"$css_file\" />\n" : "\n" ;
 ?>
-
+<style type="text/css">
   /*
     OSU Navigation Bar: Note for developers:
     Page content following the OSU Navigation Bar must have a width assigned or 

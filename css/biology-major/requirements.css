@@ -35,3 +35,41 @@
 #maincolumn .hr hr {
 	display: none;
 }
+
+#specializations .title {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+#specializations .details {
+  display: none;
+	border: 2px solid #888;
+	margin: 0.5em 0.5em 1em 0.5em;
+	padding: 10px;
+}
+
+#specializations .details .closelink {
+	display: block;
+  float: right;
+	cursor: pointer;
+	font-size: 150%;
+	margin: -10px -10px 10px 10px;
+	padding: 3px;
+	padding-top: 1px;
+  border-bottom: 1px solid #888;
+  border-left: 1px solid #888;
+}
+
+#specializations .details ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#specializations .details ul ul {
+  list-style-type: disc;
+  margin: 0 3em;
+  padding: 0;
+}
+
