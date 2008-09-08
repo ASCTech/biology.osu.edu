@@ -17,7 +17,7 @@ menu('biology-major');
 
 <table class="courses">
 <tbody>
-<tr><th colspan="2"><h2>Part A. Required Prerequisites or Supplements to the Major</h2></th></tr>
+<tr><th colspan="2"><h2>Part A. Required Prerequisites or Supplements</h2></th></tr>
 <tr><td colspan="2" class="detail">(Do not count toward the 45 hour major)</td></tr>
 
 <tr><td></td><th>Courses</th><th class="hours">Hours</th></tr>
@@ -68,7 +68,6 @@ menu('biology-major');
    sciences with a coherent theme, and present the proposed specialization to
    the College of Biological Sciences Curriculum Committee for approval.</p>
 
-<h3>Sample Specialization Areas for the Biology Major:</h3>
 <ul id="specializations">
   <li><span class="title" title="Show Details"
         onclick="this.parentNode.lastChild.style.display='block'">
@@ -192,10 +191,9 @@ menu('biology-major');
         </ul>
       </div></li>
 </ul>
-<p>Please see a biology advisor for the lists of approved courses in these and
-   other specializations.</p>
+<p>Please see a biology advisor for other specialization options.</p>
 
-<h2>Part D. General Requirements for the Biology Major</h2>
+<h2>Part D. General Requirements</h2>
 <ul>
   <li>45 or more credit hours beyond the prerequisites to the major (some
       students may need additional courses at the 300-level or above after

@@ -155,7 +155,7 @@ echo file_exists($css_file) ? "\t<link rel=\"stylesheet\" type=\"text/css\" href
       <a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a>
     </p>
     <p id="site-name">
-       <a href="<?= $base ?>">Biology Programs</a>
+       <a href="<?= $base ?>">Life Sciences Education</a>
     </p>
   </div>
   <div id="osu-NavbarLinks">
