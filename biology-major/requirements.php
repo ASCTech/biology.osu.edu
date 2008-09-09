@@ -57,8 +57,6 @@ menu('biology-major');
 </table>
 
 <h2>Part C. Specialization Areas</h2>
-<div class="detail">(Individually-designed areas of further study totaling at
-   least 15 hours)</div>
 
 <p>In consultation with his or her advisor, each student must decide on an
    area of specialization within the broader field of biology. If the
