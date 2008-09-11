@@ -14,7 +14,7 @@ menu('textbooks');
  </tr>
  <tr class="gray">
   <td>101</td>
-  <td>Fisher, Chordas<br />(2 other instructors to be determined)</td>
+  <td>Fisher, Chordas, Cogan, &amp;&nbsp;Taylor</td>
   <td>Biology: Concepts&nbsp;&amp;&nbsp;Applications 7th&nbsp;edition</td>
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
@@ -29,7 +29,7 @@ menu('textbooks');
  <tr><td>&nbsp;</td></tr>
  <tr>
   <td>102</td>
-  <td>Reeve, Stetson<br />(1 other instructor to be determined)</td>
+  <td>Reeve, Stetson, &amp;&nbsp;Rothacker</td>
   <td>Biology: Concepts&nbsp;&amp;&nbsp;Applications 7th&nbsp;edition</td>
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
