@@ -54,8 +54,8 @@ function top() {
 	if (count($pages) == 0) {
 		$pages = array('Biology Programs at Ohio State');
 	}
-	$title = implode(' - ', array_reverse($pages));
-	if ($title) $title .= ' - ';
+	$title = implode(' | ', array_reverse($pages));
+	if ($title) $title .= ' | ';
 	$title .= 'The Ohio State University';
 	$heading = '';
 	foreach ($pages as $p) {
