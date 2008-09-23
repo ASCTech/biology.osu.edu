@@ -2,7 +2,7 @@
 
 $instructors = array(
   'Autumn 2008' => array(
-    101 => array('fisher.14', 'cogan.1', 'taylor.69', 'chordas.2'),
+    101 => array('fisher.14', 'chordas.2', 'cogan.1', 'taylor.69'),
     102 => array('reeve.2', 'stetson.1', 'rothacker.1'),
     113 => array('cogan.1'),
     114 => array('taylor.69'),
