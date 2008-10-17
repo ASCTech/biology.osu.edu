@@ -4,7 +4,7 @@ $directory = array(
   'chordas.2' => array(
        'first' => 'Stephen',
        'last'  => 'Chordas',
-       'suffix' => ' <span class="roman-numerals" style="font-family:serif">III</span>',
+       'suffix' => ' <span class="roman-numerals" style="font-family: \'Times New Roman\' Times serif">III</span>',
        'title' => 'Lecturer, Course Coordinator (401,&nbsp;402)',
        'phone' => '247-0031'),
   'dennis.143' => array(
