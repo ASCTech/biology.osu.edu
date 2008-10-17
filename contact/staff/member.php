@@ -11,7 +11,7 @@ no_menu();
 ?>
 
 <div id="businesscard">
-<div id="name"><?= $person['first'] ?> <?= $person['last'] ?></div>
+<div id="name"><?= $person['first'] ?> <?= $person['last'] ?><?= array_key_exists('suffix', $person) ? $person['suffix'] : '' ?></div>
 <div id="title"><?= $person['title'] ?></div>
 <div id="department">Center for Life Sciences Education</div>
 <div id="address">

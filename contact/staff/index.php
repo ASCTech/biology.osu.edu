@@ -19,7 +19,7 @@ $n = 0;
  </tr>
 <?   while (list($username,$person) = each($directory)): ?>
  <tr class="r<?= $n = 1 - $n ?>">
-  <td class="name"><div><a href="contact/staff/member.php?username=<?= $username ?>"><?= $person['first'] ?> <?= $person['last'] ?></a></div></td>
+ <td class="name"><div><a href="contact/staff/member.php?username=<?= $username ?>"><?= $person['first'] ?> <?= $person['last'] ?><?= array_key_exists('suffix', $person) ? $person['suffix'] : '' ?></a></div></td>
   <td class="title"><div><?= $person['title'] ?></div></td>
   <td class="email"><a href="mailto:<?= $person['first'] . ' ' . $person['last'] . ' &lt;' . $username . '@osu.edu&gt;' ?>"><?= $username ?>@osu.edu</a></td>
   <td class="phone">(614) <?= $person['phone'] ?></td>
