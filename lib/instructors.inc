@@ -1,7 +1,15 @@
 <?
 
 $instructors = array(
-  'Autumn 2008' => array(
+  'Winter 2009' => array(
+    101 => array('andrews.171', 'chordas.2', 'taylor.69'),
+    102 => array('reeve.2', 'taylor.69', 'santangelo.11'),
+    113 => array('cogan.1'),
+    114 => array('hetherington.1'),
+    115 => array('ding.35', 'simcox.1'),
+    116 => array('boerner.1'),
+  ),
+'Autumn 2008' => array(
     101 => array('fisher.14', 'chordas.2', 'cogan.1', 'taylor.69'),
     102 => array('reeve.2', 'stetson.1', 'rothacker.1'),
     113 => array('cogan.1'),
