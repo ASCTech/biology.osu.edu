@@ -1,6 +1,14 @@
 <?
 
 $instructors = array(
+  'Spring 2009' => array(
+    101 => array('andrews.171', 'chordas.2', 'cogan.1'),
+    102 => array('rissing.2', 'taylor.69', 'hurdzan.3'),
+    113 => array('waddell.48', 'swenson.1'),
+    114 => array('taylor.69'),
+    115 => array('breitenberger.1', 'stetson.1'),
+    116 => array('wilson.1457'),
+  ),
   'Winter 2009' => array(
     101 => array('andrews.171', 'chordas.2', 'taylor.69'),
     102 => array('reeve.2', 'taylor.69', 'santangelo.11'),
@@ -9,7 +17,7 @@ $instructors = array(
     115 => array('ding.35', 'simcox.1'),
     116 => array('boerner.1'),
   ),
-'Autumn 2008' => array(
+  'Autumn 2008' => array(
     101 => array('fisher.14', 'chordas.2', 'cogan.1', 'taylor.69'),
     102 => array('reeve.2', 'stetson.1', 'rothacker.1'),
     113 => array('cogan.1'),
