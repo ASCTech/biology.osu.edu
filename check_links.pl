@@ -23,7 +23,7 @@ sub next_unchecked { (keys %unchecked)[0] }
 
 sub local_page {
   my $url = shift;
-  return (split(/\?/, $url, 2))[0] =~ m#^$front_page.*(\.php|\.html|/)$#;
+  return (split(/\?/, $url, 2))[0] =~ m{^$front_page.*(\.php|\.html|/)$};
 }
 
 sub status_line {
@@ -51,8 +51,8 @@ sub extract_links {
     while (my $link = shift @links) {
       $link = url($link, $base)->abs;
       my $link_without_params = (split(/\?/,$link,2))[0];
-      $link = $link_without_params if $link =~ m#^http://jigsaw.w3.org/#;
-      next if $good{$link} or $bad{$link} or $link =~ m/^mailto:/;
+      $link = $link_without_params if $link =~ m{^http://jigsaw.w3.org/};
+      next if $good{$link} or $bad{$link} or $link =~ m{^mailto:};
       $unchecked{$link} = 1;
     }
   }
