@@ -10,7 +10,7 @@ require 'nytimes/usage.inc';
    Times, please click on the following PDF document link to view and print the
    order form.  In order to view this document, you must have a PDF reader
    installed on your computer.  If you need to download a PDF reader, please
-   <a href="http://www.adobe.com/products/acrobat/readstep2.html">click here</a>
+   <a href="http://get.adobe.com/reader/">click here</a>
    and follow the on screen instructions for downloading and installing Acrobat Reader.</p>
 <p style="text-align:center"><a href="nytimes/order_form/current.pdf">New York Times Order Form</a></p>
 <? bottom(); ?>
