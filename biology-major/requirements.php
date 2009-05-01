@@ -71,7 +71,7 @@ menu('biology-major');
         onclick="this.parentNode.lastChild.style.display='block'">
       Education in Life Sciences</span>
       <div class="details">
-        <span class="closelink" title="hide the requirements for this specializtion"
+        <span class="closelink" title="hide the requirements for this specialization"
           onclick="this.parentNode.style.display='none'">&times;</span>
         <p>Students wishing to pursue a career as a high school science
            teacher are encouraged to complete a bachelor's degree in the
@@ -117,7 +117,7 @@ menu('biology-major');
       onclick="this.parentNode.lastChild.style.display='block'">
       Forensic Biology</span>
       <div class="details">
-        <span class="closelink" title="hide the requirements for this specializtion"
+        <span class="closelink" title="hide the requirements for this specialization"
           onclick="this.parentNode.style.display='none'">&times;</span>
         <ul>
           <li><strong>Recommended additional prerequisite:</strong>
@@ -157,7 +157,7 @@ menu('biology-major');
       onclick="this.parentNode.lastChild.style.display='block'">
       Pre-health Professions</span>
       <div class="details">
-        <span class="closelink" title="hide the requirements for this specializtion"
+        <span class="closelink" title="hide the requirements for this specialization"
           onclick="this.parentNode.style.display='none'">&times;</span>
         <ul>
           <li><strong>Recommended additional prerequisite:</strong>
