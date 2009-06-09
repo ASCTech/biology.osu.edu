@@ -1,6 +1,12 @@
 <?
 
 $instructors = array(
+  'Summer 2009' => array(
+    101 => array('rothacker.1', 'taylor.69'),
+    102 => array('raczkowski.2', 'santangelo.11'),
+    113 => array('breitenberger.1', 'cogan.1'),
+    114 => array('kovach.71'),
+  ),
   'Spring 2009' => array(
     101 => array('andrews.171', 'chordas.2', 'cogan.1'),
     102 => array('rissing.2', 'taylor.69', 'hurdzan.3'),
