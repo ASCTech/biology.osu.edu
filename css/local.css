@@ -69,6 +69,13 @@ table.textbooks tr.gray td {
 
 table.textbooks td.isbn {
     white-space: nowrap;
+    text-align: center;
+}
+
+table.textbooks td.notabook {
+    font-size: smaller;
+    color: #666;
+    vertical-align: middle;
 }
 
 
