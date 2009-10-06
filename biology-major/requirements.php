@@ -232,8 +232,8 @@ menu('biology-major');
  <li>Prof. David Stetson,
      <a href="mailto:David Stetson &lt;stetson.1@osu.edu&gt;">stetson.1@osu.edu</a>,
      (614) 292-5307</li>
- <li>Prof. Tom Wilson,
-     <a href="mailto:Tom Wilson &lt;wilson.1457@osu.edu&gt;">wilson.1457@osu.edu</a>,
+ <li>Prof. Helen Chamberlin,
+     <a href="mailto:Helen Chamberlin &lt;chamberlin.27@osu.edu&gt;">chamberlin.27@osu.edu</a>,
      (614) 247-6036</li>
 </ul>
 
