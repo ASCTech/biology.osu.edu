@@ -33,7 +33,7 @@ menu('biology-major');
     <td class="hours">15</td></tr>
 <tr><td class="bullet">&bull;</td>
     <td>Chemistry 251, 252, 254 or 245, 255 or 246 (or Honors versions)</td>
-    <td class="hours">10 &ndash; 12</td></tr>
+    <td class="hours">12 &ndash; 14</td></tr>
 <tr><td class="bullet">&bull;</td>
     <td>Physics 111 or 131, 112 or 132, 113 or 133 (or Honors versions)</td>
     <td class="hours">15</td></tr>
