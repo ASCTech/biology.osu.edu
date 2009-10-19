@@ -49,8 +49,10 @@ menu('biology-major');
         <span class="roman">II</span></td>
     <td class="hours">5</td></tr>
 <tr><td class="bullet">&bull;</td>
-    <td>Biology&nbsp;320 &mdash; Biological&nbsp;Inquiry
-        (Sophomore&nbsp;Colloquium)</td>
+    <td><s>Biology&nbsp;320 &mdash; Biological&nbsp;Inquiry
+        (Sophomore&nbsp;Colloquium)</s>
+        <br/>Biology 320 is in development, and is not offered yet.
+             This requirement is currently being waived.</td>
     <td class="hours">2</td></tr>
 
 </tbody>
