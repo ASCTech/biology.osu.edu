@@ -4,7 +4,7 @@ require_once 'lib/basics.inc';
 top('Biology 102','Exploring References');
 menu('102');
 ?>
-<h1><center>Short Writing Assignment: Exploring References</center></h1>
+<h1 style="text-align:center">Short Writing Assignment: Exploring References</h1>
 <p><u>Objective</u>:</p>
 <p>To start thinking about references/sources and credibility.</p>
 <p>Students are expected to develop two questions related to the case study that they, as

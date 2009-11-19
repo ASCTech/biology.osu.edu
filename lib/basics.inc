@@ -68,12 +68,11 @@ function top() {
 		}
 	}
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <title><?= $title ?></title>
-<meta http-equiv="content-type" content="text/html; charset=us-ascii"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <meta name="robots" content="all"/>
 <meta name="keywords" content="Biology, Biology Programs at The Ohio State University, Center for Life Sciences Education, Introductory Biology, Ohio State, The Ohio State University, OSU"/>
 <meta name="description" content="Teaching courses in Biology and advising Biology students at The Ohio State University"/>

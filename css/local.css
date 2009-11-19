@@ -217,15 +217,16 @@ table.instructors img {
 }
 
 .syllabus_disclaimer {
-    margin: 3em 1em;
+    margin: 0 1em 3em 1em;
     border: 2px solid red;
     padding: 1em;
     color: black;
     background-color: #fcc;
     width: 80%;
-    text-align: center;
 }
-
+.syllabus_disclaimer div {
+    margin: 0.5em;
+}
 .syllabus_disclaimer .notice {
     font-weight: bold;
     padding-right: 0.5em;
