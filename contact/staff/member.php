@@ -10,6 +10,8 @@ top('Staff',$person['first'].' '.$person['last']);
 no_menu();
 ?>
 
+<table class="layout"><tr><td>
+
 <div id="businesscard">
 <div id="name"><?= $person['first'] ?> <?= $person['last'] ?><?= array_key_exists('suffix', $person) ? $person['suffix'] : '' ?></div>
 <div id="title"><?= $person['title'] ?></div>
@@ -29,6 +31,7 @@ no_menu();
 </table>
 </div>
 
+</td><td>
 <? 
 chdir('contact/staff');
 if (file_exists("$username.inc")) {
@@ -36,8 +39,8 @@ if (file_exists("$username.inc")) {
 <div id="extrainfo">
 <? include("$username.inc"); ?>
 </div>
-<?
-}
+<? } ?>
 
-bottom();
-?>
+</td></tr></table>
+
+<? bottom(); ?>

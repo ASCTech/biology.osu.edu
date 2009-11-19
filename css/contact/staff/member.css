@@ -38,7 +38,7 @@
 }
 
 #extrainfo {
-	margin-left: 2em;
+	margin: 1em 0 1em 2em;
 }
 
 #extrainfo h1, #extrainfo h2, #extrainfo h3, #extrainfo h4, #extrainfo h5 {
