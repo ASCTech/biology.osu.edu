@@ -294,7 +294,8 @@ function bottom() {
    <a title="Contact CLSE webmaster" href="contact/webmaster.php">Contact</a></p>
 <p>If you have trouble accessing this page and need to request an alternate format,
    <a href="contact/webmaster.php">contact&nbsp;the&nbsp;webmaster</a>.</p>
-<p><a title="validate this page's structure" style="text-decoration:none" href="http://validator.w3.org/check?uri=referer"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a>
+<p><a title="validate this page's structure" style="text-decoration:none"
+href="http://validator.w3.org/check?uri=referer"><abbr title="HyperText Markup Language (version 5)">HTML5</abbr></a>
  | <a title="validate this page's stylesheet" style="text-decoration:none" href="http://jigsaw.w3.org/css-validator/check/referer"><abbr title="Cascading Style Sheet">CSS</abbr></a></p>
 </div>
 
