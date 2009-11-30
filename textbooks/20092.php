@@ -26,7 +26,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2842-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>102</td>
   <td>Rissing</td>
@@ -34,7 +34,7 @@ menu('textbooks');
   <td/>
   <td/>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>102</td>
   <td>Taylor &amp;&nbsp;Hurdzan</td>
@@ -42,7 +42,7 @@ menu('textbooks');
   <td/>
   <td/>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>113</td>
   <td>Waddell &amp;&nbsp;Swenson</td>
@@ -57,7 +57,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2855-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>114</td>
   <td>Taylor</td>
@@ -86,7 +86,7 @@ menu('textbooks');
   <td />
   <td />
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>H115</td>
   <td>Breitenberger &amp;&nbsp;Stetson</td>
@@ -101,7 +101,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2855-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>H116</td>
   <td>Wilson</td>

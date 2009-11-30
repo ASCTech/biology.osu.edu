@@ -26,7 +26,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2339-7</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>102</td>
   <td>Reeve</td>
@@ -34,7 +34,7 @@ menu('textbooks');
   <td>Mader,&nbsp;Sylvia</td>
   <td class="isbn">007-347651X</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>113</td>
   <td>Chang &amp; Weinstein</td>
@@ -49,7 +49,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2355-7</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>114</td>
   <td>Klompen</td>
@@ -78,7 +78,7 @@ menu('textbooks');
   <td />
   <td />
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>H115</td>
   <td>Dean</td>

@@ -26,7 +26,7 @@ menu('textbooks');
   <td></td>
   <td class="isbn">978-0-7380-2842-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>101</td>
   <td>Cogan</td>
@@ -48,7 +48,7 @@ menu('textbooks');
   <td></td>
   <td class="isbn notabook">not a book</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>101</td>
   <td>Fisher</td>
@@ -63,7 +63,7 @@ menu('textbooks');
   <td></td>
   <td class="isbn">978-0-7380-2842-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>101N</td>
   <td>Taylor</td>
@@ -78,7 +78,7 @@ menu('textbooks');
   <td></td>
   <td class="isbn">978-0-7380-2842-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>102</td>
   <td>Andrews</td>
@@ -86,7 +86,7 @@ menu('textbooks');
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>102</td>
   <td>Reeve</td>
@@ -94,7 +94,7 @@ menu('textbooks');
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>102N</td>
   <td>Sovic</td>
@@ -109,7 +109,7 @@ menu('textbooks');
   <td></td>
   <td class="isbn notabook">not a book</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>113</td>
   <td>Chang &amp;&nbsp;Weinstein</td>
@@ -124,7 +124,7 @@ menu('textbooks');
   <td></td>
   <td class="isbn">978-0-7380-2855-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>114</td>
   <td>Taylor</td>
@@ -153,7 +153,7 @@ menu('textbooks');
   <td></td>
   <td></td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>H115</td>
   <td>Stetson</td>
@@ -168,7 +168,7 @@ menu('textbooks');
   <td></td>
   <td class="isbn">978-0-7380-2855-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>H116</td>
   <td>Boerner</td>
@@ -204,7 +204,7 @@ menu('textbooks');
   <td>Olson</td>
   <td class="isbn">0-618-35210-4</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>401</td>
   <td>Breitenberger, Ridgway &amp;&nbsp;Klompen</td>

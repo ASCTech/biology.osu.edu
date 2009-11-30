@@ -26,7 +26,7 @@ menu('textbooks');
   <td />
   <td class="isbn">0-7380-1553-9</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>101N</td>
   <td>Chordas</td>
@@ -41,7 +41,7 @@ menu('textbooks');
   <td />
   <td class="isbn">0-7380-1553-9</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>102N</td>
   <td>Santangelo</td>
@@ -49,7 +49,7 @@ menu('textbooks');
   <td>Mader</td>
   <td class="isbn">007-313094-X</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>102 Second Term</td>
   <td>Quinlan</td>
@@ -64,7 +64,7 @@ menu('textbooks');
   <td>Sykes</td>
   <td class="isbn">0-393-32314-5</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>113</td>
   <td>Stetson</td>

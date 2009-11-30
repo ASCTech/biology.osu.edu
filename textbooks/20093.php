@@ -26,7 +26,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2842-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>101N</td>
   <td>Taylor</td>
@@ -41,7 +41,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2842-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>102</td>
   <td>Raczkowski</td>
@@ -49,7 +49,7 @@ menu('textbooks');
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>102N</td>
   <td>Santangelo</td>
@@ -57,7 +57,7 @@ menu('textbooks');
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
   <td>113</td>
   <td>Breitenberger &amp;&nbsp;Cogan</td>
@@ -72,7 +72,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2855-2</td>
  </tr>
- <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>114</td>
   <td>Kovach</td>
