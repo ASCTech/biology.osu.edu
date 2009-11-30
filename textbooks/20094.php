@@ -208,7 +208,7 @@ menu('textbooks');
  <tr>
   <td>401</td>
   <td>Breitenberger, Ridgway &amp;&nbsp;Klompen</td>
-  <td class="notabook">a comprehensive major&apos;s introductory Biology text (e.g.&nbsp;Campbell)</td>
+  <td class="notabook">a comprehensive major&#39;s introductory Biology text (e.g.&nbsp;Campbell)</td>
   <td></td>
   <td></td>
  </tr>
