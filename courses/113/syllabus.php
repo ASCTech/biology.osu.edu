@@ -62,7 +62,7 @@ require 'courses/syllabus_disclaimer.inc';
 <h2>Grading Policy:</h2>
 <p>There are two portions to the course, lecture and recitation/lab period. Each portion contributes
    to your grade as indicated in the table below:</p>
-<table class="grades" cellpadding="0" cellspacing="0">
+<table class="grades">
  <tr><td /><td width="100px"><td /><td width="50px"><td /><td width="50px"></tr>
  <tr class="underline">
   <th>Material</th><td />
@@ -286,7 +286,7 @@ require 'courses/syllabus_disclaimer.inc';
 </table>
 
 <h2>Schedule of Lectures: (tentative)</h2>
-<table class="schedulethree" cellspacing="0">
+<table class="schedulethree">
  <tr><th>Date</th><th>Lecturer</th><th>Topic</th><th>Campbell Chapters</th></tr>
  <tr><td>W &ndash; Sept. 24</td><td>Dr. Fuerst</td>
      <td>Scientific inquiry; evolution and phylogeny</td><td>1, 22, 25</td></tr>

@@ -78,7 +78,7 @@ function instructors($course) {
   $chunkd = array_chunk($instructors,2,true);
   $recent = $chunkd[0];
   
-  echo '<table class="instructors" cellspacing="0" cellpadding="0" border="0"><tr>';
+  echo '<table class="instructors"><tr>';
   foreach ($recent as $quarter => $teachers) {
     echo "<th>Teaching in $quarter</th>";
   }

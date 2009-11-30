@@ -4,7 +4,7 @@ require_once 'lib/basics.inc';
 top('Textbooks','Winter 2008');
 menu('textbooks');
 ?>
-<table class="textbooks" cellspacing="0" cellpadding="0">
+<table class="textbooks">
  <tr>
   <th>Course</th>
   <th>Instructor</th>
@@ -26,7 +26,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2339-7</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr>
   <td>102</td>
   <td>Gough, Chordas</td>
@@ -34,7 +34,7 @@ menu('textbooks');
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr class="gray">
   <td>113</td>
   <td>Cogan &amp; Weinstein</td>
@@ -49,7 +49,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2355-7</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr>
   <td>114</td>
   <td>Hetherington</td>
@@ -78,7 +78,7 @@ menu('textbooks');
   <td />
   <td />
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr class="gray">
   <td>H115</td>
   <td>Ding &amp; Simcox</td>
@@ -93,7 +93,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2355-7</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr>
   <td>H116</td>
   <td>Boerner</td>

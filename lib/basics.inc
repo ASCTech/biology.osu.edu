@@ -175,9 +175,7 @@ echo file_exists($css_file) ? "\t<link rel=\"stylesheet\" type=\"text/css\" href
             <input type="hidden" name="proxystylesheet" value="default_frontend" />
             <input type="hidden" name="site" value="default_collection" />
             <input type="hidden" name="as_dt" value="i" />
-            <legend>
-              <span class="osu-semantic">Search</span>
-            </legend>
+            <span class="osu-semantic">Search</span>
             <label for="search-field" class="overlabel">Search Ohio State</label>
             <input id="search-field" class="textfield" type="text" name="q" value="" />
             <button type="submit" name="go">Go</button>
@@ -225,7 +223,7 @@ echo file_exists($css_file) ? "\t<link rel=\"stylesheet\" type=\"text/css\" href
 </div>
 
 <!-- Page content begins here -->
-<a name="pagecontent" id="pagecontent"></a>
+<a id="pagecontent"></a>
 <div id="content">
 <? }
 

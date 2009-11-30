@@ -198,7 +198,7 @@ require 'courses/syllabus_disclaimer.inc';
 </ul>
 
 <h2>Lecture Schedule:</h2>
-<table class="scheduletwo" cellspacing="0">
+<table class="scheduletwo">
  <tr><th>Date</th><th>Speaker</th><th>Topic</th></tr>
  <tr><td>1/6</td><td>Dr. Sayre</td><td>Course introduction</td></tr>
  <tr><td>1/8</td><td>Dr. Sayre</td><td>DNA, Genes and Chromosomes</td></tr>

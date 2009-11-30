@@ -33,7 +33,7 @@ require 'courses/syllabus_disclaimer.inc';
 </ul>
 
 <h2>Overall Point Distribution and Approximate Grading Scale:</h2>
-<table class="gradesfive" cellspacing="0">
+<table class="gradesfive">
  <tr><th>Item</th><th>Points</th><th>Portion of Final Grade</th></tr>
  <tr><td>Midterm Exam 1</td><td>50</td><td>12.5%</td></tr>
  <tr><td>Midterm Exam 2</td><td>50</td><td>12.5%</td></tr>
@@ -43,7 +43,7 @@ require 'courses/syllabus_disclaimer.inc';
  <tr><td>Laboratory</td><td>130</td><td>32.5%</td></tr>
  <tr><td>TOTAL</td><td>400</td><td /></tr>
 </table>
-<table class="scalefive" cellspacing="0">
+<table class="scalefive">
  <tr><th>Percent</th><th>Total Points</th><th>Grade</th></tr>
  <tr><td>90 &ndash; 100</td><td>360 &ndash; 400</td><td>A range</td></tr>
  <tr><td>80 &ndash; 89</td><td>320 &ndash; 359</td><td>B range</td></tr>

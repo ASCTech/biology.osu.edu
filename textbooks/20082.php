@@ -4,7 +4,7 @@ require_once 'lib/basics.inc';
 top('Textbooks','Spring 2008');
 menu('textbooks');
 ?>
-<table class="textbooks" cellspacing="0" cellpadding="0">
+<table class="textbooks">
  <tr>
   <th>Course</th>
   <th>Instructor</th>
@@ -26,7 +26,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2339-7</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr>
   <td>101</td>
   <td>Stetson</td>
@@ -41,7 +41,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2339-7</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr class="gray">
   <td>101N</td>
   <td>Chordas</td>
@@ -56,7 +56,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2339-7</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr>
   <td>102</td>
   <td>Rissing</td>
@@ -64,7 +64,7 @@ menu('textbooks');
   <td />
   <td />
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr class="gray">
   <td>102</td>
   <td>Nunley</td>
@@ -72,7 +72,7 @@ menu('textbooks');
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr>
   <td>102N</td>
   <td>Taylor</td>
@@ -80,7 +80,7 @@ menu('textbooks');
   <td>Starr,&nbsp;Cecie</td>
   <td class="isbn">978-0-4951-1981-4</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr class="gray">
   <td>113</td>
   <td>Scholl &amp; Swenson</td>
@@ -95,7 +95,7 @@ menu('textbooks');
   <td />
   <td class="isbn">978-0-7380-2355-7</td>
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr>
   <td>114</td>
   <td>Taylor</td>
@@ -124,7 +124,7 @@ menu('textbooks');
   <td />
   <td />
  </tr>
- <tr><td>&nbsp;</td></tr>
+ <tr><td colspan=5><tr><td>&nbsp;</td></tr>nbsp;</td></tr>
  <tr class="gray">
   <td>H116</td>
   <td>Wilson</td>

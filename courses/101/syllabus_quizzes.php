@@ -149,7 +149,7 @@ require 'courses/syllabus_disclaimer.inc';
    automatically assigned a failing grade for the course.</p>
 
 <h2>Tentative Lecture Schedule:</h2>
-<table class="scheduleone" cellspacing="0">
+<table class="scheduleone">
  <tr><th>Week</th><th>Activities</th></tr>
  <tr><td>Week 1</td><td>Lecture: Introduction to Biology 101<br>
                         Video: &quot;Prisoners of Silence (Frontline)&quot;<br>

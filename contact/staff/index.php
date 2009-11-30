@@ -10,7 +10,7 @@ uksort($directory, 'strnatcmp');
 $n = 0;
 ?>
 
-<table cellspacing="0" cellpadding="0" border="0">
+<table>
  <tr>
   <th/>
   <th>Position</th>

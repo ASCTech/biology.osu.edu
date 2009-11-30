@@ -392,7 +392,7 @@ concerns about questionable or unwanted behavior to Dr. Baker or Mr. Andrews.</s
 <p class=MsoNormal><b><span style='font-size:11.5pt;font-family:"Times New Roman","serif"'>EVALUATION</span></b><span
 style='font-size:11.5pt;font-family:"Times New Roman","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grading
 Scale - Firm</span></p>
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 align=right
+<table class=MsoNormalTable align=right
  style='border-collapse:collapse;border:none;margin-left:6.75pt;margin-right:
  6.75pt'>
  <tr>
@@ -704,7 +704,7 @@ line'><br clear=all style='page-break-before:always'>
 </span>
 <p class=MsoNormal><b><span style='font-size:11.5pt;font-family:"Times New Roman","serif"'>LECTURE
 TOPICS FOR BIOLOGY 101</span></b></p>
-<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+<table class=MsoNormalTable
  style='border-collapse:collapse;border:none'>
  <tr style='height:21.75pt'>
   <td width=45 valign=top style='width:33.7pt;border:solid black 1.0pt;

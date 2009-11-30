@@ -23,7 +23,7 @@ no_menu();
   <div id="state"><?= array_key_exists('state',$person)    ? $person['state']    : 'OH' ?></div>
   <div id="zip"><?=   array_key_exists('zip',$person)      ? $person['zip']      : '43210&ndash;1106' ?></div>
 </div>
-<table id="officephonefaxemail" border="0" cellpadding="0" cellspacing="0">
+<table id="officephonefaxemail">
 <? if (array_key_exists('office',$person)) { ?><tr id="office"><th>Office</th><td><?= $person['office'] ?></td></tr><? } ?>
   <tr><th>Phone</th><td><?= array_key_exists('phone',$person) ? '(614) '.$person['phone'] : '(614) 292-9861' ?></td></tr>
   <tr><th>Fax</th><td><?= array_key_exists('fax',$person) ? $person['fax'] : '(614) 292-4390' ?></td></tr>

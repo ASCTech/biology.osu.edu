@@ -113,7 +113,7 @@ require 'courses/syllabus_disclaimer.inc';
 
 <h2>Schedule:</h2>
 <p>The following is tentative. Specific readings in the text may be assigned:</p>
-<table class="schedulefour" cellspacing="0">
+<table class="schedulefour">
  <tr>
   <th>Week</th>
   <th>Lab Activity<br>(Lab Manual Chapter)</th>

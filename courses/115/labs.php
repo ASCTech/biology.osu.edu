@@ -7,7 +7,7 @@ menu('115');
 <h1>Honors Biology 115</h1>
 <h1>SAMPLE LAB SCHEDULE</h1>
 
-<table class="labsfive" cellspacing="0">
+<table class="labsfive">
  <tr><th>Week</th><th>Lab Topics / Assignments</th></tr>
  <tr><td>2</td><td>Organic Molecules; Thin fast plants to one plant per container; Organic
                    Molecules' worksheet, including flow diagrams for next week's Enzyme lab are due
@@ -33,7 +33,7 @@ menu('115');
 <!--
 
 <h2>Lab Points Breakdown:</h2>
-<table class="breakdownfive" cellspacing="0">
+<table class="breakdownfive">
  <tr><td>Weekly lab worksheets</td><td>7 &times; 10 points each</td><td>70 points</td></tr>
  <tr><td>Long report</td><td>Genetics and DNA Technology</td><td>30 points</td></tr>
  <tr><td>Weekly participation</td><td>10 &times; 3 points each</td><td>30 points</td></tr>
