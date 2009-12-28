@@ -1,5 +1,9 @@
 <?
 
+if (version_compare(PHP_VERSION, '5.1.0', '>=')) {
+  date_default_timezone_set('America/New_York');
+}
+
 $base = $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR']
       ? 'http://localhost/~michaelgee/biology.osu.edu/'
       : 'http://biology.osu.edu/';
