@@ -6,5 +6,5 @@
    must be compared with more main-stream evidence of evolutionary history. My DNA laboratory
    offers data complementary to behavioral patterns observed&hellip;
    <a href="http://www.oardc.ohio-state.edu/entomology/personnelsingle.asp?strid=2916">more</a>.</p>
-<a href="http://ftad.osu.edu/dosomethinggreat/wenzel.html">Dr. John Wenzel explains
+<a href="http://ucat.osu.edu/dosomethinggreat/wenzel.html">Dr. John Wenzel explains
    why he teaches introductory courses.</a>
