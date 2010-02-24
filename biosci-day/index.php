@@ -7,7 +7,7 @@ menu('biosci-day');
 
 <h1>Hello and welcome to The Ohio State University’s BioSci Day website!</h1>
 
-<p>Helix/Tri&ndash;Beta, The College of Biological Sciences Honorary society, will host our annual information day, &quot;Bio&ndash;Sci Day&quot; at The Ohio State University. This event will be held on Saturday, March 6, 2010, from 10:00am to 3:00pm. Lunch will be provided from a few of the campus dining halls.  For an agenda <a href="biosci-day/agenda.php">click here</a>.</p>
+<p>Helix/Tri&ndash;Beta, The College of Biological Sciences Honorary society, will host our annual information day, &quot;Bio&ndash;Sci Day&quot; at The Ohio State University. This event will be held on Saturday, March 6, 2010, from 10:00am to 2:00pm. Lunch will be provided from a few of the campus dining halls.  For an agenda <a href="biosci-day/agenda.php">click here</a>.</p>
 
 <p>We have structured BioSci Day so you can explore majors and other academic options, interact with faculty and staff advisors, and meet current students.</p>
 
