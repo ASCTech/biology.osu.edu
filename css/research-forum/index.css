@@ -1,0 +1,21 @@
+#content img#research-forum-from-above {
+  margin: 1em;
+  width: 50%;
+  float: right;
+}
+
+#content .schedule table {
+  margin-bottom: 1em;
+}
+
+#content .schedule table td,
+#content .schedule table th {
+  font-weight: normal;
+  text-align: left;
+  padding: 0 1em;
+}
+
+#content .contact p {
+  text-indent: 0;
+  margin-left: 1.5em;
+}

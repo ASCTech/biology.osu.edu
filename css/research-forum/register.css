@@ -1,0 +1,7 @@
+#content .notice {
+  font-weight: bold;
+}
+
+#content .instructions ol {
+  list-style-type: decimal;
+}
