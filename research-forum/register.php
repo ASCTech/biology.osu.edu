@@ -1,7 +1,7 @@
 <?
 chdir('..');
 require_once 'lib/basics.inc';
-top('BMPS Undergraduate Research Forum', 'Registration');
+top('BMPS Undergraduate Research Forum', 'Registration', 'no-navbar');
 menu('research-forum');
 ?>
 

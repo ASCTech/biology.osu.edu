@@ -10,67 +10,72 @@ $base = $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR']
 
 
 $QT2Q = array(
-	'WI' => 1,
-	'SP' => 2,
-	'SU' => 3,
-	'AU' => 4,
+  'WI' => 1,
+  'SP' => 2,
+  'SU' => 3,
+  'AU' => 4,
 );
 
 function QTYR2YEARQ($QTYR) {
-	$QT = substr($QTYR, 0, 2);
-	$YR = substr($QTYR, 2, 2);
-	$year = $YR > 50 ? 1900 + $YR : 2000 + $YR;
-	$Q = $QT2Q[$QT];
-	return 10 * $year + $Q;
+  $QT = substr($QTYR, 0, 2);
+  $YR = substr($QTYR, 2, 2);
+  $year = $YR > 50 ? 1900 + $YR : 2000 + $YR;
+  $Q = $QT2Q[$QT];
+  return 10 * $year + $Q;
 }
 
 $QT2Quarter = array(
-	'WI' => 'Winter',
-	'SP' => 'Spring',
-	'SU' => 'Summer',
-	'AU' => 'Autumn',
+  'WI' => 'Winter',
+  'SP' => 'Spring',
+  'SU' => 'Summer',
+  'AU' => 'Autumn',
 );
 
 function QTYR2Quarter_Year($QTYR) {
-	$QT = substr($QTYR, 0, 2);
-	$YR = substr($QTYR, 2, 2);
-	$year = $YR > 50 ? 1900 + $YR : 2000 + $YR;
-	$Quarter = $QT2Quarter[$QT];
-	return "$Quarter $year";
+  $QT = substr($QTYR, 0, 2);
+  $YR = substr($QTYR, 2, 2);
+  $year = $YR > 50 ? 1900 + $YR : 2000 + $YR;
+  $Quarter = $QT2Quarter[$QT];
+  return "$Quarter $year";
 }
 
 $url_map = array(
-	'Center for Life Sciences Education' => $base,
-	'Biology Programs at Ohio State' => $base,
-	'Biology 101' => 'courses/101/',
-	'Biology 102' => 'courses/102/',
-	'Biology 113' => 'courses/113/',
-	'Biology 114' => 'courses/114/',
-	'Honors Biology 115' => 'courses/115/',
-	'Honors Biology 116' => 'courses/116/',
-	'Staff' => 'contact/staff',
+  'Center for Life Sciences Education' => $base,
+  'Biology Programs at Ohio State' => $base,
+  'Biology 101' => 'courses/101/',
+  'Biology 102' => 'courses/102/',
+  'Biology 113' => 'courses/113/',
+  'Biology 114' => 'courses/114/',
+  'Honors Biology 115' => 'courses/115/',
+  'Honors Biology 116' => 'courses/116/',
+  'Staff' => 'contact/staff',
   'Biology Major' => 'biology-major/'
 );
 
 function top() {
-	global $url_map, $base;
-    $pages = func_get_args();
-	if (count($pages) == 0) {
-		$pages = array('Biology Programs at Ohio State');
-	}
-	$title = implode(' | ', array_reverse($pages));
-	if ($title) $title .= ' | ';
-	$title .= 'The Ohio State University';
-	$heading = '';
-	foreach ($pages as $p) {
-		if ($p) {
-			$url = array_key_exists($p, $url_map) ? $url_map[$p] : 0;
+  global $url_map, $base;
+  $pages = func_get_args();
+  $navbar = 1;
+  if ($pages[count($pages)-1] == 'no-navbar') {
+    array_pop($pages);
+    $navbar = 0;
+  }
+  if (count($pages) == 0) {
+    $pages = array('Biology Programs at Ohio State');
+  }
+  $title = implode(' | ', array_reverse($pages));
+  if ($title) $title .= ' | ';
+  $title .= 'The Ohio State University';
+  $heading = '';
+  foreach ($pages as $p) {
+    if ($p) {
+      $url = array_key_exists($p, $url_map) ? $url_map[$p] : 0;
 
-			if ($heading != '') $heading .= '<img class="arrow" src="images/arrow.gif" alt=""/> ';
+      if ($heading != '') $heading .= '<img class="arrow" src="images/arrow.gif" alt=""/> ';
 
-			$heading .= '<a ' . ($url ? 'href="' . $url . '" ' : '') . 'class="heading">' . $p . "</a>\n";
-		}
-	}
+      $heading .= '<a ' . ($url ? 'href="' . $url . '" ' : '') . 'class="heading">' . $p . "</a>\n";
+    }
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -119,7 +124,7 @@ function top() {
 <link rel="stylesheet" type="text/css" href="css/footer.css" />
 <link rel="stylesheet" type="text/css" href="css/local.css" />
 <?
-$requested_file = preg_replace('/^.*biology\.osu\.edu/','',$_SERVER['REQUEST_URI']);
+$requested_file = preg_replace('/^.*\.osu\.edu/','',$_SERVER['REQUEST_URI']);
 $css_file = 'css' . preg_replace('/(php)|(html)$/i', 'css', $requested_file);
 $css_file = preg_replace('/\?.*$/','',$css_file);
 $css_file = preg_replace('/\/$/', '/index.css', $css_file);
@@ -193,10 +198,11 @@ echo file_exists($css_file) ? "\t<link rel=\"stylesheet\" type=\"text/css\" href
 <div id="whole-page">
 
 <!-- Logo and title -->
- <div id="pagetitle"><h1><?= $heading ?></h1></div>
+<div id="pagetitle"><h1><?= $heading ?></h1></div>
 <br class="clearall"/>
 <!-- End Logo and title -->
 
+<? if ($navbar) { ?>
 <!-- Page navigation -->
 
 <!-- menu: rounded corners - top -->
@@ -225,6 +231,7 @@ echo file_exists($css_file) ? "\t<link rel=\"stylesheet\" type=\"text/css\" href
 <div id="cornerbottom"><img src="images/corner_ll.png" alt="" width="4" height="4"/>
  <div class="rightcorner"><img src="images/corner_lr.png" alt="" width="4" height="4"/></div>
 </div>
+<? } ?>
 
 <!-- Page content begins here -->
 <a id="pagecontent"></a>
@@ -251,13 +258,13 @@ function menu($file) { ?>
 }
 
 function bottom() {
-	?>
+  ?>
 <p>&nbsp;</p>
 <?
-    global $divs;
-	for ($n=0; $n<$divs; $n++) {
-		echo "</div>\n";
-	}
+  global $divs;
+  for ($n=0; $n<$divs; $n++) {
+    echo "</div>\n";
+  }
 ?>
 <!-- End of page content -->
 
