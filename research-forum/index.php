@@ -28,7 +28,7 @@ menu('research-forum');
 <p><a href="research-forum/register.php">Register here</a> if you plan to submit an abstract and present a poster.</p>
 
 <div class="contact">
-<h2>Forum organizer and primay contact:</h2>
+<h2>Forum organizer and primary contact:</h2>
 <p>Dr. Caroline Breitenberger,<br/>
 Director, Center for Life Sciences Education,<br/>
 (614) 292&ndash;6945,<br/>
