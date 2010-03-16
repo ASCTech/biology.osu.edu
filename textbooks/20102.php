@@ -177,7 +177,7 @@ menu('textbooks');
  <tr><td colspan=5>&nbsp;</td></tr>
  <tr>
   <td>402</td>
-  <td>Breitenberger, Freudenstein, &amp;&nbsp;Chordas</td>
+  <td>Breitenberger &amp;&nbsp;Freudenstein</td>
   <td class="notabook">a comprehensive major&#39;s introductory Biology text (e.g.&nbsp;Campbell)</td>
   <td></td>
   <td></td>
