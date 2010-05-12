@@ -4,56 +4,75 @@ require_once 'lib/basics.inc';
 top('Steve Chordas');
 no_menu();
 ?>
-<h1>Professor Steve Chordas</h1>
+<h1>Steve Chordas</h1>
 <b>Biography:</b>
-<img style="float: right; margin: 0 0 1em 1em;" src="images/chordas_lg.jpg" />
-<p>In addition to teaching for IBP, I am a full time Public Health Entomologist for the Ohio
-   Department of Health. We primarily do surveillance and testing for Vector-Borne Diseases in Ohio.
-   We track outbreaks or incidence of diseases like West Nile Virus, Rocky Mountain Spotted Fever,
-   you know &ndash; the fun stuff! Anything you can get from an arthropod, we are interested in
-   investigating and testing them to see if the disease is present in the vectors in Ohio. My
-   research interests are primarily with Aquatic Insects. In particular with Hemiptera
-   &quot;Bugs&quot;, Odonates &quot;Dragonflies&quot; and Coleoptera &quot;Beetles&quot;. I study
-   taxonomy, biogeography, toxicology, community ecology and diversity. Identification manuals for
-   Ohio are in the works for these groups of aquatic insects. I am currently in the process of
-   describing 2 new species of Hemiptera. The terrestrial Hemiptera have also begun to grab my
-   attention and I now have several projects involving the land bugs!!</p>
+<img style="float: right; margin: 0 0 1em 1em;" src="images/chordas_football.jpg" />
+<p>Senior Lecturer for the Center for Life Science Education.  I now have
+   the grey hair to appropriately fit the "senior" part of my title.  For 7
+   years I worked as Public Health Entomologist (Ohio Department of Health)
+   concentrating on Vector-Borne Diseases in Ohio.  I have been teaching
+   Biology 101 and Biology 102 at Ohio State since just before the turn of
+   the century!  My research interests are primarily with Insects
+   (specifically Hemiptera "Bugs", Odonata "Dragonflies" and Coleoptera
+   "Beetles").  I study taxonomy, biogeography, toxicology, community
+   ecology and diversity.  Identification manuals for many Ohio Hemiptera
+   groups are in the works.  Currently completing the Thyreocoridae (Black
+   Bugs) of Ohio.  I also am involved in several Arkansas Hemiptera
+   projects.</p>
 
 <b>Academic Background:</b>
 <ul>
  <li>B.S. Zoology, Arkansas State University &ndash; 1989</li>
  <li>M.S. Aquatic Biology, Arkansas State University &ndash; 1992</li>
- <li>Ph.D. Environmental Science, Ohio State University &ndash; 2000</li>
+ <li>Ph.D. Environmental Science / toxicology, Ohio State University &ndash; 2000</li>
 </ul>
 
 <b>Recent Publications:</b>
 <ul>
- <li>Chordas, Steve W. III and Richard Stewart Jr. (In Press). <i>Synopsis of the backswimmers
-     (Hemiptera: Notonectidae) of New Hampshire.</i> Northeastern Naturalist.</li>
- <li>Polhemus, Dan A. and Steve W. Chordas III. (In Press). A new species of Rhagovelia (Hemiptera:
-     Veliidae) from Mexico. Journal of the New York Entomological Society.</li>
- <li>Chordas, Steve W. III., Eric Chapman, Pat Hudson, Margret Chrisinski. 2002. New Midwestern state
-     records of aquatic Hemiptera (Corixidae, Notonectidae). Entomological News.
-     113(5):310&ndash;314.</li>
- <li>Watters, G.Thomas, Scott O'Dee and Steve W. Chordas III. 2001. Patterns of vertical migration in
-     freshwater bivalves. Journal of Freshwater Ecology. 16(4):541&ndash;550.</li>
- <li>Chordas, Steve W. III. 2001. Synopsis of the genus Buenoa (Hemiptera: Notonectidae) From Ohio.
-     Entomological News. 112(5):326&ndash;330</li>
- <li>Chapman, Eric, Steve W. Chordas III and Robert Glotzhober. 2000. Aberrant wing pigmentation in
-     Libellula luctuosa (Odonata) from Ohio. Great Lakes Entomologist. 32(4):243&ndash;246.</li>
-</ul>
+ <li>Polhemus, D.A. and S.W. Chordas, III.  (In press).
+     <i>A new species of Rhagovelia in the Armata group from Belize (Heteroptera: Veliidae).</i>
+     Aquatic Insects.</li>
 
-<b>Book Chapters:</b>
-<ul>
- <li>Chordas, Steve W. III. 2002. Chapter 9: The Lestidae (Spreadwings). In: R.C. Glotzhober and D.
-     McShaffery editors, The Dragonflies and Damselflies of Ohio. Ohio Biological Survey Bulletin New
-     Series. Volume 14(2). 364 pages.</li>
+ <li>Chordas S.W. III, L.B. Patrick and M.B. Lauffer.  2009.
+     <i>Eight new Ohio state records of true bugs from pitfall traps.</i>
+     Great Lakes Entomologist.
+     41(1&amp;2): 76&ndash;82.</li>
+
+ <li>Chordas S.W. III. and J. Kremers.  2009.
+     <i>Backyard "Bug" Collecting Results in 6 New State Records for Arkansas, U.S.A.</i>
+     Journal of the Arkansas Academy of Science.
+     63:177&ndash;179.</li>
+
+ <li>Chordas, S.W. III, R. Ferria and R.S. Stewart Jr.  2005.
+     <i>Synopsis of the Notonectidae of New Hampshire.</i>
+     Northeast Naturalist.
+     12(2):187&ndash;194.</li>
+
+ <li>Polhemus, D.A. and S.W. Chordas, III.  2004.
+     <i>A new species of Rhagovelia and first member of the robusta group known from Mexico (Heteroptera:Veliidae).</i>
+     Journal of the New York Entomological Society.
+     111(4):202&ndash;206.</li>
+
+ <li>Chordas, Steve W. III., Eric Chapman, Pat Hudson, Margret Chrisinski.
+     2002.
+     <i>New Midwestern state records of aquatic Hemiptera (Corixidae, Notonectidae).</i>
+     Entomological News.
+     113(5):310&ndash;314.</li>
+
+ <li>Chordas, Steve W. III. 2001.
+     <i>Synopsis of the genus Buenoa (Hemiptera: Notonectidae) From Ohio.</i>
+     Entomological News.
+     112(5):326&ndash;330.</li>
+
 </ul>
 
 <b>Hobbies:</b>
-<p>Numismaticsm, SCUBA (I worked as a professional diver for Arkansas State for 2 years before
-   starting my Ph.D. at Ohio State), Bugs and Bug Collecting &ndash; of course. Autoracing, Cooking
-   (Italian style foods, chicken wings &ndash; YUMM, and Grillin favorites), Football (Ohio State
-   &amp; Cleveland Browns &ndash; favorite teams). I am also a soccer official, in my 7th year!</p>
+<p>Numismatics, SCUBA (I worked as a professional diver for Arkansas State
+   for 2 years before starting my Ph.D. at Ohio State), Bugs and Bug
+   Collecting &ndash; of course. Autoracing (go to the Indy 500 every year +
+   NASCAR at Daytona in July), Cooking (Italian style foods, chicken wings
+   &ndash; YUMM, and Grillin favorites), Football (Ohio State &amp;
+   Cleveland Browns &ndash; favorite teams). I am also a soccer official
+   (my 15th season!)</p>
 
 <? bottom(); ?>
