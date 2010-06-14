@@ -67,6 +67,11 @@ table.textbooks tr.gray td {
 	background-color: #E5E5E5;
 }
 
+table.textbooks .disposition {
+    font-size: smaller;
+    color: #666;
+}
+
 table.textbooks td.isbn {
     white-space: nowrap;
     text-align: center;
