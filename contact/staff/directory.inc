@@ -27,9 +27,9 @@ $directory = array(
        'suffix' => ' <span class="roman-numerals" style="font-family: \'Times New Roman\' Times serif">III</span>',
        'title' => 'Instructor, Course Coordinator (401,&nbsp;402)',
        'phone' => '247-0031'),
-  'dennis.143' => array(
+  'basford.18' => array(
        'first' => 'Melissa',
-       'last'  => 'Dennis',
+       'last'  => 'Basford',
        'title' => 'Biology Advisor, Scholars Coordinator',
        'phone' => '292-4347'),
   'breitenberger.1' => array(
