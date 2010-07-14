@@ -5,7 +5,7 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {
 }
 
 $base = $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR']
-      ? 'http://localhost/~michaelgee/biology.osu.edu/'
+      ? 'http://biology.local/'
       : 'http://biology.osu.edu/';
 
 
@@ -154,17 +154,11 @@ echo file_exists($css_file) ? "\t<link rel=\"stylesheet\" type=\"text/css\" href
 
 <!-- Begin OSU Navigation Bar -->
 <div id="osu-Navbar">
-  <p>
-    <a href="#page-content" id="skip" class="osu-semantic">skip to main content</a>
-  </p>
+  <p><a href="#page-content" id="skip" class="osu-semantic">skip to main content</a></p>
   <h2 class="osu-semantic">OSU Navigation Bar</h2>
   <div id="osu-NavbarBreadcrumb">
-    <p id="osu">
-      <a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a>
-    </p>
-    <p id="site-name">
-       <a href="<?= $base ?>">Life Sciences Education</a>
-    </p>
+    <p id="osu"><a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a></p>
+    <p id="site-name"><a href="<?= $base ?>">Life Sciences Education</a></p>
   </div>
   <div id="osu-NavbarLinks">
     <ul>
@@ -174,23 +168,15 @@ echo file_exists($css_file) ? "\t<link rel=\"stylesheet\" type=\"text/css\" href
       <li><a href="http://www.osu.edu/findpeople.php" title="Find people at OSU">Find People</a></li>
       <li><a href="https://webmail.osu.edu" title="OSU Webmail">Webmail</a></li>
       <li id="searchbox">
-        <form action="http://google.service.ohio-state.edu/search" method="get">
+        <form action="http://www.osu.edu/search/index.php" method="post">
           <fieldset>
-            <input type="hidden" name="sort" value="date:D:L:d1" />
-            <input type="hidden" name="output" value="xml_no_dtd" />
-            <input type="hidden" name="ie" value="UTF-8" />
-            <input type="hidden" name="oe" value="UTF-8" />
-            <input type="hidden" name="client" value="default_frontend" />
-            <input type="hidden" name="proxystylesheet" value="default_frontend" />
-            <input type="hidden" name="site" value="default_collection" />
-            <input type="hidden" name="as_dt" value="i" />
-            <span class="osu-semantic">Search</span>
-            <label for="search-field" class="overlabel">Search Ohio State</label>
-            <input id="search-field" class="textfield" type="text" name="q" value="" />
-            <button type="submit" name="go">Go</button>
+            <legend><span class="osu-semantic">Search</span></legend>
+            <label class="osu-semantic overlabel" for="search-field">Search Ohio State</label>
+            <input type="text" alt-attribute="Search Ohio State" value="" name="searchOSU" class="textfield headerSearchInput" id="search-field"/>
+            <button name="go" type="submit">Go</button>
           </fieldset>
         </form>
-      </li>       
+      </li>
     </ul>
   </div>
 </div>

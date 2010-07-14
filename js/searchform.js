@@ -11,8 +11,7 @@ function initOverLabels () {
   // LABELs with 'overlabel' class names.
   labels = document.getElementsByTagName('label');
   for (var i = 0; i < labels.length; i++) {
-  
-    if (labels[i].className == 'overlabel') {
+    if (labels[i].className == 'osu-semantic overlabel') {
 
       // Skip labels that do not have a named association
       // with another field.
