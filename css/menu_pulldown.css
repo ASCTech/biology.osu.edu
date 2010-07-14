@@ -118,14 +118,14 @@ ul#mainMenu li:hover ul, ul#mainMenu li.hover ul
 {
 	height: 4px;
 	width: 100%;
-	background: url(http://www.osu.edu/images/template_corner/hairline.gif) #e5e5e5 repeat-x top center;
+	background: url(/images/hairline.gif) #e5e5e5 repeat-x top center;
 }
 
 #cornertop { margin-top: 0px; }
 
 #cornerbottom
 {
-	background: url(http://www.osu.edu/images/template_corner/hairline.gif) #e5e5e5 repeat-x bottom center;
+	background: url(/images/hairline.gif) #e5e5e5 repeat-x bottom center;
 	margin-bottom: 0px;
 }
 

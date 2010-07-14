@@ -1,13 +1,13 @@
 /* fixes for IE 6 */
 a#skip:active, a#skip:focus 
 {
-  background: transparent url(../img/mast_skip_bg.gif) repeat-x bottom left;
+  background: transparent url(../images/mast_skip_bg.gif) repeat-x bottom left;
   padding: 1em 0 1.05em 0;
 }
 
 div#osu-NavbarBreadcrumb p#site-name
 {
-  background: transparent url(../img/arrow_twisty.gif) no-repeat scroll left center;
+  background: transparent url(../images/arrow_twisty.gif) no-repeat scroll left center;
 }
 
 div#osu-NavbarBreadcrumb
@@ -18,7 +18,7 @@ div#osu-NavbarBreadcrumb
 div#osu-NavbarLinks
 {
   height: 2.7em;
-  background: transparent url(../img/background_graybar_gradient.gif) no-repeat scroll left bottom;
+  background: transparent url(../images/background_graybar_gradient.gif) no-repeat scroll left bottom;
 }
 div#osu-Navbar
 {

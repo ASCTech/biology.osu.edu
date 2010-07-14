@@ -11,7 +11,7 @@
 	
 	#menutab
 	{
-		background: #e5e5e5 url("http://www.osu.edu/images/template_corner/hairline.gif") repeat-x bottom center;
+		background: #e5e5e5 url("/images/hairline.gif") repeat-x bottom center;
 		border-top: 0px solid #BEBFBF;
 		border-right: 1px solid #BEBFBF;
 		margin-top: 16px;
@@ -20,7 +20,7 @@
 	#topline
 	{
 		width: 100%;
-		background: transparent url("http://www.osu.edu/images/template_corner/hairline.gif") repeat-x top center;
+		background: transparent url("/images/hairline.gif") repeat-x top center;
 	}
 	
 	#menutab ul, #menutab ol
