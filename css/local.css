@@ -61,7 +61,11 @@ table.textbooks { margin: 1em; }
 
 table.textbooks th { text-align: left; }
 
-table.textbooks td, table.textbooks th { padding: 0.2em 0.5em; }
+table.textbooks td,
+table.textbooks th {
+  vertical-align: top;
+  padding: 0.2em 0.5em;
+}
 
 table.textbooks tr.gray td {
 	background-color: #E5E5E5;
@@ -77,10 +81,10 @@ table.textbooks td.isbn {
     text-align: center;
 }
 
-table.textbooks td.notabook {
+table.textbooks .notabook {
     font-size: smaller;
     color: #666;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 
