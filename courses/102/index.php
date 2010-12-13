@@ -1,7 +1,6 @@
 <?
 chdir('../..');
 require_once 'lib/basics.inc';
-require_once 'lib/instructors.inc';
 top('Biology 102');
 menu('102');
 ?>
@@ -20,7 +19,4 @@ menu('102');
    their ability to view issues from multiple sides, weigh evidence objectively and develop valid
    arguments.</p>
 
-<?
-instructors(102);
-bottom();
-?>
+<? bottom(); ?>

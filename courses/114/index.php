@@ -1,7 +1,6 @@
 <?
 chdir('../..');
 require_once 'lib/basics.inc';
-require_once 'lib/instructors.inc';
 top('Biology 114');
 menu('114');
 ?>
@@ -13,7 +12,4 @@ menu('114');
    biological organization. Evolution will be the unifying theme. The diversity, form, function, and
    ecology of organisms will be covered, with particular emphasis on plants and animals.</p>
 
-<?
-instructors(114);
-bottom();
-?>
+<? bottom(); ?>

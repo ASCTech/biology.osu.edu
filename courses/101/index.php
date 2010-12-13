@@ -1,7 +1,6 @@
 <?
 chdir('../..');
 require_once 'lib/basics.inc';
-require_once 'lib/instructors.inc';
 top('Biology 101');
 menu('101');
 ?>
@@ -27,7 +26,4 @@ menu('101');
 <p>We would like each and every student to come away from Biology 101 with knowledge and experiences
    that will be useful in their future endeavors.</p>
 
-<?
-instructors(101);
-bottom();
-?>
+<? bottom(); ?>

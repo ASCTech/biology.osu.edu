@@ -1,7 +1,6 @@
 <?
 chdir('../..');
 require_once 'lib/basics.inc';
-require_once 'lib/instructors.inc';
 top('Honors Biology 115');
 menu('115');
 ?>
@@ -24,7 +23,4 @@ menu('115');
      determined in consultation with the TA.</li>
 </ul>
 
-<?
-instructors(115);
-bottom();
-?>
+<? bottom(); ?>

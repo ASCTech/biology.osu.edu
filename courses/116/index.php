@@ -1,7 +1,6 @@
 <?
 chdir('../..');
 require_once 'lib/basics.inc';
-require_once 'lib/instructors.inc';
 top('Honors Biology 116');
 menu('116');
 ?>
@@ -14,7 +13,4 @@ menu('116');
    through ecological and evolutionary biology. There is a strong evolutionary theme throughout the
    two-quarter sequence.</p>
 
-<?
-instructors(116);
-bottom();
-?>
+<? bottom(); ?>

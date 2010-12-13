@@ -1,7 +1,6 @@
 <?
 chdir('../..');
 require_once 'lib/basics.inc';
-require_once 'lib/instructors.inc';
 top('Biology 113');
 menu('113');
 ?>
@@ -27,7 +26,4 @@ menu('113');
    renovation of Jennings Hall will give Biology 113 pristine, new laboratory rooms that are
    definitely worth the wait!</p>
 
-<?
-instructors(113);
-bottom();
-?>
+<? bottom(); ?>
