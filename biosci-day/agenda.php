@@ -24,7 +24,7 @@ table#listing td {
 
 <h1>BioSci Day &mdash; Agenda</h1>
 
-<p class="head">March 6, 2010</p>
+<p class="head">March 5, 2011</p>
 <p class="head">All Events will Take Place in Jennings Hall</p>
 <p class="head">Neil Avenue at 12th Avenue</p>
 <p class="head">Ohio State University main campus</p>
