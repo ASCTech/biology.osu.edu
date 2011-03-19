@@ -100,20 +100,34 @@ menu('textbooks');
  </tr>
  <tr><td colspan=5>&nbsp;</td></tr>
  <tr class="gray">
+  <td>113X</td>
+  <td rowspan="2">Rothacker</td>
+  <td>Biology, 8th&nbsp;edition <span class="subtext">required</span></td>
+  <td>Campbell</td>
+  <td class="isbn">978-0-8053-6844-4</td>
+ </tr>
+ <tr class="gray">
+  <td></td>
+  <td>113/115 Lab Manual <span class="subtext">required</span></td>
+  <td></td>
+  <td class="isbn">978-0-7380-3972-5</td>
+ </tr>
+ <tr><td colspan=5>&nbsp;</td></tr>
+ <tr>
   <td>114</td>
   <td>Taylor</td>
   <td>Biology, 8th&nbsp;edition <span class="subtext">recommended</span></td>
   <td>Campbell</td>
   <td class="isbn">978-0-8053-6844-4</td>
  </tr>
- <tr class="gray">
+ <tr>
   <td></td>
   <td></td>
   <td>114/116 Lab Manual <span class="subtext">required</span></td>
   <td></td>
   <td class="isbn">978-0-7380-3970-1</td>
  </tr>
- <tr class="gray">
+ <tr>
   <td></td>
   <td></td>
   <td>Concise&nbsp;Dissection, Sheep&nbsp;Brain, Pig&nbsp;Heart
@@ -121,7 +135,7 @@ menu('textbooks');
   <td></td>
   <td></td>
  </tr>
- <tr class="gray">
+ <tr>
   <td></td>
   <td></td>
   <td>Concise&nbsp;Dissection, Pigs
@@ -130,14 +144,14 @@ menu('textbooks');
   <td></td>
  </tr>
  <tr><td colspan=5>&nbsp;</td></tr>
- <tr>
+ <tr class="gray">
   <td>H115</td>
   <td>Dean</td>
   <td>Biology, 8th&nbsp;edition <span class="subtext">required</span></td>
   <td>Campbell</td>
   <td class="isbn">978-0-8053-6844-4</td>
  </tr>
- <tr>
+ <tr class="gray">
   <td></td>
   <td></td>
   <td>113/115 Lab Manual <span class="subtext">required</span></td>
@@ -145,21 +159,21 @@ menu('textbooks');
   <td class="isbn">978-0-7380-3972-5</td>
  </tr>
  <tr><td colspan=5>&nbsp;</td></tr>
- <tr class="gray">
+ <tr>
   <td>H116</td>
   <td>Wilson</td>
   <td>Biology, 8th&nbsp;edition <span class="subtext">required</span></td>
   <td>Campbell</td>
   <td class="isbn">978-0-8053-6844-4</td>
  </tr>
- <tr class="gray">
+ <tr>
   <td></td>
   <td></td>
   <td>114/116 Lab Manual <span class="subtext">required</span></td>
   <td></td>
   <td class="isbn">978-0-7380-3970-1</td>
  </tr>
- <tr class="gray">
+ <tr>
   <td></td>
   <td></td>
   <td>Concise&nbsp;Dissection, Sheep&nbsp;Brain, Pig&nbsp;Heart
@@ -167,7 +181,7 @@ menu('textbooks');
   <td></td>
   <td></td>
  </tr>
- <tr class="gray">
+ <tr>
   <td></td>
   <td></td>
   <td>Concise&nbsp;Dissection, Pigs
@@ -176,14 +190,14 @@ menu('textbooks');
   <td></td>
  </tr>
  <tr><td colspan=5>&nbsp;</td></tr>
- <tr>
+ <tr class="gray">
   <td>402</td>
   <td rowspan="3">Herbers &amp;&nbsp;Seeger</td>
   <td class="subtext">a comprehensive major&#39;s introductory Biology text (e.g.&nbsp;Campbell) is required</td>
   <td></td>
   <td></td>
  </tr>
- <tr>
+ <tr class="gray">
   <td></td>
   <td>Turning&nbsp;Techologies ResponseCard&nbsp;RF (clicker)
       <span class="subtext">required</span></td>
