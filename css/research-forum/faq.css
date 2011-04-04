@@ -1,0 +1,12 @@
+#toc {
+	list-style-type: decimal;
+}
+
+dt {
+	margin-top: 2em;
+  font-weight: bold;
+}
+
+dd {
+  margin: 1em;
+}

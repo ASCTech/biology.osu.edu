@@ -10,7 +10,7 @@ menu('research-forum');
 	<li>Information about how to write an abstract is available at the <a href="http://denman.osu.edu/guidlines.aspx">Denman Research Forum web site</a>.</li>
 	<li>You may submit the same abstract for the NMS and Denman Research Forums, however, you will need to register and submit your abstract separately for each of the two events.</li>
 	<li>Group presentations are welcomed. Please upload the abstract under only one group member’s name. The other members of the group should register normally, and, in place of an abstract, upload a note indicating which member of the group submitted the official abstract.</li>
-	<li>Deadline for NMS Undergraduate Research Forum abstract submissions: 5:00 pm, April 4, 2011.</li>
+	<li>Deadline for NMS Undergraduate Research Forum abstract submissions: 5:00 pm, April 7, 2011.</li>
 	<li>All students will be notified as to whether their abstract is accepted for presentation by April 15, 2011.</li>
 </ul>
 
