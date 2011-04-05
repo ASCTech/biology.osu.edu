@@ -1,9 +1,10 @@
-#toc {
+ol#toc {
 	list-style-type: decimal;
+	margin-bottom: 3em;
 }
 
 dt {
-	margin-top: 2em;
+	margin-bottom: 2em;
   font-weight: bold;
 }
 

@@ -5,8 +5,6 @@ top('NMS Undergraduate Research Forum', 'Frequently Asked Questions', 'no-navbar
 menu('research-forum');
 ?>
 
-<ol id="toc"></ol>
-
 <dl id="faq">
 	<dt>May I have an excuse for missing class on the day of the Forum?</dt>
 	<dd>Yes, we will write a letter or send an email requesting that you be excused from class. Please contact Dr. Caroline Breitenberger at <a href="mailto:breitenberger.1@osu.edu">breitenberger.1@osu.edu</a> with the name of the professor to whom the excuse should be sent.</dd>
@@ -49,7 +47,7 @@ menu('research-forum');
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 <script>
 $(function(){
-	var toc = $('#toc');
+	var toc = $('<ol/>', {id: 'toc'});
 	$('#faq dt').each(function(index, elem){
 		var label = index + 1;
 		elem.id = 'question_' + label;
@@ -58,6 +56,7 @@ $(function(){
 		toc.append(li);
 		elem.innerText = label + '. ' + elem.innerText;
 	});
+	$('#faq').prepend(toc);
 });
 </script>
 
