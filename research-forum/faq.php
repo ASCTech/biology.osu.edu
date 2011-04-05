@@ -48,15 +48,15 @@ menu('research-forum');
 <script>
 $(function(){
 	var toc = $('<ol/>', {id: 'toc'});
-	$('#faq dt').each(function(index, elem){
+	$('#faq dt').each(function(index, question){
 		var label = index + 1;
-		elem.id = 'question_' + label;
+		question.id = 'question_' + label;
 		var li = $('<li/>');
-		li.append($('<a/>', {text: elem.innerText, href: '/research-forum/faq.php#question_' + label}));
+		li.append($('<a/>', {text: question.innerText, href: '/research-forum/faq.php#question_' + label}));
 		toc.append(li);
-		elem.innerText = label + '. ' + elem.innerText;
+		question.innerText = label + '. ' + question.innerText;
 	});
-	$('#faq').prepend(toc);
+	$('#maincolumn').prepend(toc);
 });
 </script>
 

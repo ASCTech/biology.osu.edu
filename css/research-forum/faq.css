@@ -4,10 +4,9 @@ ol#toc {
 }
 
 dt {
-	margin-bottom: 2em;
   font-weight: bold;
 }
 
 dd {
-  margin: 1em;
+  margin: 1em 1em 2em 1em;
 }
