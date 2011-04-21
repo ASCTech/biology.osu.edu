@@ -5,7 +5,7 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {
 }
 
 $base = $_SERVER['SERVER_ADDR'] == $_SERVER['REMOTE_ADDR']
-      ? 'http://biology.local/'
+      ? 'http://biology.local:8000/'
       : 'http://biology.osu.edu/';
 
 
