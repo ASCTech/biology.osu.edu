@@ -1,6 +1,11 @@
 <?
 
 $directory = array(
+  'chiucchi.1' => array(
+       'first' => 'James',
+       'last'  => 'Chiucchi',
+       'title' => 'Academic Advisor',
+       'phone' => '292-0965'),
   'horn.179' => array(
        'first' => 'Jonathan',
        'last'  => 'Horn',
@@ -26,11 +31,6 @@ $directory = array(
        'last'  => 'Needham',
        'title' => 'Biology Advisor',
        'phone' => '292-1704'),
-  'thomas.2221' => array(
-       'first' => 'Cynthia',
-       'last'  => 'Thomas',
-       'title' => 'Professional Experience',
-       'phone' => '292-1174'),
   'chordas.2' => array(
        'first' => 'Stephen',
        'last'  => 'Chordas',
