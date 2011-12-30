@@ -221,7 +221,7 @@ menu('biology-major');
 
 <ul>
  <li>Prof. David Stetson,
-     <a href="mailto:David Stetson &lt;stetson.1@osu.edu&gt;">stetson.1@osu.edu</a>,
+     <a href="mailto:David%20Stetson%20&lt;stetson.1@osu.edu&gt;">stetson.1@osu.edu</a>,
      (614) 292-5307</li>
 </ul>
 
@@ -229,13 +229,13 @@ menu('biology-major');
 
 <ul>
  <li>Prof. W. Mitch Masters,
-     <a href="mailto:W. Mitch Masters &lt;masters.2@osu.edu&gt;">masters.2@osu.edu</a>,
+     <a href="mailto:W.%20Mitch%20Masters%20&lt;masters.2@osu.edu&gt;">masters.2@osu.edu</a>,
      (614) 292-4602</li>
  <li>Prof. David Stetson,
-     <a href="mailto:David Stetson &lt;stetson.1@osu.edu&gt;">stetson.1@osu.edu</a>,
+     <a href="mailto:David%20Stetson%20&lt;stetson.1@osu.edu&gt;">stetson.1@osu.edu</a>,
      (614) 292-5307</li>
  <li>Prof. Helen Chamberlin,
-     <a href="mailto:Helen Chamberlin &lt;chamberlin.27@osu.edu&gt;">chamberlin.27@osu.edu</a>,
+     <a href="mailto:Helen%20Chamberlin%20&lt;chamberlin.27@osu.edu&gt;">chamberlin.27@osu.edu</a>,
      (614) 247-6036</li>
 </ul>
 
