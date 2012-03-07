@@ -5,9 +5,9 @@ top('NMS Undergraduate Research Forum', 'no-navbar');
 menu('research-forum');
 ?>
 
-<p>The Natural and Mathematical Sciences announce the 2011 research forum for undergraduate students majoring in or conducting research in <strong>Actuarial Science, Astronomy, Biochemistry, Biology, Chemistry, Computer and Information Science, Evolution and Ecology, Geological Sciences, Mathematics, Microbiology, Molecular Genetics, Physics, Plant Cellular and Molecular Biology, and Zoology.</strong></p>
+<p>The Natural and Mathematical Sciences announce the 2012 research forum for undergraduate students majoring in or conducting research in <strong>Actuarial Science, Astronomy, Biochemistry, Biology, Chemistry, Computer and Information Science, Evolution and Ecology, Geological Sciences, Mathematics, Microbiology, Molecular Genetics, Physics, Plant Cellular and Molecular Biology, and Zoology.</strong></p>
 
-<p>The Undergraduate Research Forum will be held <strong>Friday, April 29, 2011</strong>, 1–6 p.m., in the atrium of the Physics Research Building, 191 W. Woodruff Avenue.  All students interested in undergraduate research in math and science are welcome to attend.</p>
+<p>The Undergraduate Research Forum will be held <strong>Friday, April 20, 2012</strong>, 2&ndash;6 p.m., in the atrium of the Physics Research Building, 191 W. Woodruff Avenue.  All students interested in undergraduate research in math and science are welcome to attend.</p>
 
 <img id="research-forum-from-above" src="images/research-forum-from-above.jpg" alt="a view of the research forum from above" />
 
@@ -23,7 +23,7 @@ menu('research-forum');
 
 <p>The forum will provide students the opportunity to present their research to their peers and their professors, polish their presentation skills, and, for many, prepare for the <a href="http://denman.osu.edu">Denman Undergraduate Research Forum</a>.</p>
 
-<h2>Abstracts are due on April 7, 2011.</h2>
+<h2>Abstracts are due on April 6, 2012.</h2>
 <p>All students submitting abstracts and presenting posters will be awarded $50 gift cards to the OSU bookstore.  Larger prizes will be awarded at the forum for the best posters.</p>
 <p><a href="research-forum/register.php">Register here</a> if you plan to submit an abstract and present a poster.</p>
 
